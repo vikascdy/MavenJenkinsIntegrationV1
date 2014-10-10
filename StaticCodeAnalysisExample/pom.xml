@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.StaticCodeAnalysis</groupId>
+  <artifactId>StaticCodeAnalysisExample</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  <name>Example_SCA_Maven1</name>
+   
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    
+    <plugins>
+    	<plugin>
+    		<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-compiler-plugin</artifactId>
+			<version>3.1</version>
+			<configuration>
+				
+			</configuration>
+    	</plugin>
+    </plugins>
+    
+    
+  </build>
+  <reporting>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-checkstyle-plugin</artifactId>
+          <version>2.13</version>
+          <reportSets>
+            <reportSet>
+              <reports>
+                <report>checkstyle</report>
+              </reports>
+            </reportSet>
+          </reportSets>
+        </plugin>
+      </plugins>
+    </reporting>
+</project>
