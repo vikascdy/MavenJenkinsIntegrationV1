@@ -1,0 +1,33 @@
+{
+    "heading": "Organization Roles",
+    "ref":"organizationRole",
+    "alias":"Role",
+    "usingREST":false,
+    "params":{},
+    "model": "Security.model.OrganizationRoles",
+    "grouping":{
+        "enabled":false,
+        "groupField":"owner"
+    },
+    "searching":{
+        "enabled":false,
+        "searchField":"name"
+    },
+    "columns": [
+        {
+            "header":"Name",
+            "field":"canonicalName"
+        }
+    ],
+    "operations": {
+        "create": true,
+        "edit": false,
+        "delete": true,
+		"import": true
+    },
+    "useButtonToolbar": false,
+    "pagination": {
+			"enabled" : true,
+			"toolbar" : true
+	}
+}

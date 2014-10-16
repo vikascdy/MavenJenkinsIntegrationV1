@@ -1,0 +1,32 @@
+{
+    "heading": "Sites",
+    "ref":"site",
+    "alias":"site",
+    "usingREST":false,
+    "params":{},
+    "model": "Security.model.Sites",
+    "grouping":{
+        "enabled":false,
+        "groupField":"owner"
+    },
+     "searching":{
+        "enabled":false,
+        "searchField":"name"
+    },
+    "columns": [
+        {
+            "header":"Name",
+            "field":"canonicalName"
+        }
+    ],
+    "operations": {
+        "create": true,
+        "edit": false,
+        "delete": true
+    },
+    "useButtonToolbar": false,
+    "pagination": {
+			"enabled" : false,
+			"toolbar" : true
+	}
+}

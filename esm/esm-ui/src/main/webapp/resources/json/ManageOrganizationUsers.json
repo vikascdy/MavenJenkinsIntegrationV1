@@ -1,0 +1,37 @@
+{
+    "heading": "Organization Users",
+    "ref":"organizationUser",
+    "alias":"User",
+    "usingREST":false,
+    "params":{},
+    "model": "Security.model.OrganizationUsers",
+    "grouping":{
+        "enabled":false,
+        "groupField":"owner"
+    },
+    "searching":{
+        "enabled":false,
+        "searchField":"name"
+    },
+    "columns": [
+        {
+            "header":"Name",
+            "field":"name"
+        },
+         {
+            "header":"Username",
+            "field":"username"
+        }
+    ],
+    "operations": {
+        "create": true,
+        "edit": false,
+        "delete": true,
+		"import": true
+    },
+    "useButtonToolbar": false,
+    "pagination": {
+			"enabled" : true,
+			"toolbar" : true
+	}
+}

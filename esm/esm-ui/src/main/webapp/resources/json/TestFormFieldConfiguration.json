@@ -1,0 +1,9 @@
+{
+	"formGroupUrl":"http://localhost:10098/xboard/sample-service-get",
+	"saveValueUrl":"http://localhost:10098/xboard/sample-service-get",
+	"enableRootHeader":false,
+	"tenantName":"*",
+	"appName":"ESM",
+	"componentName":"*",
+	"entityName":"UserEntity"
+}

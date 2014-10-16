@@ -1,0 +1,71 @@
+{
+	"roles": [
+        {
+            "name": "Site Administrator",
+            "description" : "The Site Administrator is in charge of managing the cluster and setting up tenants.",
+            "permissions": [
+                "platform:security:administrative:site:view",
+                "platform:security:administrative:site:edit",
+
+                "platform:security:administrative:tenant:view"
+            ]
+        },
+        {
+            "name": "Tenant Administrator",
+            "description" : "The Tenant Administrator is able to configure their tenancy and configure the Organizations within their tenant. This includes installation of applications within the cluster.",
+            "permissions": [
+                "platform:security:administrative:tenant:view",
+                "platform:security:administrative:tenant:create",
+                "platform:security:administrative:tenant:edit",
+                "platform:security:administrative:tenant:delete",
+
+                "platform:security:administrative:organization:view",
+
+                "platform:security:administrative:role:view",
+                "platform:security:administrative:role:create",
+                "platform:security:administrative:role:edit",
+                "platform:security:administrative:role:delete",
+
+                "platform:security:administrative:permission:view"
+            ]
+        },
+        {
+            "name": "Organization Administrator",
+            "description" : "The Organization Administrator can configure their organization configurations.",
+            "permissions": [
+                "platform:security:administrative:organization:view",
+                "platform:security:administrative:organization:create",
+                "platform:security:administrative:organization:edit",
+                "platform:security:administrative:organization:delete",
+
+                "platform:security:administrative:realm:test",
+                "platform:security:administrative:realm:view",
+                "platform:security:administrative:realm:edit",
+
+                "platform:security:administrative:user:view"
+            ]
+        },
+        {
+            "name": "User Administrator",
+            "description" : "Has the ability to create users based on the security context they have within the cluster.",
+            "permissions": [
+                "platform:security:administrative:user:view",
+                "platform:security:administrative:user:create",
+                "platform:security:administrative:user:edit",
+                "platform:security:administrative:user:delete",
+                "platform:security:administrative:user:import"
+            ]
+        },
+        {
+           "name": "Group Administrator",
+           "description" : "Has the ability to create group based on the security context they have within the cluster.",
+           "permissions": [
+               "platform:security:administrative:group:view",
+               "platform:security:administrative:group:create",
+               "platform:security:administrative:group:edit",
+               "platform:security:administrative:group:delete",
+               "platform:security:administrative:group:import"
+               ]
+        }
+    ]
+}

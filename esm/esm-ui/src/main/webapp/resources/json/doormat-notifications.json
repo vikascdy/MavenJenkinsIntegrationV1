@@ -1,0 +1,38 @@
+[
+    {
+        "status": "information",
+        "iconCls": "info-status",
+        "content": "Transaction type 837P for trading partner <a href='#'>Rose Hill Clinic</a> is ready for production.",
+        "dated": "04/01/2010"
+    },
+    {
+        "status": "error",
+        "iconCls": "error-status",
+        "content": "Transmission <a href='#'>5678909.dat</a> failed XE validation.",
+        "dated": "04/11/2010"
+    },
+    {
+        "status": "alert",
+        "iconCls": "info-status",
+        "content": "claims <a href='#'>45895601</a>,<a href='#'>64859949</a> failed business edits.",
+        "dated": "04/28/2010"
+    },
+    {
+        "status": "information",
+        "iconCls": "info-status",
+        "content": "5 <a href='#'>New Partner Enrollment</a> Requests are ready for review.",
+        "dated": "04/22/2010"
+    },
+    {
+        "status": "email",
+        "iconCls": "message-object",
+        "content": "Weekly report for Top 10 Partners by Performance.",
+        "dated": "04/10/2010"
+    },
+    {
+        "status": "email",
+        "iconCls": "message-object",
+        "content": "This is the <a href='#'>Transmission</a> with big error count.",
+        "dated": "04/25/2010"
+    }
+]

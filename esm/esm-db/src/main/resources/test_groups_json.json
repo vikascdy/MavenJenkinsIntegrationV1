@@ -1,0 +1,41 @@
+	[
+        {
+            "name": "group1",
+            "description": "",
+            "roles": [
+                "role1"
+            ],
+            "users": [
+                "user1"
+            ],
+            "organizations": [
+                "MyORG"
+            ]
+        },
+        {
+            "name": "group2",
+            "description": "",
+            "roles": [
+                "role1"
+            ],
+            "users": [
+                "user1"
+            ],
+            "organizations": [
+                "MyORG"
+            ]
+        },
+        {
+            "name": "group3",
+            "description": "",
+            "roles": [
+                "role1"
+            ],
+            "users": [
+                "user1"
+            ],
+            "organizations": [
+                "MyORG"
+            ]
+        }
+    ]

@@ -1,0 +1,27 @@
+@startuml
+
+actor User
+boundary "HTTP Servlet"
+entity Service1
+entity Service2
+entity Service3
+entity "esm-service"
+database Database
+database "LDAP"
+
+User -> "HTTP Servlet" : JSON Rest Request
+"HTTP Servlet" -> Service1 : Forward Request to Service 
+Service1 -> "esm-service" : Service Checks Permissions
+"esm-service" <-> Database : Checks against Database
+"esm-service" <-> LDAP : Checks against Database
+"esm-service" -> Service1 : Permission Granted
+Service1 -> Service2 : Command Request
+Service2 <-> "esm-service" : Permission Granted
+Service2 -> Service3 : Command Request
+Service3 <-> "esm-service" : Permission Granted
+Service3 -> Service2 : Command Response
+Service2 -> Service1 : Command Response
+Service1 -> "HTTP Servlet" : Command Execution Completed
+"HTTP Servlet" -> User : JSON Rest Response
+
+@enduml

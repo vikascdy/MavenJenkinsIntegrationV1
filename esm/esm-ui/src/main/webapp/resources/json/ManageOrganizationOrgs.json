@@ -1,0 +1,34 @@
+{
+    "heading": "Sub-Organizations",
+    "ref":"organizationOrg",
+    "alias":"Sub-Organization",
+    "usingREST":false,
+    "params":{},
+    "model": "Security.model.OrganizationOrgs",
+    "grouping":{
+        "enabled":false,
+        "groupField":"owner"
+    },
+    "searching":{
+        "enabled":false,
+        "searchField":"name"
+    },
+    "columns": [
+        {
+            "header":"Name",
+            "field":"canonicalName"
+			
+        }
+    ],
+    "operations": {
+        "create": true,
+        "edit": false,
+        "delete": true
+    },
+    "useButtonToolbar": false,
+    "pagination": {
+			"enabled" : true,
+			"toolbar" : true
+	}
+	
+}

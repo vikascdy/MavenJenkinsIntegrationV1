@@ -1,0 +1,369 @@
+ [
+	{
+		"name": "OrgMyORG",
+        "description": "MyORG",
+		"roles": [
+        {
+            "name": "tenantrole1",
+            "description": "App1 Contributor",
+            "permissions": [
+                "addReplyPermission"
+            ]
+        }
+		],
+ 		"organization": [
+        {
+            "name": "tenantMyORG",
+            "description": "MyORG",
+            "users": [
+			      {
+			         "username":"tenantYoda1",
+			         "password":"Welcome",
+			         "first_name":"User 1",
+			         "middle_name":"",
+			         "last_name":"Singh",
+			         "title":"Mr.",
+			         "email":"tenantyoda1@edifecs.com",
+			         "assigned_roles":[
+			            "role1"
+			         ],
+			         "assigned_groups":[
+			            "group1"
+			         ]
+			      },
+			      {
+			         "username":"tenantYoda2",
+			         "password":"Welcome",
+			         "first_name":"User 2",
+			         "middle_name":"",
+			         "last_name":"Singh",
+			         "title":"Mr.",
+			         "email":"tenantyoda2@edifecs.com",
+			         "assigned_roles":[
+			            "role1","role2"
+			         ],
+			         "assigned_groups":[
+			            "group1","grp2"
+			         ]
+			      },
+			      {
+			         "username":"tenantYoda3",
+			         "password":"Welcome",
+			         "first_name":"User 3",
+			         "middle_name":"",
+			         "last_name":"Singh",
+			         "title":"Mr.",
+			         "email":"tenantyoda3@edifecs.com",
+			         "assigned_roles":[
+			            "role1"
+			         ],
+			         "assigned_groups":[
+			            "group1"
+			         ]
+			      }
+   			]
+        },
+        {
+            "name": "tenantMyORG1",
+            "description": "MyORG1",
+            "users": [
+			      {
+			         "username":"tenantYoda11",
+			         "password":"Welcome",
+			         "first_name":"User 1",
+			         "middle_name":"",
+			         "last_name":"Singh",
+			         "title":"Mr.",
+			         "email":"tenantyoda11@edifecs.com",
+			         "assigned_roles":[
+			            "role1"
+			         ],
+			         "assigned_groups":[
+			            "group1"
+			         ]
+			      },
+			      {
+			         "username":"tenantYoda12",
+			         "password":"Welcome",
+			         "first_name":"User 2",
+			         "middle_name":"",
+			         "last_name":"Singh",
+			         "title":"Mr.",
+			         "email":"tenantyoda12@edifecs.com",
+			         "assigned_roles":[
+			            "role1","role2"
+			         ],
+			         "assigned_groups":[
+			            "group1","grp2"
+			         ]
+			      },
+			      {
+			         "username":"tenantYoda13",
+			         "password":"Welcome",
+			         "first_name":"User 3",
+			         "middle_name":"",
+			         "last_name":"Singh",
+			         "title":"Mr.",
+			         "email":"tenantyoda13@edifecs.com",
+			         "assigned_roles":[
+			            "role1"
+			         ],
+			         "assigned_groups":[
+			            "group1"
+			         ]
+			      }
+   			]
+        },
+        {
+            "name": "tenantMyORG2",
+            "description": "MyORG2",
+            "users": [
+			      {
+			         "username":"tenantYoda21",
+			         "password":"Welcome",
+			         "first_name":"User 1",
+			         "middle_name":"",
+			         "last_name":"Singh",
+			         "title":"Mr.",
+			         "email":"tenantyoda21@edifecs.com",
+			         "assigned_roles":[
+			            "role1"
+			         ],
+			         "assigned_groups":[
+			            "group1"
+			         ]
+			      },
+			      {
+			         "username":"tenantYoda22",
+			         "password":"Welcome",
+			         "first_name":"User 2",
+			         "middle_name":"",
+			         "last_name":"Singh",
+			         "title":"Mr.",
+			         "email":"tenantyoda22@edifecs.com",
+			         "assigned_roles":[
+			            "role1","role2"
+			         ],
+			         "assigned_groups":[
+			            "group1","grp2"
+			         ]
+			      },
+			      {
+			         "username":"tenantYoda23",
+			         "password":"Welcome",
+			         "first_name":"User 3",
+			         "middle_name":"",
+			         "last_name":"Singh",
+			         "title":"Mr.",
+			         "email":"tenantyoda23@edifecs.com",
+			         "assigned_roles":[
+			            "role1"
+			         ],
+			         "assigned_groups":[
+			            "group1"
+			         ]
+			      }
+   			]
+        }
+		],
+		"groups": [
+        {
+            "name": "group1",
+            "description": "",
+            "roles": [
+                "role1"
+            ],
+            "users": [
+                "user1"
+            ],
+            "organizations": [
+                "MyORG"
+            ]
+        }
+		]
+	},
+	{
+		"name": "ORG12MyORG12",
+        "description": "MyORG12",
+		"roles": [
+        {
+            "name": "tenantrole11",
+            "description": "App11 Contributor",
+            "permissions": [
+                "addReplyPermission"
+            ]
+        }
+		],
+ 		"organization": [
+        {
+            "name": "tenantMyORG12",
+            "description": "MyORG12",
+            "users": [
+			      {
+			         "username":"tenantYoda11",
+			         "password":"Welcome",
+			         "first_name":"User 1111",
+			         "middle_name":"",
+			         "last_name":"Singh",
+			         "title":"Mr.",
+			         "email":"tenantyoda11@edifecs.com",
+			         "assigned_roles":[
+			            "role11"
+			         ],
+			         "assigned_groups":[
+			            "group11"
+			         ]
+			      },
+			      {
+			         "username":"tenantYoda2",
+			         "password":"Welcome",
+			         "first_name":"User 2",
+			         "middle_name":"",
+			         "last_name":"Singh",
+			         "title":"Mr.",
+			         "email":"tenantyoda2@edifecs.com",
+			         "assigned_roles":[
+			            "role11","role2"
+			         ],
+			         "assigned_groups":[
+			            "group11","grp2"
+			         ]
+			      },
+			      {
+			         "username":"tenantYoda3",
+			         "password":"Welcome",
+			         "first_name":"User 3",
+			         "middle_name":"",
+			         "last_name":"Singh",
+			         "title":"Mr.",
+			         "email":"tenantyoda3@edifecs.com",
+			         "assigned_roles":[
+			            "role11"
+			         ],
+			         "assigned_groups":[
+			            "group11"
+			         ]
+			      }
+   			]
+        },
+        {
+            "name": "tenantMyORG1211",
+            "description": "MyORG1211",
+            "users": [
+			      {
+			         "username":"tenantYoda1111",
+			         "password":"Welcome",
+			         "first_name":"User 1111",
+			         "middle_name":"",
+			         "last_name":"Singh",
+			         "title":"Mr.",
+			         "email":"tenantyoda1111@edifecs.com",
+			         "assigned_roles":[
+			            "role11"
+			         ],
+			         "assigned_groups":[
+			            "group11"
+			         ]
+			      },
+			      {
+			         "username":"tenantYoda112",
+			         "password":"Welcome",
+			         "first_name":"User 2",
+			         "middle_name":"",
+			         "last_name":"Singh",
+			         "title":"Mr.",
+			         "email":"tenantyoda112@edifecs.com",
+			         "assigned_roles":[
+			            "role11","role2"
+			         ],
+			         "assigned_groups":[
+			            "group11","grp2"
+			         ]
+			      },
+			      {
+			         "username":"tenantYoda113",
+			         "password":"Welcome",
+			         "first_name":"User 3",
+			         "middle_name":"",
+			         "last_name":"Singh",
+			         "title":"Mr.",
+			         "email":"tenantyoda113@edifecs.com",
+			         "assigned_roles":[
+			            "role11"
+			         ],
+			         "assigned_groups":[
+			            "group11"
+			         ]
+			      }
+   			]
+        },
+        {
+            "name": "tenantMyORG122",
+            "description": "MyORG122",
+            "users": [
+			      {
+			         "username":"tenantYoda211",
+			         "password":"Welcome",
+			         "first_name":"User 1111",
+			         "middle_name":"",
+			         "last_name":"Singh",
+			         "title":"Mr.",
+			         "email":"tenantyoda211@edifecs.com",
+			         "assigned_roles":[
+			            "role11"
+			         ],
+			         "assigned_groups":[
+			            "group11"
+			         ]
+			      },
+			      {
+			         "username":"tenantYoda22",
+			         "password":"Welcome",
+			         "first_name":"User 2",
+			         "middle_name":"",
+			         "last_name":"Singh",
+			         "title":"Mr.",
+			         "email":"tenantyoda22@edifecs.com",
+			         "assigned_roles":[
+			            "role11","role2"
+			         ],
+			         "assigned_groups":[
+			            "group11","grp2"
+			         ]
+			      },
+			      {
+			         "username":"tenantYoda23",
+			         "password":"Welcome",
+			         "first_name":"User 3",
+			         "middle_name":"",
+			         "last_name":"Singh",
+			         "title":"Mr.",
+			         "email":"tenantyoda23@edifecs.com",
+			         "assigned_roles":[
+			            "role11"
+			         ],
+			         "assigned_groups":[
+			            "group11"
+			         ]
+			      }
+   			]
+        }
+		],
+		"groups": [
+        {
+            "name": "group11",
+            "description": "",
+            "roles": [
+                "role11"
+            ],
+            "users": [
+                "user11"
+            ],
+            "organizations": [
+                "MyORG12"
+            ]
+        }
+		]
+	}
+]
+
