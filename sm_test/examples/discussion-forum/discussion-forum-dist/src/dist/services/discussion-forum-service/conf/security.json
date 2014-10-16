@@ -1,0 +1,9 @@
+{
+    "roles": [
+        {
+            "name": "Discussion Forum Contributor",
+            "description" : "Discussion Forum Contributor",
+            "permissions": ["examples:discussionforum:user:reply:add"]
+        }
+    ]
+}

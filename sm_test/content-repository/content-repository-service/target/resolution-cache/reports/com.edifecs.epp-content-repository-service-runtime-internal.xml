@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.edifecs.epp"
+		module="content-repository-service"
+		revision="1.7.0.0-SNAPSHOT"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20141016102651"/>
+	<dependencies>
+		<module organisation="com.edifecs.epp" name="content-repository-jackrabbit-api">
+			<revision name="1.7.0.0-SNAPSHOT" status="integration" pubdate="20141016102647" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="1">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="com.edifecs.epp" name="content-repository-service" conf="optional, compile, runtime, runtime-internal" rev="1.7.0.0-SNAPSHOT" rev-constraint-default="1.7.0.0-SNAPSHOT" rev-constraint-dynamic="1.7.0.0-SNAPSHOT" callerrev="1.7.0.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.jackrabbit" name="jackrabbit-core">
+			<revision name="2.6.5" status="release" pubdate="20131128233520" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="24">
+				<metadata-artifact status="no" details="" size="13160" time="0" location="C:\Users\saurprak\.ivy2\cache\org.apache.jackrabbit\jackrabbit-core\ivy-2.6.5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/jackrabbit/jackrabbit-core/2.6.5/jackrabbit-core-2.6.5.pom"/>
+				<caller organisation="com.edifecs.epp" name="content-repository-jackrabbit-api" conf="compile" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="1.7.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackrabbit-core" type="jar" ext="jar" status="no" details="" size="2430584" time="0" location="C:\Users\saurprak\.ivy2\cache\org.apache.jackrabbit\jackrabbit-core\jars\jackrabbit-core-2.6.5.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/jackrabbit/jackrabbit-core/2.6.5/jackrabbit-core-2.6.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.derby" name="derby">
+			<revision name="10.5.3.0_1" status="release" pubdate="20091007190704" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="35">
+				<metadata-artifact status="no" details="" size="2850" time="0" location="C:\Users\saurprak\.ivy2\cache\org.apache.derby\derby\ivy-10.5.3.0_1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/derby/derby/10.5.3.0_1/derby-10.5.3.0_1.pom"/>
+				<caller organisation="org.apache.jackrabbit" name="jackrabbit-core" conf="default, compile, runtime, master" rev="10.5.3.0_1" rev-constraint-default="10.5.3.0_1" rev-constraint-dynamic="10.5.3.0_1" callerrev="2.6.5"/>
+				<artifacts>
+					<artifact name="derby" type="jar" ext="jar" status="no" details="" size="2512189" time="0" location="C:\Users\saurprak\.ivy2\cache\org.apache.derby\derby\jars\derby-10.5.3.0_1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/derby/derby/10.5.3.0_1/derby-10.5.3.0_1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-core">
+			<revision name="3.6.0" status="release" pubdate="20120410025934" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="34">
+				<metadata-artifact status="no" details="" size="19053" time="0" location="C:\Users\saurprak\.ivy2\cache\org.apache.lucene\lucene-core\ivy-3.6.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-core/3.6.0/lucene-core-3.6.0.pom"/>
+				<caller organisation="org.apache.jackrabbit" name="jackrabbit-core" conf="default, compile, runtime, master" rev="3.6.0" rev-constraint-default="3.6.0" rev-constraint-dynamic="3.6.0" callerrev="2.6.5"/>
+				<artifacts>
+					<artifact name="lucene-core" type="jar" ext="jar" status="no" details="" size="1535258" time="0" location="C:\Users\saurprak\.ivy2\cache\org.apache.lucene\lucene-core\jars\lucene-core-3.6.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/lucene/lucene-core/3.6.0/lucene-core-3.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tika" name="tika-core">
+			<revision name="1.3" status="release" pubdate="20130119090158" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://tika.apache.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="33">
+				<metadata-artifact status="no" details="" size="5010" time="0" location="C:\Users\saurprak\.ivy2\cache\org.apache.tika\tika-core\ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/tika/tika-core/1.3/tika-core-1.3.pom"/>
+				<caller organisation="org.apache.jackrabbit" name="jackrabbit-core" conf="default, compile, runtime, master" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="2.6.5"/>
+				<artifacts>
+					<artifact name="tika-core" type="bundle" ext="jar" status="no" details="" size="475853" time="0" location="C:\Users\saurprak\.ivy2\cache\org.apache.tika\tika-core\bundles\tika-core-1.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/tika/tika-core/1.3/tika-core-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.jackrabbit" name="jackrabbit-spi-commons">
+			<revision name="2.6.5" status="release" pubdate="20131128233057" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="31">
+				<metadata-artifact status="no" details="" size="13039" time="0" location="C:\Users\saurprak\.ivy2\cache\org.apache.jackrabbit\jackrabbit-spi-commons\ivy-2.6.5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/jackrabbit/jackrabbit-spi-commons/2.6.5/jackrabbit-spi-commons-2.6.5.pom"/>
+				<caller organisation="org.apache.jackrabbit" name="jackrabbit-core" conf="default, compile, runtime, master" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="2.6.5"/>
+				<artifacts>
+					<artifact name="jackrabbit-spi-commons" type="bundle" ext="jar" status="no" details="" size="784900" time="0" location="C:\Users\saurprak\.ivy2\cache\org.apache.jackrabbit\jackrabbit-spi-commons\bundles\jackrabbit-spi-commons-2.6.5.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/jackrabbit/jackrabbit-spi-commons/2.6.5/jackrabbit-spi-commons-2.6.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.jackrabbit" name="jackrabbit-spi">
+			<revision name="2.6.5" status="release" pubdate="20131128233015" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), runtime, compile(*), runtime(*), master" position="32">
+				<metadata-artifact status="no" details="" size="12230" time="0" location="C:\Users\saurprak\.ivy2\cache\org.apache.jackrabbit\jackrabbit-spi\ivy-2.6.5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/jackrabbit/jackrabbit-spi/2.6.5/jackrabbit-spi-2.6.5.pom"/>
+				<caller organisation="org.apache.jackrabbit" name="jackrabbit-core" conf="default, compile, runtime, master" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="2.6.5"/>
+				<caller organisation="org.apache.jackrabbit" name="jackrabbit-spi-commons" conf="compile, runtime" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="2.6.5"/>
+				<caller organisation="com.edifecs.epp" name="content-repository-jackrabbit-api" conf="compile" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="1.7.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackrabbit-spi" type="jar" ext="jar" extra-classifier="" status="no" details="" size="27744" time="0" location="C:\Users\saurprak\.ivy2\cache\org.apache.jackrabbit\jackrabbit-spi\jars\jackrabbit-spi-2.6.5.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.jackrabbit" name="jackrabbit-jcr-commons">
+			<revision name="2.6.5" status="release" pubdate="20131128232922" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="30">
+				<metadata-artifact status="no" details="" size="12634" time="0" location="C:\Users\saurprak\.ivy2\cache\org.apache.jackrabbit\jackrabbit-jcr-commons\ivy-2.6.5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/jackrabbit/jackrabbit-jcr-commons/2.6.5/jackrabbit-jcr-commons-2.6.5.pom"/>
+				<caller organisation="org.apache.jackrabbit" name="jackrabbit-core" conf="default, compile, runtime, master" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="2.6.5"/>
+				<caller organisation="org.apache.jackrabbit" name="jackrabbit-spi-commons" conf="compile, runtime" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="2.6.5"/>
+				<artifacts>
+					<artifact name="jackrabbit-jcr-commons" type="bundle" ext="jar" status="no" details="" size="352772" time="0" location="C:\Users\saurprak\.ivy2\cache\org.apache.jackrabbit\jackrabbit-jcr-commons\bundles\jackrabbit-jcr-commons-2.6.5.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/jackrabbit/jackrabbit-jcr-commons/2.6.5/jackrabbit-jcr-commons-2.6.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.jackrabbit" name="jackrabbit-api">
+			<revision name="2.6.5" status="release" pubdate="20131128232842" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="29">
+				<metadata-artifact status="no" details="" size="12057" time="0" location="C:\Users\saurprak\.ivy2\cache\org.apache.jackrabbit\jackrabbit-api\ivy-2.6.5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/jackrabbit/jackrabbit-api/2.6.5/jackrabbit-api-2.6.5.pom"/>
+				<caller organisation="org.apache.jackrabbit" name="jackrabbit-core" conf="default, compile, runtime, master" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="2.6.5"/>
+				<artifacts>
+					<artifact name="jackrabbit-api" type="bundle" ext="jar" status="no" details="" size="36973" time="0" location="C:\Users\saurprak\.ivy2\cache\org.apache.jackrabbit\jackrabbit-api\bundles\jackrabbit-api-2.6.5.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/jackrabbit/jackrabbit-api/2.6.5/jackrabbit-api-2.6.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-dbcp" name="commons-dbcp">
+			<revision name="1.3" status="release" pubdate="20100207231346" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/dbcp/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="27">
+				<metadata-artifact status="no" details="" size="5857" time="0" location="C:\Users\saurprak\.ivy2\cache\commons-dbcp\commons-dbcp\ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-dbcp/commons-dbcp/1.3/commons-dbcp-1.3.pom"/>
+				<caller organisation="org.apache.jackrabbit" name="jackrabbit-core" conf="default, compile, runtime, master" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="2.6.5"/>
+				<artifacts>
+					<artifact name="commons-dbcp" type="jar" ext="jar" status="no" details="" size="148817" time="0" location="C:\Users\saurprak\.ivy2\cache\commons-dbcp\commons-dbcp\jars\commons-dbcp-1.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-dbcp/commons-dbcp/1.3/commons-dbcp-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-pool" name="commons-pool">
+			<revision name="1.5.4" status="release" pubdate="20091113071653" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/pool/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="28">
+				<metadata-artifact status="no" details="" size="4859" time="0" location="C:\Users\saurprak\.ivy2\cache\commons-pool\commons-pool\ivy-1.5.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.pom"/>
+				<caller organisation="commons-dbcp" name="commons-dbcp" conf="compile, runtime" rev="1.5.4" rev-constraint-default="1.5.4" rev-constraint-dynamic="1.5.4" callerrev="1.3"/>
+				<artifacts>
+					<artifact name="commons-pool" type="jar" ext="jar" status="no" details="" size="96221" time="0" location="C:\Users\saurprak\.ivy2\cache\commons-pool\commons-pool\jars\commons-pool-1.5.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="concurrent" name="concurrent">
+			<revision name="1.3.4" status="release" pubdate="20060207023459" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="25">
+				<license name="Public domain, Sun Microsoystems" url=">http://gee.cs.oswego.edu/dl/classes/EDU/oswego/cs/dl/util/concurrent/intro.html"/>
+				<metadata-artifact status="no" details="" size="2359" time="0" location="C:\Users\saurprak\.ivy2\cache\concurrent\concurrent\ivy-1.3.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/concurrent/concurrent/1.3.4/concurrent-1.3.4.pom"/>
+				<caller organisation="org.apache.jackrabbit" name="jackrabbit-core" conf="default, compile, runtime, master" rev="1.3.4" rev-constraint-default="1.3.4" rev-constraint-dynamic="1.3.4" callerrev="2.6.5"/>
+				<artifacts>
+					<artifact name="concurrent" type="jar" ext="jar" status="no" details="" size="189284" time="0" location="C:\Users\saurprak\.ivy2\cache\concurrent\concurrent\jars\concurrent-1.3.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/concurrent/concurrent/1.3.4/concurrent-1.3.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.h2database" name="h2">
+			<revision name="1.3.160" status="release" pubdate="20110911222650" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.h2database.com" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="23">
+				<license name="The H2 License, Version 1.0" url="http://h2database.com/html/license.html"/>
+				<metadata-artifact status="no" details="" size="2366" time="0" location="C:\Users\saurprak\.ivy2\cache\com.h2database\h2\ivy-1.3.160.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/h2database/h2/1.3.160/h2-1.3.160.pom"/>
+				<caller organisation="com.edifecs.epp" name="content-repository-jackrabbit-api" conf="compile" rev="1.3.160" rev-constraint-default="1.3.160" rev-constraint-dynamic="1.3.160" callerrev="1.7.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="h2" type="jar" ext="jar" status="no" details="" size="1256430" time="0" location="C:\Users\saurprak\.ivy2\cache\com.h2database\h2\jars\h2-1.3.160.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/h2database/h2/1.3.160/h2-1.3.160.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.jcr" name="jcr">
+			<revision name="2.0" status="release" pubdate="20090930211747" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jcp.org/en/jsr/detail?id=283" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="22">
+				<license name="Day Specification License" url="http://www.day.com/dam/day/downloads/jsr283/day-spec-license.htm"/>
+				<license name="Day Specification License addendum" url="http://www.day.com/content/dam/day/downloads/jsr283/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2650" time="0" location="C:\Users\saurprak\.ivy2\cache\javax.jcr\jcr\ivy-2.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/jcr/jcr/2.0/jcr-2.0.pom"/>
+				<caller organisation="com.edifecs.epp" name="content-repository-service" conf="optional, compile, runtime, runtime-internal" rev="2.0" rev-constraint-default="2.0" rev-constraint-dynamic="2.0" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="com.edifecs.epp" name="content-repository-jackrabbit-api" conf="compile" rev="2.0" rev-constraint-default="2.0" rev-constraint-dynamic="2.0" callerrev="1.7.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jcr" type="jar" ext="jar" status="no" details="" size="69246" time="0" location="C:\Users\saurprak\.ivy2\cache\javax.jcr\jcr\jars\jcr-2.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/jcr/jcr/2.0/jcr-2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.edifecs.epp" name="content-repository-api">
+			<revision name="1.7.0.0-SNAPSHOT" status="integration" pubdate="20141016102647" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="2">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="com.edifecs.epp" name="content-repository-service" conf="optional, compile, runtime, runtime-internal" rev="1.7.0.0-SNAPSHOT" rev-constraint-default="1.7.0.0-SNAPSHOT" rev-constraint-dynamic="1.7.0.0-SNAPSHOT" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="com.edifecs.epp" name="content-repository-jackrabbit-api" conf="compile" rev="1.7.0.0-SNAPSHOT" rev-constraint-default="1.7.0.0-SNAPSHOT" rev-constraint-dynamic="1.7.0.0-SNAPSHOT" callerrev="1.7.0.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.edifecs.epp" name="esm-api">
+			<revision name="1.7.0.0-SNAPSHOT" status="integration" pubdate="20141016102647" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="3">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="com.edifecs.epp" name="content-repository-api" conf="compile" rev="1.7.0.0-SNAPSHOT" rev-constraint-default="1.7.0.0-SNAPSHOT" rev-constraint-dynamic="1.7.0.0-SNAPSHOT" callerrev="1.7.0.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.shiro" name="shiro-core">
+			<revision name="1.2.3" status="release" pubdate="20140226050015" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="20">
+				<metadata-artifact status="no" details="" size="20724" time="0" location="C:\Users\saurprak\.ivy2\cache\org.apache.shiro\shiro-core\ivy-1.2.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3.pom"/>
+				<caller organisation="com.edifecs.epp" name="esm-api" conf="compile" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="1.7.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="shiro-core" type="bundle" ext="jar" status="no" details="" size="367458" time="0" location="C:\Users\saurprak\.ivy2\cache\org.apache.shiro\shiro-core\bundles\shiro-core-1.2.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jcl-over-slf4j">
+			<revision name="1.6.4" status="release" pubdate="20111101041641" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="36">
+				<metadata-artifact status="no" details="" size="4550" time="0" location="C:\Users\saurprak\.ivy2\cache\org.slf4j\jcl-over-slf4j\ivy-1.6.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.6.4/jcl-over-slf4j-1.6.4.pom"/>
+				<caller organisation="org.apache.jackrabbit" name="jackrabbit-core" conf="default, compile, runtime, master" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="2.6.5"/>
+				<artifacts>
+					<artifact name="jcl-over-slf4j" type="jar" ext="jar" status="no" details="" size="17308" time="0" location="C:\Users\saurprak\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.6.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.6.4/jcl-over-slf4j-1.6.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-beanutils" name="commons-beanutils">
+			<revision name="1.8.3" status="release" pubdate="20100324224600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/beanutils/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="21">
+				<metadata-artifact status="no" details="" size="6386" time="0" location="C:\Users\saurprak\.ivy2\cache\commons-beanutils\commons-beanutils\ivy-1.8.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.pom"/>
+				<caller organisation="org.apache.shiro" name="shiro-core" conf="default, compile, runtime, master" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.2.3"/>
+				<artifacts>
+					<artifact name="commons-beanutils" type="jar" ext="jar" status="no" details="" size="232019" time="0" location="C:\Users\saurprak\.ivy2\cache\commons-beanutils\commons-beanutils\jars\commons-beanutils-1.8.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.1" status="release" pubdate="20080415063924" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="26">
+				<metadata-artifact status="no" details="" size="4632" time="0" location="C:\Users\saurprak\.ivy2\cache\commons-collections\commons-collections\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom"/>
+				<caller organisation="org.apache.jackrabbit" name="jackrabbit-core" conf="default, compile, runtime, master" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="2.6.5"/>
+				<caller organisation="org.apache.jackrabbit" name="jackrabbit-spi-commons" conf="compile, runtime" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="2.6.5"/>
+				<artifacts>
+					<artifact name="commons-collections" type="jar" ext="jar" status="no" details="" size="575389" time="0" location="C:\Users\saurprak\.ivy2\cache\commons-collections\commons-collections\jars\commons-collections-3.2.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.edifecs.epp" name="flexfields-api">
+			<revision name="1.7.0.0-SNAPSHOT" status="integration" pubdate="20141016102646" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="19">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="com.edifecs.epp" name="esm-api" conf="compile" rev="1.7.0.0-SNAPSHOT" rev-constraint-default="1.7.0.0-SNAPSHOT" rev-constraint-dynamic="1.7.0.0-SNAPSHOT" callerrev="1.7.0.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.edifecs.epp" name="sm-codegen">
+			<revision name="1.7.0.0-SNAPSHOT" status="integration" pubdate="20141016102646" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="13">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="com.edifecs.epp" name="esm-api" conf="compile" rev="1.7.0.0-SNAPSHOT" rev-constraint-default="1.7.0.0-SNAPSHOT" rev-constraint-dynamic="1.7.0.0-SNAPSHOT" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="com.edifecs.epp" name="content-repository-api" conf="compile" rev="1.7.0.0-SNAPSHOT" rev-constraint-default="1.7.0.0-SNAPSHOT" rev-constraint-dynamic="1.7.0.0-SNAPSHOT" callerrev="1.7.0.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.eed3si9n" name="treehugger_2.10">
+			<revision name="0.3.0" status="release" pubdate="20130901075320" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://eed3si9n.com/treehugger" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="18">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2700" time="0" location="C:\Users\saurprak\.ivy2\cache\com.eed3si9n\treehugger_2.10\ivy-0.3.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/eed3si9n/treehugger_2.10/0.3.0/treehugger_2.10-0.3.0.pom"/>
+				<caller organisation="com.edifecs.epp" name="sm-codegen" conf="compile" rev="0.3.0" rev-constraint-default="0.3.0" rev-constraint-dynamic="0.3.0" callerrev="1.7.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="treehugger_2.10" type="jar" ext="jar" status="no" details="" size="986888" time="0" location="C:\Users\saurprak\.ivy2\cache\com.eed3si9n\treehugger_2.10\jars\treehugger_2.10-0.3.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/eed3si9n/treehugger_2.10/0.3.0/treehugger_2.10-0.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.edifecs.epp" name="isc-api">
+			<revision name="1.7.0.0-SNAPSHOT" status="integration" pubdate="20141016102643" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="14">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="com.edifecs.epp" name="sm-codegen" conf="compile" rev="1.7.0.0-SNAPSHOT" rev-constraint-default="1.7.0.0-SNAPSHOT" rev-constraint-dynamic="1.7.0.0-SNAPSHOT" callerrev="1.7.0.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.10">
+			<revision name="2.3.2" status="release" pubdate="20140409175233" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="16">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2687" time="0" location="C:\Users\saurprak\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\ivy-2.3.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.2/akka-actor_2.10-2.3.2.pom"/>
+				<caller organisation="com.edifecs.epp" name="isc-api" conf="compile" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="1.7.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="akka-actor_2.10" type="jar" ext="jar" status="no" details="" size="2549066" time="0" location="C:\Users\saurprak\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.2/akka-actor_2.10-2.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.2.0" status="release" pubdate="20140115203944" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="17">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2768" time="0" location="C:\Users\saurprak\.ivy2\cache\com.typesafe\config\ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="default, compile, runtime, master" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="2.3.2"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="217897" time="0" location="C:\Users\saurprak\.ivy2\cache\com.typesafe\config\bundles\config-1.2.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.edifecs.epp" name="exception">
+			<revision name="1.7.0.0-SNAPSHOT" status="integration" pubdate="20141016102641" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="15">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="com.edifecs.epp" name="isc-api" conf="compile" rev="1.7.0.0-SNAPSHOT" rev-constraint-default="1.7.0.0-SNAPSHOT" rev-constraint-dynamic="1.7.0.0-SNAPSHOT" callerrev="1.7.0.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.edifecs.epp" name="configuration-api">
+			<revision name="1.7.0.0-SNAPSHOT" status="integration" pubdate="20141016102641" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="4">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="com.edifecs.epp" name="esm-api" conf="compile" rev="1.7.0.0-SNAPSHOT" rev-constraint-default="1.7.0.0-SNAPSHOT" rev-constraint-dynamic="1.7.0.0-SNAPSHOT" callerrev="1.7.0.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.edifecs.epp" name="manifest">
+			<revision name="0.1.0.0" status="release" pubdate="20141002233913" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.edifecs.com" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="8">
+				<license name="Private" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3537" time="0" location="C:\Users\saurprak\.ivy2\cache\com.edifecs.epp\manifest\ivy-0.1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://ennexus.corp.edifecs.com/content/repositories/releases/com/edifecs/epp/manifest/0.1.0.0/manifest-0.1.0.0.pom"/>
+				<caller organisation="com.edifecs.epp" name="flexfields-api" conf="compile" rev="0.1.0.0" rev-constraint-default="0.1.0.0" rev-constraint-dynamic="0.1.0.0" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="com.edifecs.epp" name="configuration-api" conf="compile" rev="0.1.0.0" rev-constraint-default="0.1.0.0" rev-constraint-dynamic="0.1.0.0" callerrev="1.7.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="manifest" type="jar" ext="jar" status="no" details="" size="433958" time="0" location="C:\Users\saurprak\.ivy2\cache\com.edifecs.epp\manifest\jars\manifest-0.1.0.0.jar">
+						<origin-location is-local="false" location="https://ennexus.corp.edifecs.com/content/repositories/releases/com/edifecs/epp/manifest/0.1.0.0/manifest-0.1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.zafarkhaja" name="java-semver">
+			<revision name="0.7.2" status="release" pubdate="20131230224349" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/zafarkhaja/java-semver" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="12">
+				<license name="The MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3018" time="0" location="C:\Users\saurprak\.ivy2\cache\com.github.zafarkhaja\java-semver\ivy-0.7.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/github/zafarkhaja/java-semver/0.7.2/java-semver-0.7.2.pom"/>
+				<caller organisation="com.edifecs.epp" name="manifest" conf="default, compile, runtime, master" rev="0.7.2" rev-constraint-default="0.7.2" rev-constraint-dynamic="0.7.2" callerrev="0.1.0.0"/>
+				<artifacts>
+					<artifact name="java-semver" type="jar" ext="jar" status="no" details="" size="41675" time="0" location="C:\Users\saurprak\.ivy2\cache\com.github.zafarkhaja\java-semver\jars\java-semver-0.7.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/github/zafarkhaja/java-semver/0.7.2/java-semver-0.7.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.yaml" name="snakeyaml">
+			<revision name="1.13" status="release" pubdate="20130905233959" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.snakeyaml.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), runtime, compile(*), runtime(*), master" position="11">
+				<license name="Apache License Version 2.0" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3445" time="0" location="C:\Users\saurprak\.ivy2\cache\org.yaml\snakeyaml\ivy-1.13.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/yaml/snakeyaml/1.13/snakeyaml-1.13.pom"/>
+				<caller organisation="com.edifecs.epp" name="manifest" conf="default, compile, runtime, master" rev="1.13" rev-constraint-default="1.13" rev-constraint-dynamic="1.13" callerrev="0.1.0.0"/>
+				<caller organisation="com.edifecs.epp" name="flexfields-api" conf="compile" rev="1.13" rev-constraint-default="1.13" rev-constraint-dynamic="1.13" callerrev="1.7.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="snakeyaml" type="bundle" ext="jar" status="no" details="" size="273449" time="0" location="C:\Users\saurprak\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.13.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/yaml/snakeyaml/1.13/snakeyaml-1.13.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.edifecs.epp" name="case-class-to-map">
+			<revision name="0.1.0.0" status="release" pubdate="20141002233901" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.edifecs.com" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="9">
+				<license name="Private" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3164" time="0" location="C:\Users\saurprak\.ivy2\cache\com.edifecs.epp\case-class-to-map\ivy-0.1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://ennexus.corp.edifecs.com/content/repositories/releases/com/edifecs/epp/case-class-to-map/0.1.0.0/case-class-to-map-0.1.0.0.pom"/>
+				<caller organisation="com.edifecs.epp" name="manifest" conf="default, compile, runtime, master" rev="0.1.0.0" rev-constraint-default="0.1.0.0" rev-constraint-dynamic="0.1.0.0" callerrev="0.1.0.0"/>
+				<artifacts>
+					<artifact name="case-class-to-map" type="jar" ext="jar" status="no" details="" size="18379" time="0" location="C:\Users\saurprak\.ivy2\cache\com.edifecs.epp\case-class-to-map\jars\case-class-to-map-0.1.0.0.jar">
+						<origin-location is-local="false" location="https://ennexus.corp.edifecs.com/content/repositories/releases/com/edifecs/epp/case-class-to-map/0.1.0.0/case-class-to-map-0.1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.10.3" status="release" pubdate="20130927151529" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.3/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="10">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2864" time="0" location="C:\Users\saurprak\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.10.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.3/scala-reflect-2.10.3.pom"/>
+				<caller organisation="com.edifecs.epp" name="case-class-to-map" conf="compile, runtime" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="0.1.0.0"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3206936" time="0" location="C:\Users\saurprak\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.10.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.3/scala-reflect-2.10.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.gson" name="gson">
+			<revision name="2.2.4" status="release" pubdate="20130514032652" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/google-gson/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="7">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3284" time="0" location="C:\Users\saurprak\.ivy2\cache\com.google.code.gson\gson\ivy-2.2.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.pom"/>
+				<caller organisation="com.edifecs.epp" name="esm-api" conf="compile" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="com.edifecs.epp" name="isc-api" conf="compile" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="com.edifecs.epp" name="configuration-api" conf="compile" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="1.7.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="gson" type="jar" ext="jar" status="no" details="" size="190432" time="0" location="C:\Users\saurprak\.ivy2\cache\com.google.code.gson\gson\jars\gson-2.2.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.4" status="release" pubdate="20120613035206" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master, master(*), compile(*), runtime(*)" position="6">
+				<metadata-artifact status="no" details="" size="8534" time="0" location="C:\Users\saurprak\.ivy2\cache\commons-io\commons-io\ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom"/>
+				<caller organisation="org.apache.jackrabbit" name="jackrabbit-core" conf="default, compile, runtime, master" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="2.6.5"/>
+				<caller organisation="com.edifecs.epp" name="configuration-api" conf="compile" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="1.7.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="185140" time="0" location="C:\Users\saurprak\.ivy2\cache\commons-io\commons-io\jars\commons-io-2.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="2.4"/>
+				<caller organisation="org.apache.jackrabbit" name="jackrabbit-core" conf="default, compile, runtime, master" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="2.6.5"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.7" status="release" pubdate="20140404164248" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="5">
+				<metadata-artifact status="no" details="" size="4613" time="0" location="C:\Users\saurprak\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom"/>
+				<caller organisation="com.edifecs.epp" name="isc-api" conf="compile" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="org.apache.jackrabbit" name="jackrabbit-core" conf="default, compile, runtime, master" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="2.6.5"/>
+				<caller organisation="com.edifecs.epp" name="exception" conf="compile" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="com.edifecs.epp" name="case-class-to-map" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.1.0.0"/>
+				<caller organisation="com.edifecs.epp" name="content-repository-service" conf="optional, compile, runtime, runtime-internal" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="com.edifecs.epp" name="manifest" conf="default, compile, runtime, master" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.1.0.0"/>
+				<caller organisation="com.edifecs.epp" name="sm-codegen" conf="compile" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="com.edifecs.epp" name="esm-api" conf="compile" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="org.apache.shiro" name="shiro-core" conf="default, compile, runtime, master" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="1.2.3"/>
+				<caller organisation="org.slf4j" name="jcl-over-slf4j" conf="compile, runtime" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="1.6.4"/>
+				<caller organisation="com.edifecs.epp" name="flexfields-api" conf="compile" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="com.edifecs.epp" name="configuration-api" conf="compile" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="org.apache.jackrabbit" name="jackrabbit-spi-commons" conf="compile, runtime" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="2.6.5"/>
+				<caller organisation="com.edifecs.epp" name="content-repository-api" conf="compile" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="com.edifecs.epp" name="content-repository-jackrabbit-api" conf="compile" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="1.7.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="29257" time="0" location="C:\Users\saurprak\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.6.4" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="default(compile), compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="1.7.7"/>
+				<caller organisation="com.edifecs.epp" name="content-repository-service" conf="optional, compile, runtime, runtime-internal" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.7.7" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="com.edifecs.epp" name="esm-api" conf="compile" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.7.7" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="org.apache.shiro" name="shiro-core" conf="default, compile, runtime, master" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="1.2.3"/>
+				<caller organisation="org.apache.jackrabbit" name="jackrabbit-core" conf="default, compile, runtime, master" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="2.6.5"/>
+				<caller organisation="org.slf4j" name="jcl-over-slf4j" conf="compile, runtime" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="1.6.4"/>
+				<caller organisation="org.apache.jackrabbit" name="jackrabbit-spi-commons" conf="compile, runtime" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="2.6.5"/>
+				<caller organisation="com.edifecs.epp" name="content-repository-api" conf="compile" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.7.7" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="com.edifecs.epp" name="content-repository-jackrabbit-api" conf="compile" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.7.7" callerrev="1.7.0.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.3" status="release" pubdate="20130927151454" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.3/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2701" time="0" location="C:\Users\saurprak\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.pom"/>
+				<caller organisation="com.edifecs.epp" name="sm-codegen" conf="compile" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="com.edifecs.epp" name="manifest" conf="default, compile, runtime, master" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="0.1.0.0"/>
+				<caller organisation="com.edifecs.epp" name="content-repository-service" conf="optional, compile, runtime, runtime-internal" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="com.edifecs.epp" name="esm-api" conf="compile" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="com.edifecs.epp" name="isc-api" conf="compile" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="2.10.3"/>
+				<caller organisation="com.edifecs.epp" name="flexfields-api" conf="compile" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="default, compile, runtime, master" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="2.3.2"/>
+				<caller organisation="com.edifecs.epp" name="configuration-api" conf="compile" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="com.edifecs.epp" name="content-repository-api" conf="compile" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="com.edifecs.epp" name="content-repository-jackrabbit-api" conf="compile" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="com.edifecs.epp" name="exception" conf="compile" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="1.7.0.0-SNAPSHOT"/>
+				<caller organisation="com.edifecs.epp" name="case-class-to-map" conf="compile, runtime" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="0.1.0.0"/>
+				<caller organisation="com.eed3si9n" name="treehugger_2.10" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="0.3.0"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7126003" time="0" location="C:\Users\saurprak\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.10.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="2.10.3"/>
+				<caller organisation="com.eed3si9n" name="treehugger_2.10" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="0.3.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

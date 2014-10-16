@@ -1,0 +1,72 @@
+[
+    {
+        "heading": "Items",
+        "views": [
+            {
+                "iconCls": "transmission-object",
+                "id": "myViewId",
+                "hrefTarget": "#",
+                "text": "Myview 01"
+            },
+            {
+                "iconCls": "partner-object",
+                "id": "myViewClaimId",
+                "hrefTarget": "#",
+                "text": "My view Claim 30"
+            },
+            {
+                "iconCls": "note-object",
+                "id": "myView_12_AugId",
+                "hrefTarget": "#",
+                "text": "My view_12 Aug 2012"
+            },
+            {
+                "iconCls": "transmission-object",
+                "id": "myDeltaDentalId",
+                "hrefTarget": "#",
+                "text": "Delta Dental"
+            }
+        ]
+    },
+    {
+        "heading": "views",
+        "items": [
+            {
+                "iconCls": "transmission-object",
+                "hrefTarget": "#",
+                "id": "allMessagesId",
+                "text": "All Messages"
+            },
+            {
+                "iconCls": "partner-object",
+                "hrefTarget": "#",
+                "id": "allAlertsId",
+                "text": "All Alerts"
+            },
+            {
+                "iconCls": "note-object",
+                "hrefTarget": "#",
+                "id": "last_24_hrs_Claims_Id",
+                "text": "Last 24 hrs Claims"
+            },
+            {
+                "iconCls": "transmission-object",
+                "hrefTarget": "#",
+                "id": "partnersByDateId",
+                "text": "Partners by Date"
+            },
+            {
+                "iconCls": "transmission-object",
+                "hrefTarget": "#",
+                "id": "defaultTransmissionViewId",
+                "text": "Default Transmission View"
+            },
+            {
+                "iconCls": "transmission-object",
+                "hrefTarget": "#",
+                "id": "rolesSetupId",
+                "text": "Roles Setup"
+            }
+        ]
+    }
+]			

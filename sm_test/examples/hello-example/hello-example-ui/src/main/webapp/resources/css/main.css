@@ -1,0 +1,546 @@
+.app-header {
+    color: #222b36;
+    font-family: arial, helvetica, verdana, sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.page-header {
+    font-family: arial, helvetica, verdana, sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    font-style: normal;
+}
+
+.page-sub-header {
+    font-family: arial, helvetica, verdana, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.dashboard-header {
+    font-family: arial, helvetica, verdana, sans-serif;
+    font-size: 16px;
+}
+
+.process-header {
+    font-family: arial, helvetica, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.portlet-header {
+    font-family: arial, helvetica, verdana, sans-serif;
+    font-size: 14px;
+}
+
+.page-footer {
+    color: #817f7f;
+    text-align: right;
+}
+
+#site-loading {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: 'Segoe UI', 'Trebuchet MS', Arial, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    z-index: 9100;
+    background-color: #e5e9eb;
+    color: #375780;
+    text-align: center;
+}
+
+#site-loading img {
+    display: block;
+    width: 32px;
+    height: 32px;
+    /*padding: 16px;*/
+    margin: 25% auto 2em auto;
+}
+
+.progress-window {
+    font-family: 'Segoe UI', 'Trebuchet MS', Arial, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    background-color: #e5e9eb;
+    color: #375780;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.progress-window img {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 12px auto 24px auto;
+}
+
+.page-footer {
+    color: #817f7f;
+    text-align: right;
+}
+
+.thumb {
+    padding: 2px;
+    cursor: pointer;
+    border: 1px solid #817f7f;
+}
+
+.thumb img {
+    height: 20px;
+    width: 20px;
+}
+
+.x-item-over {
+    background: #efefef;
+}
+
+.x-item-selected {
+    border: 1px solid orange;
+
+}
+
+.taskDetailPaneHeadingGroup {
+    font-size: 10px;
+    color: #0092EF;
+}
+
+.taskDetailPaneHeading {
+    font-size: 18px;
+}
+
+.processDetailPaneHeading {
+    font-size: 18px;
+    color: #0092EF;
+    word-spacing: normal;
+    word-wrap: normal;
+    white-space: normal;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a.processDetailPaneHeading:hover {
+    text-decoration: underline;
+}
+
+.horizontalLine {
+    border-bottom: 1px dotted #817f7f;
+}
+
+.taskDescription .x-form-display-field {
+    font-size: 12px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.fieldHeader {
+    border-bottom: 1px solid #8498a8;
+    padding-bottom: 5px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.fieldContainer {
+
+}
+
+.fieldRow {
+
+}
+
+.fieldName {
+    font-size: 12px;
+    min-width: 150px;
+    color: #8498A8;
+    padding: 5px 0px;
+}
+
+.fieldValue {
+    font-size: 12px;
+    font-weight: normal;
+    color: #000000;
+    padding: 5px 0px;
+    max-width: 250px;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.deleteTask {
+    cursor: pointer;
+    display: none;
+}
+
+.taskHeader {
+    border-bottom: 1px solid #8498a8;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.taskHeading {
+    font-size: 14px;
+    float: left;
+}
+
+.processDetailHeader {
+    margin: 15px 20px 20px 20px;
+}
+
+.processDetailHeading {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.filterHeader {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+
+}
+
+.filterHeading {
+    font-size: 16px;
+    float: left;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.filterSubHeader, .filterSubHeader-top {
+
+    color: #536777;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.addSubTasks, .addFilters {
+    float: right;
+    font-size: 11px;
+    font-weight: bold;
+    color: #0092EF;
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+.no-column-border.x-column-header {
+    border-right: 0px;
+}
+
+.column-underline.x-column-header {
+    border-bottom: 1px dotted #8498a8;
+    color: #000000;
+}
+
+.no-column-padding.x-column-header-inner {
+    padding-left: 6px;
+}
+
+.attachment-link {
+    text-decoration: none;
+    color: #227bce;
+}
+
+.attachment-link:hover {
+    text-decoration: underline;
+}
+
+.linkButtons {
+    text-decoration: none;
+    color: #227bce;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.linkButtons:hover {
+    text-decoration: underline;
+}
+
+.changeButtons {
+    text-decoration: none;
+    color: #227bce;
+    font-size: 9px;
+    cursor: pointer;
+}
+
+.changeButtons:hover {
+    text-decoration: underline;
+}
+
+.menuHeading {
+    border-bottom: 1px dotted #8498a8;
+    font-size: 12px;
+    font-weight: bold;
+    color: #586471;
+    margin: 10px 5px 15px 5px;
+    padding-left: 5px;
+}
+
+.filterPanelHeading {
+    border-bottom: 1px dotted #8498a8;
+    font-size: 16px;
+}
+
+.filterFormHeadings, .filterFormHeadings-top {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.closeButton {
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.assignee, .priority, .dueDate {
+    cursor: pointer;
+}
+
+.image-holder {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.people-detail {
+    float: left;
+    padding: 5px 0px 20px 10px;
+    margin-right: 15px;
+}
+
+.people-role {
+    color: gray;
+    font-size: 10px;
+}
+
+.watch-member-tag {
+    height: 24px;
+    min-width: 80px;
+    background-color: #7f7f7f;
+    color: #ffffff;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding: 4px 6px 4px 6px;
+    float: left;
+    display: inline-block;
+}
+
+.watch-member-name {
+    font-size: 10px;
+    float: left;
+}
+
+.delete-watch-member {
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+    margin-left: 10px;
+}
+
+.item-detail {
+    padding: 10px;
+    width: 100%;
+}
+
+.item-owner-image-holder {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.item-info {
+    margin-left: 50px;
+    min-height: 50px;
+}
+
+.item-link-holder {
+    margin-bottom: 5px;
+}
+
+.item-link {
+    text-decoration: none;
+    color: #3fb7e0;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.item-link:hover {
+    text-decoration: underline;
+}
+
+.item-description {
+    font-size: 12px;
+    word-wrap: normal;
+    white-space: normal;
+    margin-bottom: 5px;
+}
+
+.item-owner {
+    color: gray;
+    font-size: 12px;
+}
+
+.eventsummary {
+    display: block;
+}
+
+.eventsummary .leftSection {
+    float: left;
+}
+
+.eventsummary .leftSection span {
+    font-size: 12px;
+    color: #8498a8;
+    margin-right: 5px;
+}
+
+.eventsummary .rightSection {
+    font-size: 12px;
+    margin-top: 15px;
+    color: #8498a8;
+}
+
+.eventsummary .rightSection span {
+    padding: 0px 5px;
+}
+
+.eventsummary .rightSection a {
+    color: #8498a8;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.eventsummary .rightSection a:hover {
+    color: #227bce;
+}
+
+.eventsummary .rightSection a.selected {
+    color: #227bce;
+    font-weight: bold;
+}
+
+.processToolbar {
+    display: block;
+}
+
+.processToolbar .rightSection {
+    font-size: 12px;
+    color: #8498a8;
+}
+
+.processToolbar .rightSection span {
+    padding: 0px 5px;
+}
+
+.processToolbar .rightSection a {
+    color: #8498a8;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.processToolbar .rightSection a:hover {
+    color: #227bce;
+}
+
+.processToolbar .rightSection a.selected {
+    color: #227bce;
+    font-weight: bold;
+}
+
+.eventHeader {
+    border-bottom: 1px solid #8498a8;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.eventHeading {
+    font-size: 11px;
+    float: left;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.eventList {
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.eventMessage {
+    font-size: 12px;
+}
+
+.eventTime {
+    font-size: 12px;
+}
+
+.toolbar-icon {
+    cursor: pointer;
+}
+
+.assignee-type {
+    float: left;
+    min-width: 26px;
+    max-width: 34px;
+    font-size: 8px;
+    padding: 2px;
+    margin-right: 5px;
+}
+
+.USER-type {
+    background-color: #507cb6;
+    color: #ffffff;
+}
+
+.GROUP-type {
+    background-color: #1c8300;
+    color: #ffffff;
+}
+
+.grid-link {
+    text-decoration: none;
+    color: #227bce;
+    cursor: pointer;
+}
+
+.grid-link:hover {
+    text-decoration: underline;
+}
+
+.info-pane-stats {
+    height: 4em;
+    overflow: hidden;
+}
+
+.info-pane-stats li {
+    display: block;
+    float: left;
+    padding: 2px 16px 2px 0px;
+    margin-right: 16px;
+    /*border-right: 1px dashed #888888;*/
+    height: 4em;
+    overflow: hidden;
+}
+
+.ips-top {
+    font-size: 14px;
+    font-weight: normal;
+    color: #000000;
+    display: block;
+}
+
+.info-pane-stats .ips-bottom {
+    font-size: 14px;
+    font-weight: normal;
+    color: #888888;
+    display: block;
+    padding: 4px 4px 4px 0px;
+}

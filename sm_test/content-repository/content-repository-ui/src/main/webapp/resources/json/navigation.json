@@ -1,0 +1,29 @@
+{
+    "navigation"    :    [
+        {
+            "id"        :    "serviceManager",
+            "icon"        :    "resources/images/app-header-icon-settings.png",
+            "text"        :    "Service Manager"
+        },
+        {
+            "id"        :    "contentRepositoryManager",
+            "icon"        :    "resources/images/app-header-icon-transactions.png",
+            "text"        :    "Content Repository"
+        },
+        {
+            "id"        :    "spacerId",
+            "text"        :    "tbspacer"
+        },
+        {
+            "id"        :    "useroptions",
+            "icon"        :   "resources/images/app-header-icon-user.png",
+            "type"      :    "subMenu",
+            "subMenu":[
+                {
+                    "text":"Logout",
+                    "id":"Logout"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+---
+manifestVersion: 1.0.0
+
+name: content-repository
+version: 1.0.0.0
+displayName: Content Repository
+displayVersion: 1.5.0.0
+description: This is the content repository for storage of system and user data.
+
+physicalComponents:
+  - name: content-repository-service
+    version: 1.0.0.0
+    displayName: Content Repository Service
+    description: This is the main Content Repository Service
+    type: docker
+    scheduling:
+      imageUri: SERVICE
+      classname: com.edifecs.contentrepository.service.ContentRepositoryService
+      scheduler: service
+
+    properties:
+      - name: Path
+        description: Custom path to the location of the Content Repository data. If Null, it will use the default location
+        scope: Serice
+        constraint:
+          dataType: string
+          validationMessage: Invalid path defined
+...

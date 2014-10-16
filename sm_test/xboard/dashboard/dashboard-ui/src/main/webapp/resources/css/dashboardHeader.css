@@ -1,0 +1,46 @@
+
+.headingmenu{
+    border:0px!important;
+}
+
+.headingmenu .x-menu-item{
+    color: #5D7385;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 8px 11px 8px 11px;
+    margin: 2px 2px 2px 2px;
+}
+
+.headingmenu .x-menu-item-active{
+    color:#000;
+}
+
+.headingmenu .x-menu-item-separator{
+    padding: 0px!important;
+}
+
+.headingmenu .x-menu-item-link{
+    line-height: 12px!important;
+    padding: 0px 0px 0px 12px;
+}
+
+.headingmenu .x-menu-item-link .x-menu-item-text
+{
+    font-size: 11px!important;
+    font-weight: bold!important;
+    color: #247CDF!important;
+}
+
+.headingmenu .x-menu-item-icon{
+    background-position: -192px -47px!important;
+}
+
+.x-btn-move-down-right
+{
+    background-color: transparent;
+    background-image: url("../images/arrow-bottom.png") !important;
+    background-position: right 8px;
+    background-repeat: no-repeat;
+    padding-right: 20px;
+}

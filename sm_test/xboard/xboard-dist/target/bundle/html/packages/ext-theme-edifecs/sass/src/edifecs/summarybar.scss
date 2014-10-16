@@ -1,0 +1,35 @@
+.icon {
+    width: 16px;
+    height: 16px;
+}
+
+.info-pane-stats {
+    height: 4em;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.info-pane-stats li {
+    display: block;
+    float: left;
+    padding: 0px 15px 0px 0px;
+    border-left: 1px dotted #CAD4DD;
+    height: 3em;
+    overflow: hidden;
+}
+
+.info-pane-stats .ips-top {
+    color: #8593A0;
+    display: block;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.info-pane-stats .ips-bottom {
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 3px 0;
+}

@@ -1,0 +1,232 @@
+[
+    {
+        "id": "transactionId",
+        "active":true,
+        "name": "Transaction Managenemt",
+        "taskheading": "tasks",
+        "icon": "../packages/ext-theme-edifecs/build/resources/images/edifecs-components/doormat/tm.png",
+        "menu": [
+            {
+                "columnOne": [
+                    {
+                        "text": "Transmissions"
+                    },
+                    {
+                        "text": "Interchanges"
+                    },
+                    {
+                        "text": "Functional Groups"
+                    },
+                    {
+                        "text": "Claim Batches"
+                    },
+                    {
+                        "text": ""
+                    },
+                    {
+                        "text": "Interchange Acks"
+                    },
+                    {
+                        "text": "Implementation Acks"
+                    },
+                    {
+                        "text": "Claim Acks"
+                    }
+                ]
+            },
+            {
+                "columnTwo": [
+                    {
+                        "text": "Claims"
+                    },
+                    {
+                        "text": "Claim Payments"
+                    },
+                    {
+                        "text": "Claim Status",
+                        "subMenu": [
+                            {
+                                "text": "Request"
+                            },
+                            {
+                                "text": "Response"
+                            },
+                            {
+                                "text": "Batches"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Eligibility Benefit",
+                        "subMenu": [
+                            {
+                                "text": "Requests"
+                            },
+                            {
+                                "text": "Responses"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Service Review",
+                        "subMenu": [
+                            {
+                                "text": "Request"
+                            },
+                            {
+                                "text": "Responses"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Premium Payments"
+                    },
+                    {
+                        "text": "Member Maintainance"
+                    }
+                ]
+            }
+        ],
+        "tasks": [
+            {
+                "text": "Upload a file"
+            },
+            {
+                "text": "Add Partner"
+            },
+            {
+                "text": "Add Contact"
+            },
+            {
+                "text": "Import Contacts"
+            },
+            {
+                "text": "Create Message"
+            }
+        ]
+    },
+    {
+        "id": "partnerId",
+        "name": "Trading Partner Management",
+        "taskheading": "tasks",
+        "icon": "../packages/ext-theme-edifecs/build/resources/images/edifecs-components/doormat/tpm.png",
+        "menu": [
+            {
+                "columnOne": [
+                    {
+                        "text": "Partners"
+                    },
+                    {
+                        "text": "EDI Enrollments"
+                    },
+                    {
+                        "text": "Contacts"
+                    },
+                    {
+                        "text": "Relationships"
+                    },
+                    {
+                        "text": "Agreements"
+                    }
+                ]
+            }
+        ],
+        "tasks": [
+            {
+                "text": "Add Partner"
+            },
+            {
+                "text": "Add Contact"
+            },
+            {
+                "text": "Import Contacts"
+            },
+            {
+                "text": "Create Message"
+            }
+        ]
+    },
+    {
+        "id": "settingId",
+        "name": "Settings",
+        "taskheading": "tasks",
+        "icon": "../packages/ext-theme-edifecs/build/resources/images/edifecs-components/doormat/settings.png",
+        "menu": [
+            {
+                "columnOne": [
+                    {
+                        "text": "Roles and Permissions"
+                    },
+                    {
+                        "text": "Community Settings"
+                    },
+                    {
+                        "text": "Business Rules"
+                    },
+                    {
+                        "text": "Custom Fields"
+                    },
+                    {
+                        "text": "Audit Report"
+                    }
+                ]
+            },
+            {
+                "columnTwo": [
+                    {
+                        "text": "Configure Business Roles"
+                    },
+                    {
+                        "text": "Configure Identifier Definitions"
+                    },
+                    {
+                        "text": "Agreements"
+                    },
+                    {
+                        "text": "Manage Transaction Centers"
+                    }
+                ]
+            }
+        ],
+        "tasks": [
+            {
+                "text": "Create Role"
+            },
+            {
+                "text": "Create User"
+            },
+            {
+                "text": "Create Agreement"
+            },
+            {
+                "text": "Create Custom Field"
+            }
+        ]
+    },
+    {
+        "id": "aboutId",
+        "type":"aboutProduct",
+        "name": "about",
+        "icon": "../packages/ext-theme-edifecs/build/resources/images/edifecs-components/doormat/about.png",
+        "taskheading": "see also",
+        "menu": [
+            {
+                "text": "Edifecs&reg; Transaction Management&trade; and Edifecs&reg; Trading Partner Management&trade; Version 9.0<br/>&copy; 2013 Edifecs, Inc. All rights reserved.<br/><br/>This software is protected by copyright law and interational treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under the law.<br/><br/>Product is Licenced to BCBS Bellevue&reg;",
+                "image":"./resources/images/Logo-About.png",
+                "linkName":"www.edifecs.com",
+                "linkUrl":"http://www.edifecs.com"
+            }
+        ],
+        "tasks": [
+            {
+                "text": "Support"
+            },
+            {
+                "text": "Contact us"
+            },
+            {
+                "text": "Other products"
+            }
+        ]
+    }
+]

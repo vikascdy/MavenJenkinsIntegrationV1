@@ -1,0 +1,34 @@
+body
+{
+    color:#929FAA;
+    font-size: 12px;
+    padding: 20px;
+}
+
+.icon16{height:16px;margin-left: 10px;margin-top: 5px;width: 16px;}
+
+ul{margin: 0px;padding: 0px;}
+ul li{margin: 0px;padding: 0px;list-style-type: none;font-size: 11px;font-style: italic;padding-bottom: 2px;}
+ul li.normal{color:#5D7385;}
+ul li.hover{color:#2C3941;}
+ul li.pressed{color:#2C3941;}
+ul li.disabled{color:#C3CCD3;}
+
+.spritesIcon16
+{
+    background: url('../images/edifecs-components/background-for-sprites.png') repeat scroll center center transparent;height: 65px;padding:0px;width: 577px;
+}
+.spritesIconWhite16
+{
+    background: url('../images/edifecs-components/background-white-sprites.png') repeat scroll center center transparent;height: 65px;padding:0px;width: 577px;
+}
+.spriteSection{
+    font-size: 12px;padding: 20px 0px 40px 0px;
+}
+.spriteSection td.heading{color:#929FAA;}
+.spriteSection td.headingDetail{color:#5C5C5C;padding-left: 20px;font-weight: bold;}
+
+.spritesStatusObject16
+{
+    background: url('../images/edifecs-components/background-for-sprites.png') repeat scroll center center transparent;height: 90px;padding: 15px;width: 577px;
+}

@@ -1,0 +1,96 @@
+ -----
+ Metric Module Usage
+ -----
+ William Clements
+ -----
+ 2/12/2014
+ -----
+ 
+Metric Module Usage
+
+  To expose a metric to be collected (that is not already collected) there are a couple ways:
+  
+    * Annotation Driven
+    
+    * API to register attributes or methods to be monitored
+ 
+*Metric API 
+
+  CodaHale is used to provide the metric collection with an extension to solve our specific needs.
+
+**Metric Collection 
+
+  Metric will be collected at command level under service. Following metrics will be used: 
+
+  [[1]] Gauge 
+
+  [[2]] Meter 
+
+  [[3]] Counters 
+
+  [[4]] Timer 
+
+  [[5]] Histogram 
+
+***Metric Collection Annotations
+
+  Following annotated will be required to enable annotation at commands in service.
+
++--------------------------------+
+  @Metered (name = "meter1") 
+
+  @Timed (name = "timer1") 
+
+  @ExceptionMetered 
+
+  @Gauge (name = "gauge1") 
+
+  @Histogram 
+
+  @Counted 
++--------------------------------+
+
+  Example Usage:
+
++--------------------------------+
+  <TODO: Implement Example Usage>
++--------------------------------+
+
+***Metric Collection Through API
+
+  The majority of metrics cannot be collected VIA annotations easily without putting in a lot of overhead. For ad-hock style metric collection the java API can be used.
+
+  Initialization of metric repository:
+
++--------------------------------+
+IMetric metricAPIInstance = new CodahaleMetricImpl();
+File dataDirectory = new File(FileUtils.getTempDirectoryPath());
+IMetricReporter reporter = new CSVMetricReporter(1, TimeUnit.SECONDS, dataDirectory);
+metricAPIInstance.configureReporter(reporter);
++--------------------------------+
+
+  Example collection of a metric:
+
++--------------------------------+
+String metricName = "test_counter_inc";
+metricAPIInstance.registerMetric(SupportedMetrics.COUNTER, metricName); // Optional Step, the metric will be auto created if not already found
+metricAPIInstance.performOperation(metricName, SupportedMetricOperations.INC);
++--------------------------------+
+
++--------------------------------+
+String metricName = "test.meter";
+metricAPIInstance.registerMetric(SupportedMetrics.METER, metricName); // optional
+metricAPIInstance.performOperation(metricName, SupportedMetricOperations.MARK);
+metricAPIInstance.performOperation(metricName, SupportedMetricOperations.MARK);
+metricAPIInstance.performOperation(metricName, SupportedMetricOperations.MARK);
++--------------------------------+
+
+***Using a Metric within the context of a Service
+
+  Within the context of a service, the initialization of the Metric repositories are already configured and ready to use.
+
+  Example:
+
++--------------------------------+
+  <TODO: Implement Example Usage>
++--------------------------------+

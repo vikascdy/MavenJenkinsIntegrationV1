@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DeploymentConfiguration xsi:noNamespaceSchemaLocation="Configuration.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Cluster>
+        <Server>
+            <Description></Description>
+            <HostName>localhost</HostName>
+            <IPAddress>127.0.0.1</IPAddress>
+            <Node>
+                <Name>discussion-forum-node-1</Name>
+                <Service>
+                    <Name>discussion-forum-service-1</Name>
+                    <ServiceType>discussion-forum-service</ServiceType>
+                    <Version>1.0.0.0</Version>
+                    <Property>
+                        <Name>DiscussionForum</Name>
+                        <Value>Hello World!</Value>
+                    </Property>
+                </Service>
+            </Node>
+        </Server>
+    </Cluster>
+</DeploymentConfiguration>

@@ -1,0 +1,15 @@
+/* Grid Component */
+.cellColor .x-grid-row .x-grid-cell-inner {color:#222B36;}
+.gridHeading
+{
+    color: #2C3941 !important;
+    font-size: 14px !important;
+    font-weight: bold;
+    padding-top: 4px !important;
+}
+.deleteCell{padding-top:5px;display:none;}
+.x-nlg .topBar .x-toolbar-default{background-image:none !important;background-color:#F1F3F5;}
+.gridPanel{padding:0px;border-radius:2px;background:#FFF;}
+.editRowCls{margin-right:10px;margin-top:2px;}
+.iconCls{margin-right:10px;margin-top:2px;}
+/* Grid Component */

@@ -1,0 +1,52 @@
+<DeploymentConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Configuration.xsd">
+
+	<CreatedDate>2014-07-19</CreatedDate>
+	<Version>0.0.1</Version>
+	<MetadataVersion>0.0.1</MetadataVersion>
+	<Name>Main Configuration</Name>
+	<Description>Development Deployment Configuration</Description>
+
+	<Cluster>
+		<Name>DevelopmentCluster</Name>
+		<EnvironmentType>TEST</EnvironmentType>
+		<Server>
+			<Name>default</Name>
+			<IPAddress>127.0.0.1</IPAddress>
+			<HostName>localhost</HostName>
+
+			<Node>
+				<Name>DF</Name>
+
+				<JVMOptions>
+					<Property>
+						<Value>-Xms1024M</Value>
+					</Property>
+					<Property>
+						<Value>-Xmx1024M</Value>
+					</Property>
+				</JVMOptions>
+
+				<Service>
+                    <!-- Unique identifiable name for this instance of the service in the cluster -->
+                    <Name>Discussion Forum Service 1</Name>
+
+                    <!-- Service type and version identifies in the MANIFEST.yaml file and the service annotations -->
+                    <ServiceType>discussion-forum-service</ServiceType>
+                    <Version>1.0</Version>
+
+
+                    <Description>This is a sample configuration of the Discussion Forum Service</Description>
+
+                    <!-- The values of the property configurations defined for the service -->
+                    <Property>
+                        <Name>name</Name>
+                        <Value>Bob</Value>
+                    </Property>
+
+                </Service>
+
+			</Node>
+		</Server>
+	</Cluster>
+</DeploymentConfiguration>

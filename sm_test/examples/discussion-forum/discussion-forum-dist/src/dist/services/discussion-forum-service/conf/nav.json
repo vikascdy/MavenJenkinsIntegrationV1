@@ -1,0 +1,13 @@
+{
+    "service": "DiscussionForum",
+    "id":      "DiscussionForum",
+    "name":    "DiscussionForum",
+    "iconUrl": "/discussion-forum-ui/resources/images/discussionforum.png",
+    "columnOne": [{
+        namespace: "app",
+        id:             "7-manageapp",
+        text:           "Discussion Forum",
+        linkUrl:        "/discussion-forum-ui",
+        permission: "platform:security:administrative:user:view"
+    }]
+}

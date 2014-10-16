@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.5">
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\.sencha\workspace\plugin.xml">
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\.sencha\workspace\sencha.cfg">
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\app\controller\PortalController.js">
+<error line="2" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\app\util\Functions.js">
+<error line="440" column="42" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\app\util\Log.js">
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\app\util\TenantManager.js">
+<error line="7" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\app\util\UserManager.js">
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\app\view\About.js">
+<error line="2" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\app\view\LandingPage.js">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="11" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\app\view\Portal.js">
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\app\view\Samples.js">
+<error line="2" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\app.js">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="31" column="5" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\edifecs-plugins\ApplicationBar.js">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\edifecs-plugins\CustomButtonGroup.js">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\edifecs-plugins\CustomMultiSelect.js">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\edifecs-plugins\DoormatApplicationBar.js">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="20" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\edifecs-plugins\DoormatNavigation.js">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\edifecs-plugins\Favourites.js">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="2" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\edifecs-plugins\FormGenerator.js">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="846" column="7" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\edifecs-plugins\LeftMenu.js">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="98" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\edifecs-plugins\MiniGrid.js">
+<error line="9" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\edifecs-plugins\Multi-Select.js">
+<error line="163" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\edifecs-plugins\MultiSelect.js">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\edifecs-plugins\Notifications.js">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\edifecs-plugins\SummaryBar.js">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="68" column="38" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\edifecs-plugins\ToolTip.js">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\edifecs-plugins\TriStateTree.js">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\edifecs-plugins\WidgetUtils.js">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\ext\bootstrap.js">
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\ext\build.xml">
+</file>
+<file name="D:\SM1\sm\xboard\xboard-ui\src\main\webapp\ext\builds\ext-all-rtl-sandbox-debu

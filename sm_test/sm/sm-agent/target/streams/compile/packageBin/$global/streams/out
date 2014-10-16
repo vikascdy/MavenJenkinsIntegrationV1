@@ -1,0 +1,31 @@
+[0m[[0minfo[0m] [0mPackaging D:\SM1\sm\sm\sm-agent\target\sm-agent-1.7.0.0-SNAPSHOT.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	com\edifecs\servicemanager\agent\NodeLauncherThread.class[0m
+[0m[[0mdebug[0m] [0m	  D:\SM1\sm\sm\sm-agent\target\classes\com\edifecs\servicemanager\agent\NodeLauncherThread.class[0m
+[0m[[0mdebug[0m] [0m	com\edifecs\servicemanager\agent[0m
+[0m[[0mdebug[0m] [0m	  D:\SM1\sm\sm\sm-agent\target\classes\com\edifecs\servicemanager\agent[0m
+[0m[[0mdebug[0m] [0m	com\edifecs\servicemanager\agent\AgentLauncher.class[0m
+[0m[[0mdebug[0m] [0m	  D:\SM1\sm\sm\sm-agent\target\classes\com\edifecs\servicemanager\agent\AgentLauncher.class[0m
+[0m[[0mdebug[0m] [0m	com\edifecs\servicemanager\agent\AgentService.class[0m
+[0m[[0mdebug[0m] [0m	  D:\SM1\sm\sm\sm-agent\target\classes\com\edifecs\servicemanager\agent\AgentService.class[0m
+[0m[[0mdebug[0m] [0m	com\edifecs\servicemanager\agent\exception\InvalidCoreConfigurationException.class[0m
+[0m[[0mdebug[0m] [0m	  D:\SM1\sm\sm\sm-agent\target\classes\com\edifecs\servicemanager\agent\exception\InvalidCoreConfigurationException.class[0m
+[0m[[0mdebug[0m] [0m	com\edifecs\servicemanager[0m
+[0m[[0mdebug[0m] [0m	  D:\SM1\sm\sm\sm-agent\target\classes\com\edifecs\servicemanager[0m
+[0m[[0mdebug[0m] [0m	com\edifecs\servicemanager\agent\StreamGobbler.class[0m
+[0m[[0mdebug[0m] [0m	  D:\SM1\sm\sm\sm-agent\target\classes\com\edifecs\servicemanager\agent\StreamGobbler.class[0m
+[0m[[0mdebug[0m] [0m	com\edifecs\servicemanager\agent\exception\AgentStartupException.class[0m
+[0m[[0mdebug[0m] [0m	  D:\SM1\sm\sm\sm-agent\target\classes\com\edifecs\servicemanager\agent\exception\AgentStartupException.class[0m
+[0m[[0mdebug[0m] [0m	com\edifecs\servicemanager\agent\IAgentCommandHandler.class[0m
+[0m[[0mdebug[0m] [0m	  D:\SM1\sm\sm\sm-agent\target\classes\com\edifecs\servicemanager\agent\IAgentCommandHandler.class[0m
+[0m[[0mdebug[0m] [0m	com[0m
+[0m[[0mdebug[0m] [0m	  D:\SM1\sm\sm\sm-agent\target\classes\com[0m
+[0m[[0mdebug[0m] [0m	com\edifecs\servicemanager\agent\exception[0m
+[0m[[0mdebug[0m] [0m	  D:\SM1\sm\sm\sm-agent\target\classes\com\edifecs\servicemanager\agent\exception[0m
+[0m[[0mdebug[0m] [0m	com\edifecs\servicemanager\agent\AgentLauncher$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\SM1\sm\sm\sm-agent\target\classes\com\edifecs\servicemanager\agent\AgentLauncher$1.class[0m
+[0m[[0mdebug[0m] [0m	com\edifecs[0m
+[0m[[0mdebug[0m] [0m	  D:\SM1\sm\sm\sm-agent\target\classes\com\edifecs[0m
+[0m[[0mdebug[0m] [0m	com\edifecs\servicemanager\agent\AgentCommandHandler.class[0m
+[0m[[0mdebug[0m] [0m	  D:\SM1\sm\sm\sm-agent\target\classes\com\edifecs\servicemanager\agent\AgentCommandHandler.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

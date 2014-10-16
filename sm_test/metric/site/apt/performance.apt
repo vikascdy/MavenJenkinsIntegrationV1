@@ -1,0 +1,76 @@
+ -----
+ Metric Performance Analysis
+ -----
+ Sandeep Kath
+ -----
+ 3/07/2014
+ -----
+
+Metric API Performance
+
+ Metric Module Performance analysis is done to understand the impact of adding them at the method level.
+
+ <<Tool used: Google Caliper as Micro Benchmark>>
+
+ <<Scenario #1>>
+
+  * Metric: Meter
+
+  * Operation: mark()
+
+  * Operation is get sum of 10 random number.
+
+  * No reporter is used
+
+[./image/metric_api_runtime_comparison1.png]
+
+ <<Observations:>>
+   There is performance impact of ~55 ns to record the mark for the same operation.
+
+
+ <<Scenario #2>>
+
+  * Metric: Meter
+
+  * Operation: mark()
+
+  * Operation is get sum of 10 random number.
+
+  * CSV Reporter is used with start delay of 1 sec, 5 sec
+
+ <<Observations:>>
+
+  * There is no major impact as of CSV Reporter on bookmarked metered function.
+
+  * Metric registration has no impact, if we do not use it meter.mark() will automatically does it.
+
+
+ <<Scenario #3>>
+
+  * Run Meter, Counter and Timer metric and compare with non-metric call
+
+  * No CSV Reporter
+
+[./image/metric_api_runtime_comparison2.png]
+
+ <<Observations>>
+
+  * Timer is slow as expected because it calls System.nanoTime two times at beginning and end of each call.
+
+  * Counter and Meter are faster as compared to timer. Counter takes less time as compared to Meter
+
+ <<Scenario #4>>
+
+  * Execute the benchmark with 10, 100 and 1000 meter metrics in one operation as hypothetical case.
+
+  * No CSV Reporter
+
+[./image/metric_api_runtime_linear_growth.png]
+
+[./image/metric_api_runtime_comparison3.png]
+
+ <<Observations>>
+
+  * There is linear growth to runtime as we grow with number of metrics in the method.
+
+  * There is less impact of adding metric API to existing code.

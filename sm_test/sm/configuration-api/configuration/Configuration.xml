@@ -1,0 +1,80 @@
+<DeploymentConfiguration>
+	<CreatedDate>2012-02-24</CreatedDate>
+	<Version>0.0.1</Version>
+	<MetadataVersion>0.0.1</MetadataVersion>
+	<Description>Development Deployment Configuration</Description>
+	<Cluster>
+		<Name>Cluster1</Name>
+		<EnvironmentType>TEST</EnvironmentType>
+		<Server>
+			<Name>localhost</Name>
+			<IPAddress>127.0.0.1</IPAddress>
+			<ServerName>localhost</ServerName>
+			<Node>
+				<Name>Node1</Name>
+				<CommunicationPort>8181</CommunicationPort>
+				<JVMOptions>
+					<Property><Value>C:\Program Files\Java\jdk1.7.0_01\jre\bin\java</Value></Property>
+					<Property><Value>-cp</Value></Property>
+					<Property><Value>C:\Development\Edifecs\edifecs-installer\installer-dist\src\platform\lib\installer-commons-cl.jar;C:\Development\Edifecs\edifecs-installer\installer-dist\src\platform\lib\bootstrap;C:\Development\Edifecs\edifecs-installer\installer-dist\src\features\core\lib\system;C:\Development\Edifecs\edifecs-installer\installer-dist\src\platform\lib.user\jdbc</Value></Property>
+					<Property><Value>-Djava.ext.dirs=C:\Program Files\Java\jdk1.7.0_01\jre\lib\ext;C:\Development\Edifecs\edifecs-installer\installer-dist\src\features\core\lib\ext</Value></Property>
+					<Property><Value>-Djava.endorsed.dirs=C:\Program Files\Java\jdk1.7.0_01\jre\lib\endorsed</Value></Property>
+					<Property><Value>-Djava.system.class.loader=com.edifecs.agent.shared.classloader.XESClassLoader</Value></Property>
+					<Property><Value>-Xmx512M</Value></Property>
+					<Property><Value>-XX:PermSize=128m</Value></Property>
+					<Property><Value>-XX:MaxPermSize=256m</Value></Property>
+					<Property><Value>-Xrs</Value></Property>
+					<Property><Value>-Dcom.edifecs.xeserver.startup.timeout.sec=60</Value></Property>
+					<Property><Value>-Djava.io.tmpdir=C:/Development/Edifecs/edifecs-installer/installer-dist/src/profiles/TestProfile/workspace/temp</Value></Property>
+					<Property><Value>-Djavax.net.ssl.trustStore=C:/Development/Edifecs/edifecs-installer/installer-dist/src/platform/security/KeyringClient.jks</Value></Property>
+					<Property><Value>-Djavax.net.ssl.trustStorePassword=password</Value></Property>
+					<Property><Value>-Djavax.net.ssl.keyStore=C:/Development/Edifecs/edifecs-installer/installer-dist/src/platform/security/KeyringClient.jks</Value></Property>
+					<Property><Value>-Djavax.net.ssl.keyStorePassword=password</Value></Property>
+					<Property><Value>-Dosgi.console.command.visible.regex=(xes:.*)|(ssh:.*)|(felix:.*)</Value></Property>
+				</JVMOptions>
+				<Service>
+					<Name>installer-ui-service1</Name>
+					<ServiceName>installer-ui-service</ServiceName>
+					<Version>1.0</Version>
+					<Property>
+						<Name>JGroups Name</Name>
+						<Value>InstallerUI</Value>
+					</Property>
+					<Resources>
+						<Database>
+							<Name>TestResource</Name>
+						</Database>
+					</Resources>
+				</Service>
+			</Node>
+		</Server>
+		<Resource>
+			<Name>TestResource</Name>
+			<Type>Database</Type>
+			<Property>
+				<Name>Server</Name>
+				<Value>localhost</Value>
+			</Property>
+			<Property>
+				<Name>Database Name</Name>
+				<Value>TestDatabase</Value>
+			</Property>
+			<Property>
+				<Name>Username</Name>
+				<Value>sa</Value>
+			</Property>
+			<Property>
+				<Name>Password</Name>
+				<Value>password</Value>
+			</Property>
+			<Property>
+				<Name>Port</Name>
+				<Value>1433</Value>
+			</Property>
+			<Property>
+				<Name>Database Type</Name>
+				<Value>SQLServer</Value>
+			</Property>
+		</Resource>		
+	</Cluster>
+</DeploymentConfiguration>

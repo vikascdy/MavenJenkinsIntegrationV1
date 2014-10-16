@@ -1,0 +1,18 @@
+/**
+ * @class Ext.form.FieldSet
+ */
+
+$fieldset-header-font-size: 12px !default;
+$fieldset-header-font-weight: normal !default;
+$fieldset-header-font-family: $font-family !default;
+$fieldset-header-font: $fieldset-header-font-size $fieldset-header-font-weight $fieldset-header-font-family !default;
+$fieldset-header-color: #3E464C !default;
+$fieldset-header-line-height : 14px !default;
+$fieldset-padding: 10px !default;
+$fieldset-header-padding: 0 3px 1px !default;
+$fieldset-collapse-tool-margin: 3px 3px 0px 0px !default;
+
+$fieldset-border-width: 1px !default;
+$fieldset-border-style: solid !default;
+$fieldset-border-color: #E7EBF0 !default;
+$fieldset-border: $fieldset-border-width $fieldset-border-style $fieldset-border-color !default;

@@ -1,0 +1,45 @@
+// GENERATED SOURCE FILE - DO NOT MODIFY
+// ---
+// This proxy class is generated automatically during the build process based
+// on the annotations in another source file. Any changes will be overwritten the
+// next time the project is built.
+// ---
+package com.edifecs.epp.security.handler.rest
+
+import com.edifecs.epp.isc.Args
+
+class __GeneratedProxy__IRoleHandler(isc: com.edifecs.epp.isc.Isc, serviceTypeName: java.lang.String) extends IRoleHandler {
+  def address = isc.getAddressRegistry.getAddressForServiceTypeName(serviceTypeName)
+  override def get($arg0: java.lang.String) = throw new java.lang.UnsupportedOperationException("This method cannot be accessed remotely.")
+  override def put($arg0: java.lang.String, $arg1: com.edifecs.epp.security.data.Role) = throw new java.lang.UnsupportedOperationException("This method cannot be accessed remotely.")
+  override def list($arg0: com.edifecs.epp.isc.core.command.Pagination) = throw new java.lang.UnsupportedOperationException("This method cannot be accessed remotely.")
+  override def delete($arg0: java.lang.String) = throw new java.lang.UnsupportedOperationException("This method cannot be accessed remotely.")
+  override def post($arg0: com.edifecs.epp.security.data.Role) = throw new java.lang.UnsupportedOperationException("This method cannot be accessed remotely.")
+  override def addRoleToUser(role: com.edifecs.epp.security.data.Role, user: com.edifecs.epp.security.data.User) = isc.sendSync(address, "role.addRoleToUser", Map[String, java.io.Serializable](("role", role), ("user", user)))
+  override def deleteRoles(ids: java.util.ArrayList[java.lang.Long]) = isc.sendSync(address, "role.deleteRoles", Map[String, java.io.Serializable](("ids", ids))).asInstanceOf[Boolean]
+  override def getRoleById(id: java.lang.Long) = isc.sendSync(address, "role.getRoleById", Map[String, java.io.Serializable](("id", id))).asInstanceOf[com.edifecs.epp.security.data.Role]
+  override def getRoles(startRecord: Long, recordCount: Long) = isc.sendSync(address, "role.getRoles", Map[String, java.io.Serializable](("startRecord", startRecord), ("recordCount", recordCount))).asInstanceOf[com.edifecs.epp.security.data.PaginatedList[com.edifecs.epp.security.data.Role]]
+  override def updateRole(role: com.edifecs.epp.security.data.Role) = isc.sendSync(address, "role.updateRole", Map[String, java.io.Serializable](("role", role))).asInstanceOf[com.edifecs.epp.security.data.Role]
+  override def deleteRole(id: java.lang.Long) = isc.sendSync(address, "role.deleteRole", Map[String, java.io.Serializable](("id", id))).asInstanceOf[Boolean]
+  override def createRole(role: com.edifecs.epp.security.data.Role) = isc.sendSync(address, "role.createRole", Map[String, java.io.Serializable](("role", role))).asInstanceOf[com.edifecs.epp.security.data.Role]
+  override def removeRoleFromGroup(role: com.edifecs.epp.security.data.Role, group: com.edifecs.epp.security.data.UserGroup) = isc.sendSync(address, "role.removeRoleFromGroup", Map[String, java.io.Serializable](("role", role), ("group", group)))
+  override def getRolesForGroup(groupId: java.lang.Long, startRecord: Long, recordCount: Long) = isc.sendSync(address, "role.getRolesForGroup", Map[String, java.io.Serializable](("groupId", groupId), ("startRecord", startRecord), ("recordCount", recordCount))).asInstanceOf[java.util.Collection[com.edifecs.epp.security.data.Role]]
+  override def removeRolesFromUser(roles: java.util.ArrayList[com.edifecs.epp.security.data.Role], user: com.edifecs.epp.security.data.User) = isc.sendSync(address, "role.removeRolesFromUser", Map[String, java.io.Serializable](("roles", roles), ("user", user)))
+  override def addRolesToUser(roles: java.util.ArrayList[com.edifecs.epp.security.data.Role], user: com.edifecs.epp.security.data.User) = isc.sendSync(address, "role.addRolesToUser", Map[String, java.io.Serializable](("roles", roles), ("user", user)))
+  override def removeChildRolesFromRole(roles: java.util.ArrayList[com.edifecs.epp.security.data.Role], parentRole: com.edifecs.epp.security.data.Role) = isc.sendSync(address, "role.removeChildRolesFromRole", Map[String, java.io.Serializable](("roles", roles), ("parentRole", parentRole)))
+  override def addChildRolesToRole(roles: java.util.ArrayList[com.edifecs.epp.security.data.Role], parentRole: com.edifecs.epp.security.data.Role) = isc.sendSync(address, "role.addChildRolesToRole", Map[String, java.io.Serializable](("roles", roles), ("parentRole", parentRole)))
+  override def addChildRoleToRole(role: com.edifecs.epp.security.data.Role, parentRole: com.edifecs.epp.security.data.Role) = isc.sendSync(address, "role.addChildRoleToRole", Map[String, java.io.Serializable](("role", role), ("parentRole", parentRole)))
+  override def createRoleForTenant(tenant: com.edifecs.epp.security.data.Tenant, role: com.edifecs.epp.security.data.Role) = isc.sendSync(address, "role.createRoleForTenant", Map[String, java.io.Serializable](("tenant", tenant), ("role", role))).asInstanceOf[com.edifecs.epp.security.data.Role]
+  override def getRolesForTenant(id: java.lang.Long, startRecord: Long, recordCount: Long) = isc.sendSync(address, "role.getRolesForTenant", Map[String, java.io.Serializable](("id", id), ("startRecord", startRecord), ("recordCount", recordCount))).asInstanceOf[com.edifecs.epp.security.data.PaginatedList[com.edifecs.epp.security.data.Role]]
+  override def getRolesForOrganization(organizationId: java.lang.Long, startRecord: Long, recordCount: Long) = isc.sendSync(address, "role.getRolesForOrganization", Map[String, java.io.Serializable](("organizationId", organizationId), ("startRecord", startRecord), ("recordCount", recordCount))).asInstanceOf[com.edifecs.epp.security.data.PaginatedList[com.edifecs.epp.security.data.Role]]
+  override def getRoleByRoleName(roleName: java.lang.String) = isc.sendSync(address, "role.getRoleByRoleName", Map[String, java.io.Serializable](("roleName", roleName))).asInstanceOf[com.edifecs.epp.security.data.Role]
+  override def importRoleFromJson(inputStream: java.io.InputStream) = isc.sendSync(address, "role.importRoleFromJson", Map[String, java.io.Serializable](("inputStream", com.edifecs.epp.isc.stream.MessageStream.fromInputStream(inputStream)))).asInstanceOf[java.lang.String]
+  override def validateImportRoles(inputStream: java.io.InputStream) = isc.sendSync(address, "role.validateImportRoles", Map[String, java.io.Serializable](("inputStream", com.edifecs.epp.isc.stream.MessageStream.fromInputStream(inputStream)))).asInstanceOf[java.lang.String]
+  override def removeRolesFromGroup(roles: java.util.ArrayList[com.edifecs.epp.security.data.Role], group: com.edifecs.epp.security.data.UserGroup) = isc.sendSync(address, "role.removeRolesFromGroup", Map[String, java.io.Serializable](("roles", roles), ("group", group)))
+  override def addRolesToGroup(roles: java.util.ArrayList[com.edifecs.epp.security.data.Role], group: com.edifecs.epp.security.data.UserGroup) = isc.sendSync(address, "role.addRolesToGroup", Map[String, java.io.Serializable](("roles", roles), ("group", group)))
+  override def addRoleToGroup(role: com.edifecs.epp.security.data.Role, group: com.edifecs.epp.security.data.UserGroup) = isc.sendSync(address, "role.addRoleToGroup", Map[String, java.io.Serializable](("role", role), ("group", group)))
+  override def getChildRolesForRole(role: com.edifecs.epp.security.data.Role, startRecord: Long, recordCount: Long) = isc.sendSync(address, "role.getChildRolesForRole", Map[String, java.io.Serializable](("role", role), ("startRecord", startRecord), ("recordCount", recordCount))).asInstanceOf[com.edifecs.epp.security.data.PaginatedList[com.edifecs.epp.security.data.Role]]
+  override def getRolesForUser(userId: Long, startRecord: Long, recordCount: Long) = isc.sendSync(address, "role.getRolesForUser", Map[String, java.io.Serializable](("userId", userId), ("startRecord", startRecord), ("recordCount", recordCount))).asInstanceOf[com.edifecs.epp.security.data.PaginatedList[com.edifecs.epp.security.data.Role]]
+  override def removeRoleFromUser(role: com.edifecs.epp.security.data.Role, user: com.edifecs.epp.security.data.User) = isc.sendSync(address, "role.removeRoleFromUser", Map[String, java.io.Serializable](("role", role), ("user", user)))
+  override def restCommand($2dx$2drest$2dmethod: java.lang.String, $2dx$2durl$2dsuffix: java.lang.String, $2dx$2drequest$2dbody: com.edifecs.epp.isc.json.JsonArg, page: java.lang.Long, start: java.lang.Long, limit: java.lang.Long, query: java.lang.String, sort: java.lang.String, filter: java.lang.String) = isc.sendSync(address, "role", Map[String, java.io.Serializable](("-x-rest-method", $2dx$2drest$2dmethod), ("-x-url-suffix", $2dx$2durl$2dsuffix), ("-x-request-body", $2dx$2drequest$2dbody), ("page", page), ("start", start), ("limit", limit), ("query", query), ("sort", sort), ("filter", filter))).asInstanceOf[java.io.Serializable]
+}

@@ -1,0 +1,74 @@
+.#{$prefix}grid-editor {
+
+    // Smaller 
+    .#{$prefix}form-trigger {
+        //height: $grid-row-height - $form-field-border-width;
+		height: $grid-row-cell-line-height - $form-field-border-width !important;
+    }
+	
+	.#{$prefix}form-item {
+		margin-top:1px;
+	}
+	
+    // Smaller spinners needed in classic theme
+    .#{$prefix}form-trigger-wrap {
+        .#{$prefix}form-spinner-up, .#{$prefix}form-spinner-down {
+            background-image: theme-background-image('form/spinner-small');
+            height: $spinner-toolbar-btn-height !important;
+        }
+    }
+    @if $include-rtl {
+        .#{$prefix}rtl.#{$prefix}form-trigger-wrap {
+            .#{$prefix}form-spinner-up, .#{$prefix}form-spinner-down {
+                background-image: theme-background-image('form/spinner-small-rtl');
+            }
+        }
+    }
+
+    .#{$prefix}border-box & {
+        .#{$prefix}form-trigger {
+            height: $grid-row-height;
+        }
+        .#{$prefix}form-text {
+            height: $grid-row-cell-line-height - 1;
+            padding-bottom: 3px; // fix for firefox/opera since they ignore line-height on inputs
+            border-radius: 2px 0px 0px 2px;
+        }
+		.#{$prefix}form-checkbox {
+			vertical-align: middle;			
+        }
+    }
+
+    // Smaller height in classic theme
+    .#{$prefix}form-text {
+        height: $grid-row-height - 2;
+    }
+}
+
+@if $include-ie 
+{
+	.#{$prefix}grid-editor .#{$prefix}form-text {
+        .#{$prefix}ie8m & {
+            padding-top: 5px;
+        }
+
+
+        .#{$prefix}strict .#{$prefix}ie6 &,
+        .#{$prefix}strict .#{$prefix}ie7 & {
+            height: $grid-row-cell-line-height - ($form-field-border-width * 8);
+			//height: $grid-row-cell-line-height - $form-field-border-width;
+        }
+
+        .#{$prefix}quirks .#{$prefix}ie9 {
+            line-height: $grid-editor-line-height + 2;
+        }
+    }
+	
+    .#{$prefix}strict .#{$prefix}ie6,
+    .#{$prefix}strict .#{$prefix}ie7 
+	{
+		.#{$prefix}grid-editor .#{$prefix}form-item {
+			margin-top:2px;
+		}
+	}
+}	

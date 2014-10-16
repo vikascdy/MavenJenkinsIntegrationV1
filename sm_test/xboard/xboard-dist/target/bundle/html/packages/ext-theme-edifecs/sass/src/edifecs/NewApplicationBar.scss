@@ -1,0 +1,165 @@
+@include extjs-button-ui(
+	'edifecs-applicationbar-medium', 
+
+	$border-radius: 0px,
+	$border-width: 0px,
+	$border-color: #323e49,
+	$border-color-over: #323e49,
+	$border-color-focus: #323e49,
+	$border-color-pressed: #FFFFFF,
+	$border-color-disabled: #323e49,
+	
+	$padding: 25px 10px 25px 10px,
+	$text-padding: 0px 0px 0px 0px,
+	
+	$background-color: #2c3941,
+	$background-color-over: #75848E,
+	$background-color-focus: #75848E,
+	$background-color-pressed: #FFFFFF,
+	$background-color-disabled: #3e464c,
+	
+	$background-gradient: color_stops(#2c3941,#2c3941),
+	$background-gradient-over: color_stops(#75848E,#75848E),
+	$background-gradient-focus: color_stops(#75848E,#75848E),
+	$background-gradient-pressed: color_stops(#7ca6ce,#7ca6ce 5%,#FFFFFF 5%,#FFFFFF),
+	$background-gradient-disabled: color_stops(#3e464c,#3e464c),
+	
+	$color: #FFFFFF,
+	$color-over: #FFFFFF,
+	$color-focus: #FFFFFF,
+	$color-pressed: #44505e,
+	$color-disabled: #8E969E,
+ 
+	$font-size: 14px,
+	$font-size-over: 14px,
+	$font-size-focus: 14px,
+	$font-size-pressed: 14px,
+	$font-size-disabled: 14px,
+ 
+	$font-weight: bold,
+	$font-weight-over: bold,
+	$font-weight-focus: bold,
+	$font-weight-pressed: bold,
+	$font-weight-disabled: bold,
+ 
+	$font-family: $button-medium-font-family,
+	$font-family-over: $button-medium-font-family-over,
+	$font-family-focus: $button-medium-font-family-focus,
+	$font-family-pressed: $button-medium-font-family-pressed,
+	$font-family-disabled: $button-medium-font-family-disabled,
+
+	$icon-size: 24px,
+	
+	$glyph-color: $button-toolbar-glyph-color,
+	$glyph-opacity: $button-toolbar-glyph-opacity,
+	$arrow-width: $button-large-arrow-width,
+	$arrow-height: $button-large-arrow-height,
+	$split-width: $button-large-split-width,
+	$split-height: $button-large-split-height,
+
+	$opacity-disabled: $button-toolbar-opacity-disabled,
+	$inner-opacity-disabled: $button-toolbar-inner-opacity-disabled
+);
+	
+@include extjs-toolbar-ui(
+	'edifecs-applicationbar-notification',
+	$background-color: #FFFFFF,
+	$background-gradient: color_stops(#FFFFFF,#FFFFFF),
+	$border-color: transparent
+); 
+
+
+/* sub menu css */
+.subMenuButton
+{
+	background-color	:	#2C3941;
+	background-image	:	-moz-linear-gradient(center top, #2C3941, #2C3941);
+	background-image	:	-webkit-linear-gradient(top, #2C3941, #2C3941);
+	background-image	:	-o-linear-gradient(top, #2C3941, #2C3941);
+	background-image	:	-ms-linear-gradient(top, #2C3941, #2C3941);
+	background-image	:	linear-gradient(top, #2C3941, #2C3941);
+}
+
+.subMenuButtonHover
+{
+	background-color	:	#75848E;
+	background-image	:	-moz-linear-gradient(center top, #75848E, #75848E);
+	background-image	:	-webkit-linear-gradient(top, #75848E, #75848E);
+	background-image	:	-o-linear-gradient(top, #75848E, #75848E);
+	background-image	:	-ms-linear-gradient(top, #75848E, #75848E);
+	background-image	:	linear-gradient(top, #75848E, #75848E);
+}
+
+.subMenu
+{
+	border-left		:	0px!important;
+	border-right	:	0px!important;
+	border-bottom	:	0px!important;
+}
+
+.subMenu .x-menu-item
+{
+	white-space		:	normal;
+	font-size		: 	12px;
+	font-weight		:	bold;
+	padding			:	6px 20px;
+	border			:	2px solid #75848E;	
+	border-bottom	:	1px solid #89949C;	
+}
+
+.subMenu .x-menu-body
+{
+	background-color	: 	#75848E!important;
+}
+	
+.subMenu .x-menu-item .x-menu-item-link
+{
+	padding			: 	0px;
+	margin			:	0px;
+}
+
+.subMenu .x-menu-item  .x-menu-item-text
+{
+	color			:	#FFFFFF;
+}
+
+.subMenu .x-menu-item-active
+{
+	background-color:	#5f6f79!important;
+	border			:	2px solid #75848E;
+}
+
+.subMenu .x-menu-item-active .x-menu-item-link
+{
+	background-color:	#5f6f79!important;
+	border			:	0px;
+	
+	background-image:	none;
+}
+
+.subMenu .app-header-popup-splitter
+{
+	border-bottom	: 1px solid #5c6066!important;
+	height			: 0px;
+	margin			: 0px;
+	padding			: 0px;
+}
+
+/* sub menu css */
+
+.x-css-shadow{
+	box-shadow:0 9px 18px rgba(56, 69, 78, 0.4) !important;
+	border-radius:0px;
+}
+
+
+.notificationtr{display:block;padding:13px 7px;border-bottom:1px solid #f0f3f4;}
+.notificationtext{padding-left:7px;font-size:11px;color:#75848E;white-space:normal;}
+.showAllNotification{font-size:10px;color:#247cdf;font-weight:bold;cursor:pointer;}
+.showAllNotificationContainer{text-align:center;padding-top:7px;}
+.floatLeft{float:left;}
+.floatRight{float:right;}
+
+.favouriteHeading{font-size:11px;border-bottom:1px solid #E6EBED;padding-bottom:5px;}
+.favouriteItems{padding:10px 0px 5px 0px;float:left;width:100%;}
+.favouriteText{float:left;padding-top:1px;padding-left:5px;}

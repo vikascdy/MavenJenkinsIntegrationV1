@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<project name="Edifecs Application Platform (ServiceManager)"
+	xmlns="http://maven.apache.org/DECORATION/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/DECORATION/1.0.0 http://maven.apache.org/xsd/decoration-1.0.0.xsd">
+
+	<body>
+		<menu ref="parent" />
+
+		<menu name="Documentation">
+			<item name="Overview" href="index.html" />
+			<item name="Users of Metrics" href="users_of_metric_module.html" />
+            <item name="Naming Convention" href="metric_naming_convention.html" />
+            <item name="Usage" href="metric_usage.html" />
+			<item name="Collection Service" href="metric_service.html" />
+            <item name="Profile Monitoring" href="profile_monitoring.html" />
+            <item name="Performance" href="performance.html" />
+		</menu>
+
+		<menu ref="modules" />
+
+		<menu ref="reports" />
+	</body>
+</project>

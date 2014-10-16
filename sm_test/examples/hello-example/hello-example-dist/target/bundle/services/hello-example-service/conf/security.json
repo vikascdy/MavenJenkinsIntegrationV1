@@ -1,0 +1,15 @@
+{
+	"permissions": [
+		{
+			"permission": "helloexample:command:service:display:greeting",
+			"name": "helloExamplePermission1"
+		}
+	],
+	"roles": [
+		{
+            "name": "Hello Example Role",
+            "description" : "Hello Example Role Description",
+            "permissions": ["helloExamplePermission1"]
+        }
+	]
+}

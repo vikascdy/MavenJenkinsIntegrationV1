@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>discussion-forum</artifactId>
+        <groupId>com.edifecs</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>discussion-forum-launcher</artifactId>
+
+    <dependencies>
+        <!-- Enables the ability to launch SM easily from your IDE using SM's launcher classes -->
+        <dependency>
+            <groupId>com.edifecs.epp</groupId>
+            <artifactId>sm-launcher</artifactId>
+            <version>${service.manager.version}</version>
+        </dependency>
+
+        <!-- Loads the App dependencies using the IDE so it can be easily available from SM -->
+        <dependency>
+            <groupId>com.edifecs</groupId>
+            <artifactId>discussion-forum-service</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,30 @@
+@startuml
+
+node "Server" as s1 {
+
+  [ServiceContainer:1.5] as sc1
+  [ServiceContainer:1.2] as sc2
+  [ServiceContainer:1.5] as sc3
+  [Java:1.7] as j1
+  [Ubuntu:14.04 ] as u1
+  node "CoreOs" as c1
+
+  sc1 -down-> j1
+  sc2 -down-> j1
+  sc3 -down-> j1
+  j1 -down-> u1
+  u1 -down-> c1
+
+  [MongoDB] as m1
+  [Java:1.8] as j2
+
+  m1 -down-> j2
+  j2 -down-> u1
+
+  [ServiceContainer:2.0] as sc4
+
+  sc4 -down-> j2
+
+}
+
+@enduml

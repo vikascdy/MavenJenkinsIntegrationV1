@@ -1,0 +1,30 @@
+---
+manifestVersion: 1.0.0
+
+name: hello-example
+version: 1.5.0.0
+displayName: Hello Example Service
+displayVersion: 1.5.0.0
+description: This is a simple hello world example.
+
+physicalComponents:
+  - name: hello-example-service
+    version: 1.0.0.0
+    displayName: Hello Example Service
+    description: This is a simple hello world example service
+    type: docker
+    scheduling:
+      imageUri: SERVICE
+      classname: com.edifecs.helloexample.service.HelloExampleService
+      scheduler: service
+
+    properties:
+      - name: name
+        description: Name of the person say to hello too
+        scope: Service
+        constraint:
+          dataType: string
+          defaultValue: world
+          validationMessage: Invalid person to say hello to
+
+...

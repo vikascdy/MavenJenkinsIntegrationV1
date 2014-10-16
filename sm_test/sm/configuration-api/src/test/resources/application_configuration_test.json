@@ -1,0 +1,153 @@
+{
+    description : "This describes what this file is.",
+
+    apps : [
+        {
+            name : "Sample Application1",
+            version : "1.0",
+            description : "This is my description"
+        },
+        {
+            name : "Sample Application1",
+            version : "1.0",
+            description : "This is my description"
+        }
+    ],
+
+    modules : [
+        {
+            name : "My Module",
+            version : "1.2",
+            description : "This is my Module",
+
+            services : [{
+                    name : "Service 1",
+                    version : "1.3",
+                    description : "This is my Service 1",
+                    className : "com.edifecs.test.service.HelloWorld",
+
+                    source : {
+
+                    },
+
+                    guarantees : [
+                        {
+                        }
+                    ],
+                    requires : [
+                        {
+                        }
+                    ],
+                    jobs : [
+                        {
+                        }
+                    ],
+                    resources : [
+                        {
+                        }
+                    ],
+                    processingPipelines : [
+                        {
+                        }
+                    ],
+                    cartridges : [
+                        {
+                        }
+                    ],
+
+                    properties : [
+                        {
+                            name : "",
+                            description : "",
+                            type : "",
+                            scope : "site",
+                            required : true,
+                            editable : true,
+                            regex : {
+                                value : "myregex",
+                                error : "Throw some error"
+                            }
+
+                        }, {
+                            name : "",
+                            description : "",
+                            type : "",
+                            scope : "site",
+                            required : true,
+                            editable : true,
+                            regex : {
+                                value : "",
+                                error : ""
+                            }
+
+                        },
+                        {
+                            name : "",
+                            description : "",
+                            type : "",
+                            scope : "tenant",
+                            required : true,
+                            editable : true,
+                            regex : {
+                                value : "",
+                                error : ""
+                            }
+
+                        },
+                        {
+                            name : "",
+                            description : "",
+                            type : "",
+                            scope : "tenant",
+                            required : true,
+                            editable : true,
+                            regex : {
+                                value : "",
+                                error : ""
+                            }
+
+                        },
+                        {
+                            name : "",
+                            description : "",
+                            type : "",
+                            scope : "organization",
+                            required : true,
+                            editable : true,
+                            regex : {
+                                value : "",
+                                error : ""
+                            }
+
+                        },
+                        {
+                            name : "",
+                            description : "",
+                            type : "",
+                            scope : "user",
+                            required : true,
+                            editable : true,
+                            regex : {
+                                value : "",
+                                error : ""
+                            }
+
+                        },
+                        {
+                             name : "",
+                             description : "",
+                             type : "",
+                             scope : "group",
+                             required : true,
+                             editable : true,
+                             regex : {
+                                 value : "",
+                                 error : ""
+                             }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

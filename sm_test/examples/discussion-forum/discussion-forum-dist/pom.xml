@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <properties>
+        <staging.dir>${project.build.directory}/staging</staging.dir>
+        <app.dist.name>discussion-forum-dist-${project.version}</app.dist.name>
+        <app.dist.dir>${project.build.directory}/${app.dist.name}</app.dist.dir>
+    </properties>
+
+    <parent>
+        <artifactId>discussion-forum</artifactId>
+        <groupId>com.edifecs</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>discussion-forum-dist</artifactId>
+    <packaging>pom</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>com.edifecs</groupId>
+            <artifactId>discussion-forum-db</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.edifecs</groupId>
+            <artifactId>discussion-forum-api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.edifecs</groupId>
+            <artifactId>discussion-forum-service</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.edifecs</groupId>
+            <artifactId>discussion-forum-ui</artifactId>
+            <version>${project.version}</version>
+            <type>war</type>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>create-dist</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+
+                        <configuration>
+                            <finalName>${app.dist.name}</finalName>
+                            <appendAssemblyId>true</appendAssemblyId>
+                            <descriptors>
+                                <descriptor>src/main/assembly/dist.xml</descriptor>
+                            </descriptors>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>2.8</version>
+                <executions>
+                    <execution>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>unpack</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <artifactItems>
+                        <artifactItem>
+                            <groupId>com.edifecs.epp</groupId>
+                            <artifactId>sm-dist</artifactId>
+                            <classifier>dist</classifier>
+                            <version>${service.manager.version}</version>
+                            <type>zip</type>
+                            <overWrite>true</overWrite>
+                            <outputDirectory>${staging.dir}</outputDirectory>
+                        </artifactItem>
+                    </artifactItems>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>create-staging-area</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <tasks>
+                                <copy todir="${staging.dir}/ServiceManager/apps/${project.name}">
+                                    <fileset dir="${app.dist.dir}" />
+                                </copy>
+                                <copy tofile="${staging.dir}/ServiceManager/conf/Configuration.xml" overwrite="true"
+                                      file="${app.dist.dir}/artifacts/Configuration.xml"/>
+                            </tasks>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

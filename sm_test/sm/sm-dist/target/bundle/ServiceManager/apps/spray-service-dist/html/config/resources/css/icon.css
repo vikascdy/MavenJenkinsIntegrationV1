@@ -1,0 +1,339 @@
+/* Icon Classes
+* -------------------------------------------------------- */
+
+.icon {
+    width: 16px;
+    height: 16px;
+}
+
+/* Hack for action column icons to work with these classes: */
+.x-action-col-cell img {
+    margin: 2px;
+    height: 16px;
+    width: 16px;
+    cursor: pointer; /* Why not? It's confusing that it doesn't already have this. */
+}
+
+.ico-service, .ico-settings {
+    background: url('../images/icons-20px.png') -1px center !important;
+}
+
+.ico-server, .ico-appserver {
+    background: url('../images/icons-20px.png') -20px center !important;
+}
+
+.ico-config, .ico-cluster {
+    background: url('../images/icons-20px.png') -40px center !important;
+}
+
+.ico-database, .ico-resource {
+    background: url('../images/icons-20px.png') -60px center !important;
+}
+
+.ico-artifact, .ico-item, .ico-file, .ico-placeholder {
+    background: url('../images/icons-20px.png') -80px center !important;
+}
+
+.ico-mailserver {
+    background: url('../images/icons-20px.png') -100px center !important;
+}
+
+.ico-node, .ico-role {
+    background: url('../images/icons-20px.png') -120px center !important;
+}
+
+.ico-jmsqueue, .ico-files {
+    background: url('../images/icons-20px.png') -140px center !important;
+}
+
+.ico-performance {
+    background: url('../images/icons-20px.png') -160px center !important;
+}
+
+.ico-newresource {
+    background: url('../images/icons-20px.png') -180px center !important;
+    width: 20px !important;
+    margin-left: -1px !important;
+}
+
+.ico-newitem {
+    background: url('../images/icons-20px.png') -200px center !important;
+    width: 20px !important;
+    margin-left: -1px !important;
+}
+
+.ico-newservice, .ico-servicetype {
+    background: url('../images/icons-20px.png') -260px center !important;
+    width: 20px !important;
+    margin-left: -1px !important;
+}
+
+.ico-newserver {
+    background: url('../images/icons-20px.png') -280px center !important;
+    width: 20px !important;
+    margin-left: -1px !important;
+}
+
+.ico-newnode, .ico-newrole {
+    background: url('../images/icons-20px.png') -300px center !important;
+    width: 20px !important;
+    margin-left: -1px !important;
+}
+
+.ico-log {
+    background: url('../images/icons-20px.png') -340px center !important;
+    width: 20px !important;
+    margin-left: -1px !important;
+}
+
+.ico-active, .ico-started {
+    background: url('../images/icons-20px.png') -400px center !important;
+}
+
+.ico-offline, .ico-stopped {
+    background: url('../images/icons-20px.png') -420px center !important;
+}
+
+.ico-New {
+    background: url('../images/New.png') center !important;
+}
+
+.ico-warning {
+    background: url('../images/icons-20px.png') -440px center !important;
+}
+
+.ico-unknown {
+    background: url('../images/icons-20px.png') -460px center !important;
+}
+
+.ico-error, .ico-fatal {
+    background: url('../images/icons-20px.png') -480px center !important;
+}
+
+.ico-info, .ico-properties {
+    background: url('../images/icons-20px.png') -580px center !important;
+}
+
+.ico-start {
+    background: url('../images/icons-20px.png') -620px center !important;
+}
+
+.ico-stop {
+    background: url('../images/icons-20px.png') -640px center !important;
+}
+
+.ico-editbtn {
+    background: url('../images/icons-20px.png') -660px center !important;
+}
+
+.ico-add {
+    background: url('../images/icons-20px.png') -780px center !important;
+}
+
+.ico-delete {
+    background: url('../images/icons-20px.png') -800px center !important;
+}
+
+.ico-new {
+    background: url('../images/icons-20px.png') -820px center !important;
+}
+
+.ico-edit {
+    background: url('../images/icons-20px.png') -840px center !important;
+}
+
+/* Icon Classes - Monochrome
+* -------------------------------------------------------- */
+
+.mico-delete {
+    background: url('../images/icons-monochrome-16px.png') 0px center !important;
+}
+
+.mico-copy {
+    background: url('../images/icons-monochrome-16px.png') -16px center !important;
+}
+
+.mico-edit {
+    background: url('../images/icons-monochrome-16px.png') -32px center !important;
+}
+
+.mico-add {
+    background: url('../images/icons-monochrome-16px.png') -48px center !important;
+}
+
+.mico-new {
+    background: url('../images/icons-monochrome-16px.png') -64px center !important;
+}
+
+.mico-rename, .mico-properties {
+    background: url('../images/icons-monochrome-16px.png') -80px center !important;
+}
+
+.mico-import {
+    background: url('../images/icons-monochrome-16px.png') -96px center !important;
+}
+
+.mico-export {
+    background: url('../images/icons-monochrome-16px.png') -112px center !important;
+}
+
+.mico-settings {
+    background: url('../images/icons-monochrome-16px.png') -128px center !important;
+}
+
+.mico-up {
+    background: url('../images/icons-monochrome-16px.png') -144px center !important;
+}
+
+.mico-down {
+    background: url('../images/icons-monochrome-16px.png') -160px center !important;
+}
+
+.mico-refresh {
+    background: url('../images/icons-monochrome-16px.png') -176px center !important;
+}
+
+.mico-deploy {
+    background: url('../images/icons-monochrome-16px.png') -192px center !important;
+}
+
+.mico-validate, .mico-valid, .mico-yes {
+    background: url('../images/icons-monochrome-16px.png') -208px center !important;
+}
+
+.mico-invalid, .mico-no {
+    background: url('../images/icons-monochrome-16px.png') -224px center !important;
+}
+
+.mico-save {
+    background: url('../images/icons-monochrome-16px.png') -240px center !important;
+}
+
+.mico-upload {
+    background: url('../images/icons-monochrome-16px.png') -256px center !important;
+}
+
+.mico-cancel {
+    background: url('../images/icons-monochrome-16px.png') -272px center !important;
+}
+
+.mico-start {
+    background: url('../images/icons-monochrome-16px.png') -288px center !important;
+}
+
+.mico-stop {
+    background: url('../images/icons-monochrome-16px.png') -304px center !important;
+}
+
+.mico-pause {
+    background: url('../images/icons-monochrome-16px.png') -320px center !important;
+}
+
+.mico-service, .mico-servicetype {
+    background: url('../images/icons-monochrome-16px.png') -336px center !important;
+}
+
+.mico-server {
+    background: url('../images/icons-monochrome-16px.png') -352px center !important;
+}
+
+.mico-config, .mico-cluster {
+    background: url('../images/icons-monochrome-16px.png') -368px center !important;
+}
+
+.mico-resource {
+    background: url('../images/icons-monochrome-16px.png') -384px center !important;
+}
+
+.mico-file {
+    background: url('../images/icons-monochrome-16px.png') -400px center !important;
+}
+
+.mico-node {
+    background: url('../images/icons-monochrome-16px.png') -432px center !important;
+}
+
+.mico-performance {
+    background: url('../images/icons-monochrome-16px.png') -464px center !important;
+}
+
+/* Icon Classes - Large
+ * -------------------------------------------------------- */
+
+.large-icon {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.lrgico-resource {
+    background: url('../images/icons-25px.png') 0px center !important;
+}
+
+.lrgico-service {
+    background: url('../images/icons-25px.png') -25px center !important;
+}
+
+.lrgico-cluster, .lrgico-config {
+    background: url('../images/icons-25px.png') -50px center !important;
+}
+
+.lrgico-server {
+    background: url('../images/icons-25px.png') -75px center !important;
+}
+
+.lrgico-node, .lrgico-role {
+    background: url('../images/icons-25px.png') -100px center !important;
+}
+
+.lrgico-validate {
+    background: url('../images/icons-25px.png') -125px center !important;
+}
+
+.lrgico-deploy {
+    background: url('../images/icons-25px.png') -150px center !important;
+}
+
+/* Navigation Icons
+ * -------------------------------------------------------- */
+
+.back-button-icon {
+    background: url('../images/icons-buttons.png') -20px center !important;
+    background-repeat: no-repeat;
+}
+
+.next-button-icon {
+    background: url('../images/icons-buttons.png') -40px center !important;
+    background-repeat: no-repeat;
+}
+
+/* Configuration Header Icons
+* -------------------------------------------------------- */
+
+.header-deploy {
+    background: url('../images/toolbar-deploy.png') center !important;
+}
+
+.header-import {
+    background: url('../images/toolbar-import.png') center !important;
+}
+
+.header-export {
+    background: url('../images/toolbar-export.png') center !important;
+}
+
+.header-refresh {
+    background: url('../images/toolbar-reload.png') center !important;
+}
+
+.header-save {
+    background: url('../images/toolbar-save.png') center !important;
+}
+
+.header-upgrade {
+    background: url('../images/toolbar-upgrade.png') center !important;
+}
+
+.header-validate {
+    background: url('../images/toolbar-validate.png') center !important;
+}

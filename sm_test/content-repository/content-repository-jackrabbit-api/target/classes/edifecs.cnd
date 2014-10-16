@@ -1,0 +1,24 @@
+// This CND file defines custom, Edifecs-specific JCR node types, mixins, and
+// properties. It is loaded in ContentRepository.setSession().
+
+// For information on the syntax of CND files, visit:
+// - http://jackrabbit.apache.org/node-type-notation.html
+
+<edifecs = 'http://edifecs.com/1.0'>
+<item = 'http://edifecs.com/item/1.0'>
+
+[edifecs:preserveAfterDeletion] mixin
+- edifecs:deleted (BOOLEAN)
+
+[edifecs:item]
+> mix:created, mix:lastModified, mix:versionable, edifecs:preserveAfterDeletion
+orderable
+primaryitem item:id
+- item:name (STRING) mandatory
+- item:description (STRING)
+- item:itemType (STRING) mandatory
+- item:associations (STRING) multiple
++ edifecs:itemProperties = nt:unstructured autocreated version
+
+[edifecs:itemRoot] mixin
++ * (edifecs:item)

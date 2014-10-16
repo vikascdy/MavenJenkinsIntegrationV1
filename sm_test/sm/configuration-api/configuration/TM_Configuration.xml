@@ -1,0 +1,277 @@
+<DeploymentConfiguration>
+	<CreatedDate>2012-02-24</CreatedDate>
+	<Version>0.0.1</Version>
+	<MetadataVersion>0.0.1</MetadataVersion>
+	<Description>TM Development Deployment Configuration</Description>
+	<Cluster>
+		<Name>Cluster1</Name>
+		<EnvironmentType>TEST</EnvironmentType>
+		<Server>
+			<Name>computer1</Name>
+			<IPAddress>127.0.0.1</IPAddress>
+			<ServerName>localhost</ServerName>
+			<Node>
+				<Name>Node1</Name>
+				<CommunicationPort>8181</CommunicationPort>
+				<JVMOptions>
+					<Property><Value>-Xmx512M</Value></Property>
+					<Property><Value>-XX:PermSize=128m</Value></Property>
+					<Property><Value>-XX:MaxPermSize=256m</Value></Property>
+				</JVMOptions>
+				<Service>
+					<Name>ETL 1</Name>
+					<ServiceName>ETL</ServiceName>
+					<Version>1.0</Version>
+					<Property>
+						<Name>ThreadsCount</Name>
+						<Value>1</Value>
+					</Property>
+				</Service>
+			</Node>
+		</Server>
+		<Server>
+			<Name>computer2</Name>
+			<IPAddress>192.168.103.12</IPAddress>
+			<ServerName>ClusterServer01</ServerName>
+			<Node>
+				<Name>Node2</Name>
+				<CommunicationPort>8181</CommunicationPort>
+				<JVMOptions>
+					<Property><Value>-Xmx512M</Value></Property>
+					<Property><Value>-XX:PermSize=128m</Value></Property>
+					<Property><Value>-XX:MaxPermSize=256m</Value></Property>
+				</JVMOptions>
+				<Service>
+					<Name>TM ServiceManager 1</Name>
+					<ServiceName>File Store Service</ServiceName>
+					<Version>1.0</Version>
+					<Property>
+						<Name>IsMaster</Name>
+						<Value>true</Value>
+					</Property>
+				</Service>
+				<Service>
+					<Name>File Store Purge Service 1</Name>
+					<ServiceName>File Store Purge Service</ServiceName>
+					<Version>1.0</Version>
+				</Service>
+				<Service>
+					<Name>TpmSynchronizationService 1</Name>
+					<ServiceName>TpmSynchronizationService</ServiceName>
+					<Version>1.0</Version>
+				</Service>
+				<Service>
+					<Name>File Store Migration Service 1</Name>
+					<ServiceName>File Store Migration Service</ServiceName>
+					<Version>1.0</Version>
+					<Property>
+						<Name>Startup</Name>
+						<Value>Disabled</Value>
+					</Property>
+				</Service>
+				<Service>
+					<Name>Attachment Purge Service 1</Name>
+					<ServiceName>Attachment Purge Service</ServiceName>
+					<Version>1.0</Version>
+					<Property>
+						<Name>Startup</Name>
+						<Value>Disabled</Value>
+					</Property>
+				</Service>
+				<Service>
+					<Name>Notification Scheduler Task 1</Name>
+					<ServiceName>Notification Scheduler Task</ServiceName>
+					<Version>1.0</Version>
+				</Service>
+				<Service>
+					<Name>Update Enrollment Status Service 1</Name>
+					<ServiceName>Update Enrollment Status Service</ServiceName>
+					<Version>1.0</Version>
+				</Service>
+				<Service>
+					<Name>Update Partner Status Service 1</Name>
+					<ServiceName>Update Partner Status Service</ServiceName>
+					<Version>1.0</Version>
+				</Service>
+				<Service>
+					<Name>Business Rules Engine 1</Name>
+					<ServiceName>Business Rules Engine</ServiceName>
+					<Version>1.0</Version>
+				</Service>
+				<Service>
+					<Name>DataMartBusinessDocumentService 1</Name>
+					<ServiceName>DataMartBusinessDocumentService</ServiceName>
+					<Version>1.0</Version>
+					<Resources>
+						<Database>
+							<Name>datamart</Name>
+						</Database>
+					</Resources>
+				</Service>
+				<Service>
+					<Name>DataMartValidationErrorService 1</Name>
+					<ServiceName>DataMartValidationErrorService</ServiceName>
+					<Version>1.0</Version>
+				</Service>
+			</Node>
+		</Server>
+		<Server>
+			<Name>computer3</Name>
+			<IPAddress>192.168.103.15</IPAddress>
+			<ServerName>ClusterServer02</ServerName>
+			<Node>
+				<Name>Node3</Name>
+				<CommunicationPort>8181</CommunicationPort>
+				<JVMOptions>
+					<Property><Value>-Xmx512M</Value></Property>
+					<Property><Value>-XX:PermSize=128m</Value></Property>
+					<Property><Value>-XX:MaxPermSize=256m</Value></Property>
+				</JVMOptions>
+				<Service>
+					<Name>XE Adapter 1</Name>
+					<ServiceName>XEAdapter</ServiceName>
+					<Version>1.0</Version>
+				</Service>
+				<Service>
+					<Name>XEServer Drop File Service</Name>
+					<ServiceName>XEServer Drop File Service</ServiceName>
+					<Version>1.0</Version>
+				</Service>
+				<Service>
+					<Name>GuidelineLoader</Name>
+					<ServiceName>GuidelineLoader</ServiceName>
+					<Version>1.0</Version>
+				</Service>
+			</Node>
+		</Server>
+		<Resource>
+			<Name>Tomcat Application Server</Name>
+			<Type>ApplicationServer</Type>
+			<Property>
+				<Name>Type</Name>
+				<Value>TOMCAT</Value>
+			</Property>
+			<Property>
+				<Name>Location</Name>
+				<Value>C:/Tomcat</Value>
+			</Property>
+			<Property>
+				<Name>Webcontext</Name>
+				<Value>tm</Value>
+			</Property>
+		</Resource>
+		
+		<Resource>
+			<Name>enablement</Name>
+			<Type>Database</Type>
+			<Property>
+				<Name>Server</Name>
+				<Value>localhost</Value>
+			</Property>
+			<Property>
+				<Name>Database Name</Name>
+				<Value>EcEnablement</Value>
+			</Property>
+			<Property>
+				<Name>Username</Name>
+				<Value>sa</Value>
+			</Property>
+			<Property>
+				<Name>Password</Name>
+				<Value>password</Value>
+			</Property>
+			<Property>
+				<Name>Port</Name>
+				<Value>1433</Value>
+			</Property>
+			<Property>
+				<Name>Database Type</Name>
+				<Value>SQLServer</Value>
+			</Property>
+		</Resource>		
+
+		<Resource>
+			<Name>active</Name>
+			<Type>Database</Type>
+			<Property>
+				<Name>Server</Name>
+				<Value>localhost</Value>
+			</Property>
+			<Property>
+				<Name>Database Name</Name>
+				<Value>EcActive</Value>
+			</Property>
+			<Property>
+				<Name>Username</Name>
+				<Value>sa</Value>
+			</Property>
+			<Property>
+				<Name>Password</Name>
+				<Value>password</Value>
+			</Property>
+			<Property>
+				<Name>Port</Name>
+				<Value>1433</Value>
+			</Property>
+			<Property>
+				<Name>Database Type</Name>
+				<Value>SQLServer</Value>
+			</Property>
+		</Resource>		
+			
+		<Resource>
+			<Name>datamart</Name>
+			<Type>Database</Type>
+			<Property>
+				<Name>Server</Name>
+				<Value>localhost</Value>
+			</Property>
+			<Property>
+				<Name>Database Name</Name>
+				<Value>EcActive</Value>
+			</Property>
+			<Property>
+				<Name>Username</Name>
+				<Value>sa</Value>
+			</Property>
+			<Property>
+				<Name>Password</Name>
+				<Value>password</Value>
+			</Property>
+			<Property>
+				<Name>Port</Name>
+				<Value>1433</Value>
+			</Property>
+			<Property>
+				<Name>Database Type</Name>
+				<Value>SQLServer</Value>
+			</Property>
+		</Resource>		
+			
+		<Resource>
+			<Name>Email Server</Name>
+			<Type>EmailServer</Type>
+			<Property>
+				<Name>SMTP Server Host Name</Name>
+				<Value>smtp.yourorg.com</Value>
+			</Property>
+			<Property>
+				<Name>Return Email Address</Name>
+				<Value>support@yourorg.com</Value>
+			</Property>
+			<Property>
+				<Name>Critical Error Email</Name>
+				<Value>critical-error@yourorg.com</Value>
+			</Property>
+			<Property>
+				<Name>Monitor Error Email</Name>
+				<Value>monitor@yourorg.com</Value>
+			</Property>
+			<Property>
+				<Name>Admin Console Error Email</Name>
+				<Value>admin@yourorg.com</Value>
+			</Property>
+		</Resource>		
+
+	</Cluster>
+</DeploymentConfiguration>

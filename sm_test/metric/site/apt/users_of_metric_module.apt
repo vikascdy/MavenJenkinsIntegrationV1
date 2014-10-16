@@ -1,0 +1,103 @@
+ -----
+ Users of Metric Module
+ -----
+ William Clements
+ -----
+ 2/12/2014
+ -----
+ 
+Users of Metric Module
+
+  There are many metrics that can be collected in a complex system. Many of them are uneeded in most cases and may be collected and managed as part of a solution. We see this a lot from the physical infostructure but over time we may feed this back into our central metric management system.
+
+*Who Uses Metrics Within a Cluster?
+
+    * Physical Infrastructure - Network, Switches, etc...
+  
+    * Server - Physical Machine
+  
+    * Operating System
+  
+    * Process - Process running in OS
+  
+    * Application / Module - Set of Services running in a Cluster 
+
+    * Service - Running Thread in a Process and a set of Commands
+  
+    * Command - Exposed method to the Cluster
+  
+    * Tenant / Organization / User - Metrics related to a customer for Billing
+  
+  All the metrics specifially mentioned are specific to that level and cannot be aggrigated from the metrics collected from another object in the cluster.
+  
+  For example, Application level statistics are just an aggrigated view of all services and commands metrics collected for those of that application.
+  
+**Physical Infrastructure
+
+  From an infrastructure perspective, we are concerned with things such as:
+  
+  * Network IO loads
+  
+  * Network latency
+  
+  * Dropped Packets
+  
+  * Temperature of the Data Center
+  
+  * Number of Servers / Resources in use and idle.
+  
+**Server
+
+  Metrics for a single physical machine (This could be a VMCenter machine for example)
+  
+  * Number of CPU/s, memory, IO, etc..
+  
+  * Fan Speed
+  
+  * CPU and Case Temp
+  
+**Operating System
+
+  Majority of metrics that are used for the activly running system start at the OS level and higher, 
+
+  * Installed OS
+  
+  * Number of CPU/s, memory, IO, etc..
+  
+  * Number of processes
+  
+  * CPU, Memory, IO, etc... Usage
+  
+  * OS Up time
+
+**Process
+
+  An actively running process within a server. This would be equal to a JVM.
+
+  * Process level CPU, Memory, IO, etc... Usage
+  
+  * Process Up time
+  
+**Application / Module
+
+  Majority of application and module level metrics are aggrigates from the service and command level.
+
+**Service
+
+  Service running within a process. In the context of SM it is a process/thread with a start and stop that exposes functionality to the system.
+
+  * Up time
+  
+  * Active Threads
+  
+  * Start Time
+  
+  * Stop Time
+  
+  * Errors
+  
+**Command
+
+  
+
+**Tenant / Organization / User

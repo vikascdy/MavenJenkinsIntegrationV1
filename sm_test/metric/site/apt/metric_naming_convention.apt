@@ -1,0 +1,30 @@
+ -----
+ Naming Convention
+ -----
+ William Clements
+ -----
+ 2/12/2014
+ -----
+
+Naming Convention
+
+  The naming convention of metrics are determined by the category of metric, and the purpose.
+
+*Categories of Metrics
+
+  Metrics come in a variety of categories. They can be used for performance and health monitoring, as well as business needs such as billing.
+
+[./image/monitoring_mindmap.png]
+
+*Structure of a Metric Name
+
++--------------------+
+<TODO: Define structure of a metric name>
++--------------------+
+
+
+**Utility to Help Build Metric Names
+
++--------------------+
+<TODO: Define example of metric name generation>
++--------------------+

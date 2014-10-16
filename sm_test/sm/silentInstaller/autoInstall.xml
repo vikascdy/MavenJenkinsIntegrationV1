@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutomatedInstallation langpack="eng">
+<com.izforge.izpack.panels.HTMLHelloPanel id="UNKNOWN (com.izforge.izpack.panels.HTMLHelloPanel)"/>
+<com.izforge.izpack.panels.HTMLLicencePanel id="UNKNOWN (com.izforge.izpack.panels.HTMLLicencePanel)"/>
+<com.izforge.izpack.panels.TargetPanel id="UNKNOWN (com.izforge.izpack.panels.TargetPanel)">
+<installpath>/opt/edifecs</installpath>
+</com.izforge.izpack.panels.TargetPanel>
+<com.izforge.izpack.panels.PacksPanel id="UNKNOWN (com.izforge.izpack.panels.PacksPanel)">
+<pack index="0" name="Agent" selected="true"/>
+<pack index="1" name="Web Server" selected="true"/>
+<pack index="2" name="Test App" selected="true"/>
+<pack index="3" name="Test App" selected="true"/>
+</com.izforge.izpack.panels.PacksPanel>
+<com.izforge.izpack.panels.UserInputPanel id="userinputpanel">
+<userInput>
+<entry key="CLUSTER_NAME" value="EDIFECS_TEST_CLUSTER_07"/>
+<entry key="COMMUNICATION_PROTOCOL" value="TCP"/>
+<entry key="ENVIRONMENT_NAME" value="Test"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="udpconfigpanel">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="tcpconfigpanel">
+<userInput>
+<entry key="TOMCAT_HTTPS_PORT" value="8443"/>
+<entry key="UI_PORT_TCP" value="7802"/>
+<entry key="TOMCAT_PORT" value="8080"/>
+<entry key="TCP_HOSTS" value=""/>
+<entry key="DEFAULT_AGENT_PORT_TCP" value="7800"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.InstallPanel id="UNKNOWN (com.izforge.izpack.panels.InstallPanel)"/>
+<com.izforge.izpack.panels.ProcessPanel id="UNKNOWN (com.izforge.izpack.panels.ProcessPanel)"/>
+<com.izforge.izpack.panels.HTMLHelloPanel id="webServerURL"/>
+<com.izforge.izpack.panels.FinishPanel id="UNKNOWN (com.izforge.izpack.panels.FinishPanel)"/>
+</AutomatedInstallation>

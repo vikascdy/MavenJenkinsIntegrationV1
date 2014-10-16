@@ -1,0 +1,4 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\examples\test-services\src\main\resources\conf,D:\SM1\sm\examples\test-services\target\classes\conf)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\examples\test-services\src\main\resources\conf\nav.json,D:\SM1\sm\examples\test-services\target\classes\conf\nav.json)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\examples\test-services\src\main\resources\conf\security.json,D:\SM1\sm\examples\test-services\target\classes\conf\security.json)[0m

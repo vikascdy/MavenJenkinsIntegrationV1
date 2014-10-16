@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!-- Licensed to the Apache Software Foundation (ASF) under one or more contributor 
+	license agreements. See the NOTICE file distributed with this work for additional 
+	information regarding copyright ownership. The ASF licenses this file to 
+	you under the Apache License, Version 2.0 (the "License"); you may not use 
+	this file except in compliance with the License. You may obtain a copy of 
+	the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required 
+	by applicable law or agreed to in writing, software distributed under the 
+	License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS 
+	OF ANY KIND, either express or implied. See the License for the specific 
+	language governing permissions and limitations under the License. -->
+<component-set>
+	<components>
+		<component>
+			<role>org.apache.maven.lifecycle.mapping.LifecycleMapping</role>
+			<role-hint>smbundle</role-hint>
+			<implementation>
+				org.apache.maven.lifecycle.mapping.DefaultLifecycleMapping
+			</implementation>
+			<configuration>
+				<phases>
+					<smbundle-metadata>
+						com.edifecs.servicemanager.tools:smbundle-plugin:${project.version}:generate-metadata
+					</smbundle-metadata>
+					<smbundle-package>
+					</smbundle-package>
+					<smbundle-upload>
+						com.edifecs.servicemanager.tools:smbundle-plugin:${project.version}:upload-bundle
+					</smbundle-upload>
+				</phases>
+			</configuration>
+		</component>
+		<component>
+			<role>org.apache.maven.lifecycle.Lifecycle</role>
+			<implementation>org.apache.maven.lifecycle.Lifecycle</implementation>
+			<role-hint>smbundle</role-hint>
+			<configuration>
+				<id>smbundle</id>
+				<phases>
+					<phase>smbundle-metadata</phase>
+					<phase>smbundle-package</phase>
+					<phase>smbundle-upload</phase>
+				</phases>
+			</configuration>
+		</component>
+	</components>
+</component-set>

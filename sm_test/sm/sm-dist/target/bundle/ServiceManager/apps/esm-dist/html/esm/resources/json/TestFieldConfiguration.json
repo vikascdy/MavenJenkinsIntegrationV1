@@ -1,0 +1,9 @@
+{
+	"flexGroupUrl":"/rest/service/flexfields-service/FlexField.getFields",
+	"saveValueUrl":"/rest/service/flexfields-service/FlexField.setFlexFieldValue",
+	"enableRootHeader":false,
+	"tenantName":"*",
+	"appName":"ESM",
+	"componentName":"*",
+	"entityName":"UserEntity"
+}

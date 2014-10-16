@@ -1,0 +1,100 @@
+[
+    {
+        "id": 100,
+        "name": "Billing Address",
+        "description": "Billing Address",
+        "displayName": "Billing Address",
+        "tenantName": "*",
+        "appName": "ESM",
+        "componentName": "UserProfile",
+        "entityName": "UserEntity",
+        "fieldsCollection": [
+            {
+                "id": 999,
+                "activeFlag": true,
+                "dataType": "STRING",
+                "defaultValue": "Overlake Hospital",
+                "description": "Provider flex field required to be captured at forms",
+                "displayName": "Provider Name",
+                "name": "Provider",
+                "regEx": "((mailto\\:|(news|(ht|f)tp(s?))\\://){1}\\S+)",
+                "restricted": false,
+                "required": false,
+                "validationMessage": "Please enter the proper name",
+                "fieldValue": {
+                    "id": 111,
+                    "entityName": "UserEntity",
+                    "entityID": 124,
+                    "value": "Fortis Hospital"
+                }
+            }
+        ],
+        "children": [
+            {
+                "id": 200,
+                "name": "Patient Address",
+                "description": "Patient Address",
+                "displayName": "Patient Address",
+                "tenantName": "*",
+                "appName": "ESM",
+                "componentName": "UserProfile",
+                "entityName": "UserEntity",
+                "fieldsCollection": [
+                    {
+                        "id": 299,
+                        "activeFlag": true,
+                        "dataType": "STRING",
+                        "defaultValue": "",
+                        "description": "Street #",
+                        "displayName": "Street Address",
+                        "name": "Street #",
+                        "restricted": false,
+                        "required": true,
+                        "validationMessage": ""
+                    },
+                    {
+                        "id": 399,
+                        "activeFlag": true,
+                        "dataType": "STRING",
+                        "defaultValue": "",
+                        "description": "City",
+                        "displayName": "City Name",
+                        "name": "City",
+                        "restricted": false,
+                        "required": true,
+                        "validationMessage": ""
+                    },
+                    {
+                        "id": 499,
+                        "activeFlag": true,
+                        "dataType": "SELECTONE",
+                        "defaultValue": "",
+                        "description": "State",
+                        "displayName": "State",
+                        "name": "State",
+                        "restricted": false,
+                        "required": true,
+                        "validationMessage": "",
+                        "selectOptions": {
+                            "WA": "Washington",
+                            "CA": "California"
+                        }
+                    },
+                    {
+                        "id": 500,
+                        "activeFlag": true,
+                        "dataType": "BOOLEAN",
+                        "defaultValue": "false",
+                        "description": "Insured",
+                        "displayName": "Insured",
+                        "name": "Insured",
+                        "restricted": false,
+                        "required": true,
+                        "validationMessage": ""
+                    }
+                ],
+                "children": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,103 @@
+{
+    "app": "security",
+    "version": "1.0",
+    "sections": [
+        {
+            "name": "ESM Management",
+            "permission": "platform:security:administrative:organization:edit",
+            "featuredItems": [
+                {
+                    "icon": "../resources/images/featured-link.png",
+                    "title": "Manage Site",
+                    "weight": 200,
+                    "description": "Manage Site",
+                    "permission": "platform:security:administrative:site:edit",
+                    "links": [
+                        {
+                            "caption": "Site Overview",
+                            "url": "/esm/#!/Site/Overview",
+                            "permission": "platform:security:administrative:site:edit",
+                            "hrefTarget": ""
+                        },
+                        {
+                            "caption": "Manage Tenants",
+                            "url": "/esm/#!/Site/ManageTenants",
+                            "permission": "platform:security:administrative:tenant:edit",
+                            "hrefTarget": ""
+                        },
+                        {
+                            "caption": "App Catalog",
+                            "url": "/esm/#!/Site/ManageApps",
+                            "hrefTarget": ""
+                        }
+                    ]
+                },
+                {
+                    "icon": "../resources/images/featured-link.png",
+                    "title": "Manage Organization",
+                    "weight": 100,
+                    "description": "Manage Organization",
+                    "permission": "platform:security:administrative:organization:edit",
+                    "links": [
+                        {
+                            "caption": "Manage Organization",
+                            "url": "/esm/#!/ManageMyOrganization",
+                            "permission": "platform:security:administrative:organization:edit",
+                            "hrefTarget": ""
+                        },
+                        {
+                            "caption": "Manage Sub Organization",
+                            "url": "/esm/#!/ManageSubOrganization",
+                            "permission": "platform:security:administrative:organization:edit",
+                            "hrefTarget": ""
+                        },
+                        {
+                            "caption": "Manage Users",
+                            "url": "/esm/#!/ManageUsers",
+                            "permission": "platform:security:administrative:user:edit",
+                            "hrefTarget": ""
+                        }
+                    ]
+                },
+				
+				{
+                    "icon": "../resources/images/featured-link.png",
+                    "title": "Manage My Tenant",
+                    "weight": 100,
+                    "description": "Manage My Tenant",
+                    "permission": "platform:security:administrative:tenant:edit",
+                    "links": [
+                        {
+                            "caption": "Manage Organization",
+                            "url": "/esm/#!/ManageOrganization",
+                            "permission": "platform:security:administrative:organization:edit",
+                            "hrefTarget": ""
+                        },
+                        {
+                            "caption": "Manage Roles",
+                            "url": "/esm/#!/ManageRoles",
+                            "permission": "platform:security:administrative:role:edit",
+                            "hrefTarget": ""
+                        },
+                        {
+                            "caption": "Manage Groups",
+                            "url": "/esm/#!/ManageGroups",
+                            "permission": "platform:security:administrative:group:edit",
+                            "hrefTarget": ""
+                        },
+						{
+                            "caption": "Manage Apps",
+                            "url": "/esm/#!/Apps",
+                            "hrefTarget": ""
+                        },
+						{
+                            "caption": "Settings",
+                            "url": "/esm/#!/Settings",
+                            "hrefTarget": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

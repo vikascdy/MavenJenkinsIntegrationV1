@@ -1,0 +1,32 @@
+[0m[[0minfo[0m] [0mRunning checkstyle...[0m
+[0m[[0minfo[0m] [0m<?xml version="1.0" encoding="UTF-8"?>[0m
+[0m[[0minfo[0m] [0m<checkstyle version="5.5">[0m
+[0m[[0minfo[0m] [0m<file name="D:\SM1\sm\examples\hello-example\hello-example-ui\src\main\webapp\app\controller\HelloController.js">[0m
+[0m[[0minfo[0m] [0m<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>[0m
+[0m[[0minfo[0m] [0m<error line="11" column="5" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>[0m
+[0m[[0minfo[0m] [0m</file>[0m
+[0m[[0minfo[0m] [0m<file name="D:\SM1\sm\examples\hello-example\hello-example-ui\src\main\webapp\app\model\HelloModel.js">[0m
+[0m[[0minfo[0m] [0m</file>[0m
+[0m[[0minfo[0m] [0m<file name="D:\SM1\sm\examples\hello-example\hello-example-ui\src\main\webapp\app\store\HelloStore.js">[0m
+[0m[[0minfo[0m] [0m</file>[0m
+[0m[[0minfo[0m] [0m<file name="D:\SM1\sm\examples\hello-example\hello-example-ui\src\main\webapp\app\view\HelloView.js">[0m
+[0m[[0minfo[0m] [0m<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>[0m
+[0m[[0minfo[0m] [0m<error line="10" column="5" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>[0m
+[0m[[0minfo[0m] [0m</file>[0m
+[0m[[0minfo[0m] [0m<file name="D:\SM1\sm\examples\hello-example\hello-example-ui\src\main\webapp\app.js">[0m
+[0m[[0minfo[0m] [0m<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>[0m
+[0m[[0minfo[0m] [0m<error line="4" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>[0m
+[0m[[0minfo[0m] [0m</file>[0m
+[0m[[0minfo[0m] [0m<file name="D:\SM1\sm\examples\hello-example\hello-example-ui\src\main\webapp\index.html">[0m
+[0m[[0minfo[0m] [0m</file>[0m
+[0m[[0minfo[0m] [0m<file name="D:\SM1\sm\examples\hello-example\hello-example-ui\src\main\webapp\resources\css\main.css">[0m
+[0m[[0minfo[0m] [0m<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>[0m
+[0m[[0minfo[0m] [0m</file>[0m
+[0m[[0minfo[0m] [0m<file name="D:\SM1\sm\examples\hello-example\hello-example-ui\src\main\webapp\resources\images\helloexample.png">[0m
+[0m[[0minfo[0m] [0m<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>[0m
+[0m[[0minfo[0m] [0m<error line="4" column="41" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>[0m
+[0m[[0minfo[0m] [0m</file>[0m
+[0m[[0minfo[0m] [0m<file name="D:\SM1\sm\examples\hello-example\hello-example-ui\src\main\webapp\WEB-INF\web.xml">[0m
+[0m[[0minfo[0m] [0m<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>[0m
+[0m[[0minfo[0m] [0m</file>[0m
+[0m[[0minfo[0m] [0m</checkstyle>[0m

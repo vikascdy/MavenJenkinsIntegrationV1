@@ -1,0 +1,11 @@
+.#{$prefix}menu-body {
+	border-width:0px !important;
+}
+
+.#{$prefix}menu-date-item {
+    border-color: transparent;
+}
+
+.#{$prefix}menu-item-separator {
+    border-top: dotted 1px $menu-separator-border-color;
+}

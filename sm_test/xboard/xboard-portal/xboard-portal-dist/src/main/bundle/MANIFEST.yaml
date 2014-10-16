@@ -1,0 +1,20 @@
+---
+manifestVersion: 1.0.0
+
+name: xboard-portal
+version: 1.5.0.0
+displayName: xBoard Portal
+displayVersion: 1.5.0.0
+description: This is the xBoard Portal Service used by the Doormat component for rendering the header bar.
+
+physicalComponents:
+  - name: xboard-portal-service
+    version: 1.0.0.0
+    displayName: xBoard Portal Service
+    description: This is the xboard portal service
+    type: docker
+    scheduling:
+      imageUri: SERVICE
+      classname: com.edifecs.xboard.portal.service.XboardPortalService
+      scheduler: service
+...

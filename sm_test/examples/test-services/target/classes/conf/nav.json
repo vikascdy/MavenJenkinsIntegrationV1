@@ -1,0 +1,19 @@
+{
+    "service": "Service Manager Test Service",
+    "id":      "settings",
+    "name":    "Settings",
+    "columnOne": [{
+        namespace: "app",
+        id:        	"1-manageapp",
+        text:      	"Service Manager Test App",
+        linkUrl:   	"#",
+        permission: "platform:security:administrative:user:view"
+    },{
+        namespace: "app",
+        id:        	"2-edifecsapp",
+        text:      	"Sample App in New Window",
+        linkUrl:   	"/esm/#!/MyOrganization",
+        permission: "platform:security:administrative:user:view",
+        hrefTarget : "_blank"
+    }]
+}

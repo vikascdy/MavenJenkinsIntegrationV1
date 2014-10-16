@@ -1,0 +1,31 @@
+[
+    {
+        "text": "ORGANIZATION CONFIGURATION",
+        "expandable": false,
+        "expanded": true,
+		
+        "children": [
+        	{
+                "text": "Organization Overview",
+                "id":"overview",
+                "leaf": true
+            },
+            {
+                "text": "Manage Sub-Organization",
+                "id":"manageSubOrganizations",
+                "leaf": true
+            },
+//            {
+//                "text": "Assign Roles",
+//                "id":"assignRoles",
+//                "leaf": true
+//            },
+            {
+                "text": "Manage Users",
+                "id":"manageUsers",
+                "leaf": true
+            }
+
+        ]
+    }
+]

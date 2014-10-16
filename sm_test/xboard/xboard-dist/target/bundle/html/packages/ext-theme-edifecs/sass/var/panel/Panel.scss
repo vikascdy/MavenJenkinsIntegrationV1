@@ -1,0 +1,33 @@
+$panel-base-color: #f6f8fa !default; 
+$panel-border-color: #e7ebf0 !default;
+
+$panel-header-font-weight: bold !default;
+$panel-header-font-size: 14px !default; 
+$panel-header-color: #2c3941 !default; 
+$panel-header-line-height: 24px !default;
+$panel-header-padding: 6px 10px 4px 10px !default;
+$panel-header-text-padding: 0px !default;
+
+$panel-header-background-color: #FFFFFF !default;
+$panel-header-background-gradient: 'panel-header' !default;
+
+//$panel-header-inner-border-width: 0px !default;
+$panel-header-inner-border-width: 1px 0 0 !default;
+
+
+//$panel-frame-header-inner-border-width: 0px !default;
+$panel-frame-header-inner-border-width: 1px 1px 0 !default;
+
+$panel-frame-border-radius: 2px !default;
+$panel-frame-base-color: $panel-base-color !default;
+$panel-frame-background-color: #FFFFFF !default;
+$panel-frame-padding: 0px !default;
+$panel-ghost-opacity: 0.65 !default;
+$panel-frame-header-border-width: 0px !default; 
+$panel-frame-body-border-width: 0 !default;
+$panel-tool-spacing: 2px !default;
+$panel-header-icon-spacing: 2px !default;
+
+$panel-body-border-width: 1px !default;
+$panel-header-icon-spacing: 7px !default;
+$panel-tool-spacing: 5px !default;

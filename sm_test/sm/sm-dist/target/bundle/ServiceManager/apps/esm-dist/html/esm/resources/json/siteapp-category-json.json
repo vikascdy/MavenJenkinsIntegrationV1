@@ -1,0 +1,16 @@
+[
+    {
+        "text": "Category",
+        "expandable": false,
+        "expanded": true,
+        "children": [
+            {
+                "text": "All",
+                "id":"all",
+                "active":true,
+                "leaf": true
+            }
+
+        ]
+    }
+]

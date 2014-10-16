@@ -1,0 +1,27 @@
+$toolbar-font-size: $font-size !default;
+
+$toolbar-background-color: #fbfcfd !default;
+$toolbar-background-gradient : color_stops(#fbfcfd, #fbfcfd) !default;
+
+//margins
+$toolbar-horizontal-spacing: 1px !default;
+$toolbar-vertical-spacing: 1px !default;
+$toolbar-footer-margin: 0px !default;
+$toolbar-footer-horizontal-spacing: 4px !default;
+$toolbar-footer-vertical-spacing: 4px !default;
+
+//border
+$toolbar-border-color: #e9edef #e4e8eb #dce1e5 #e4e8eb !default;
+$toolbar-border-width: 1px !default;
+$toolbar-border-style: solid !default;
+
+//separator
+$toolbar-separator-horizontal-height: 24px !default;
+$toolbar-separator-horizontal-margin: 0 5px 0px 5px !default;
+$toolbar-separator-vertical-margin:  0 5px 0px 5px !default;
+$toolbar-separator-color: #E9EDEF !default;
+
+//text
+$toolbar-text-font-size : $font-size !default;
+$toolbar-text-color: #3e464c !default;
+$toolbar-text-font-weight: bold !default;

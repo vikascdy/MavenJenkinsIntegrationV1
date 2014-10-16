@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.5">
+<file name="D:\SM1\sm\content-repository\content-repository-upload-tool\src\main\java\com\edifecs\content\repository\upload\CRDirectoryMonitor.java">
+<error line="20" severity="warning" message="Wrong order for &apos;com.edifecs.content.repository.upload.tool.CRUploadTool&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="36" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="70" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="95" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\SM1\sm\content-repository\content-repository-upload-tool\src\main\java\com\edifecs\content\repository\upload\CRDirectoryUpload.java">
+<error line="5" severity="warning" message="Wrong order for &apos;com.edifecs.content.repository.upload.tool.CRUploadTool&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="9" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="29" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\SM1\sm\content-repository\content-repository-upload-tool\src\main\java\com\edifecs\content\repository\upload\CRProductUpload.java">
+<error line="13" severity="warning" message="Wrong order for &apos;com.edifecs.content.repository.upload.tool.CRProductUploadTool&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="18" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="59" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="63" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="72" column="53" severity="warning" message="&apos;(&apos; is followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="72" column="68" severity="warning" message="&apos;)&apos; is preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="82" column="53" severity="warning" message="&apos;(&apos; is followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="82" column="68" severity="warning" message="&apos;)&apos; is preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+</file>
+<file name="D:\SM1\sm\content-repository\content-repository-upload-tool\src\main\java\com\edifecs\content\repository\upload\package-info.java">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="D:\SM1\sm\content-repository\content-repository-upload-tool\src\main\java\com\edifecs\content\repository\upload\tool\CRProductUploadTool.java">
+<error line="13" severity="warning" message="Wrong order for &apos;com.edifecs.content.repository.upload.tool.helpers.CRConnectionException&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="20" column="4" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="57" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="89" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="93" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="100" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="103" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="106" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="110" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="184" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="207" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="209" column="33" severity="error" message="Fall through from previous branch of the switch statement." source="com.puppycrawl.tools.checkstyle.checks.coding.FallThroughCheck"/>
+<error line="228" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="243" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="259" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\SM1\sm\content-repository\content-repository-upload-tool\src\main\java\com\edifecs\content\repository\upload\tool\CRUploadTool.java">
+<error line="15" severity="warning" message="Wrong order for &apos;com.edifecs.content.repository.upload.tool.helpers.CRConnection&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="28" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="150" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\SM1\sm\content-repository\content-repository-upload-tool\src\main\java\com\edifecs\content\repository\upload\tool\helpers\ConfigParameters.java">
+<error line="14" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="23" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="24" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="29" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="30" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="31" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="33" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="35" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="222" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="224" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="225" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\SM1\sm\content-repository\content-repository-upload-tool\src\main\java\com\edifecs\content\repository\upload\tool\helpers\CRConnection.java">
+<error line="6" severity="warning" message="Wrong order for &apos;com.edifecs.epp.isc.CommandCommunicator&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="10" severity="warning" message="Wrong order for &apos;com.edifecs.epp.isc.Args&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="12" severity="warning" message="Wrong order for &apos;com.edifecs.epp.isc.Address&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="18" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="22" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\SM1\sm\content-repository\content-repository-upload-tool\src\main\java\com\edifecs\content\repository\upload\tool\helpers\CRConnectionException.java">
+<error line="4" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="D:\SM1\sm\content-repository\content-repository-upload-tool\src\main\java\com\edifecs\content\repository\upload\tool\helpers\package-info.java">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="D:\SM1\sm\content-repository\content-repository-upload-tool\src\main\java\com\edifecs\content\repository\upload\tool\package-info.java">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="D:\SM1\sm\content-repository\content-repository-upload-tool\src\main\resources\settings.properties">
+</file>
+</checkstyle>

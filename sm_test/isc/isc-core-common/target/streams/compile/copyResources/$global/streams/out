@@ -1,0 +1,6 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\isc\isc-core-common\src\main\resources\exception-messages,D:\SM1\sm\isc\isc-core-common\target\classes\exception-messages)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\isc\isc-core-common\src\main\resources\keystore.jks,D:\SM1\sm\isc\isc-core-common\target\classes\keystore.jks)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\isc\isc-core-common\src\main\resources\shiro.ini,D:\SM1\sm\isc\isc-core-common\target\classes\shiro.ini)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\isc\isc-core-common\src\main\resources\exception-messages\de.properties,D:\SM1\sm\isc\isc-core-common\target\classes\exception-messages\de.properties)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\isc\isc-core-common\src\main\resources\exception-messages\en.properties,D:\SM1\sm\isc\isc-core-common\target\classes\exception-messages\en.properties)[0m

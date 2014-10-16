@@ -1,0 +1,193 @@
+	@include extjs-panel-ui
+	(
+		'edifecs-leftmenu',
+		$ui-border-color: #eff2f6,
+		$ui-border-radius: 0px,
+		$ui-border-width: 0px,
+
+		$ui-header-color: #536777,
+		$ui-header-font-family: $panel-header-font-family,
+		$ui-header-font-size: $panel-header-font-size,
+		$ui-header-font-weight: $panel-header-font-weight,
+		$ui-header-line-height: $panel-header-line-height,
+		$ui-header-border-width: 0px,
+		$ui-header-background-color: $panel-header-background-color,
+		$ui-header-background-gradient: $panel-header-background-gradient,
+		
+		$ui-body-color: #4e5c69,
+		$ui-body-border-color: #eff2f6,
+		$ui-body-border-width: 0px,
+		$ui-body-border-style: solid,
+		$ui-body-background-color: #FFFFFF,
+		$ui-body-font-size: $panel-body-font-size,
+		$ui-body-font-weight: bold
+	);
+	
+	/* Tree Panel Container */
+        /* Type One Menu */
+            .leftMenuType1 .x-panel-header-edifecs-leftmenu-top
+            {
+               padding              :   6px 10px 4px!important;
+            }
+            .leftMenuBodyType1
+            {
+                background-color	:	#FFFFFF!important;
+            }
+            .leftMenuType1 .x-tree-icon-parent, .leftMenuType1 .x-tree-icon-leaf
+            {
+                display				:	none!important;
+            }
+            .leftMenuType1 .x-panel-header-edifecs-leftmenu-top
+            {
+                box-shadow			:	none;
+                background-color	:	#FFFFFF!important;
+            }
+        /* Type One Menu */
+
+        /* Type Two Menu */
+            .leftMenuBodyType2
+            {
+                background-color    :   #FFFFFF!important;
+                padding				:   0px;
+            }
+            .leftMenuType2 .x-tree-icon-parent, .leftMenuType2 .x-tree-icon-leaf
+            {
+                display :   none!important;
+            }
+            .leftMenuType2 .x-grid-cell-inner-treecolumn
+            {
+                padding :   0px!important;
+            }
+        /* Type Two Menu */
+	/* Tree Panel Container */
+
+	/* Normal Style Node */
+        /* Type One Menu */
+            .leftMenuType1 .x-grid-row .x-grid-cell
+            {
+                background-color	:	#FFFFFF!important;
+                color				:	#3e464c;
+                border-bottom		:	1px solid #eff2f6!important;
+                border-top			:	0px!important;
+                text-transform		:	uppercase;
+                cursor              :   pointer;
+                font-weight			:	bold;
+            }
+             .leftMenuType1 .x-grid-row .x-grid-cell .x-tree-node-text
+             {
+               font-size			:	10px!important;
+             }
+         /* Type One Menu */
+
+         /* Type Two Menu */
+             .leftMenuType2 .x-grid-row .x-grid-cell
+             {
+                background-color	:	#FFFFFF!important;
+                color				:	#3e464c;
+                cursor              :   pointer;
+                text-transform		:	capitalize;
+                font-weight			:	bold;
+             }
+        /* Type Two Menu */
+	/* Normal Style Node */
+	
+	/* Expanded Node Style */
+        /* Type One Menu */
+            .leftMenuType1 .x-grid-tree-node-leaf .leafNode
+            {
+                border-bottom		:	0px!important;
+                color				:	#5D7385;
+                font-size			:	10px;
+                font-weight			:	normal;
+            }
+            .leftMenuType1 .x-grid-tree-node-leaf .leafLastNode
+            {
+                color				:	#5D7385;
+                font-size			:	10px;
+                font-weight			:	normal;
+            }
+            .leftMenuType1 .x-grid-tree-node-expanded .expandedParentNode, .leftMenuType1 .x-grid-tree-node-expanded .x-grid-cell
+            {
+                border-bottom		:	0px!important;
+            }
+        /* Type One Menu */
+
+        /* Type Two Menu*/
+            .leftMenuType2 .x-grid-tree-node-leaf .leafNode
+            {
+                color				:	#5D7385;
+                font-weight			:	normal;
+            }
+            .leftMenuType2 .x-grid-tree-node-leaf .leafLastNode
+            {
+                color				:	#5D7385;
+                font-weight			:	normal;
+            }
+        /* Type Two Menu*/
+	/* Expanded Node Style */
+	
+	/* Hover Tree Node Style */
+        /* Type One Menu */
+            .leftMenuType1 .x-grid-row-over .x-grid-cell
+            {
+                color	:	#8daec8;
+            }
+        /* Type One Menu */
+
+        /* Type Two Menu */
+            .leftMenuType2 .x-grid-row-over .x-grid-cell
+            {
+                color	:	#8daec8;
+            }
+        /* Type Two Menu */
+	/* Hover Tree Node Style */
+	
+	/* Selected Tree Node Style */
+        /* Type One Menu */
+            .leftMenuType1 .selectedCls .x-grid-cell
+            {
+                color				:	#d0731f;
+                font-weight			:	bold;
+                font-size			:	10px;
+                text-transform		:	uppercase;
+                background-color	:	#FFFFFF!important;
+            }
+            .leftMenuType1 .selectedCls .leafNode
+            {
+                font-size			:	10px;
+                font-weight			:	normal;
+            }
+            .leftMenuType1 .selectedCls .leafLastNode
+            {
+                font-size			:	10px;
+                font-weight			:	normal;
+            }
+            .leftMenuType1 .selectedCls .x-tree-elbow, .leftMenuType1 .selectedCls  .x-tree-elbow-end
+            {
+                border-left			:	2px solid #DE7300;
+                *width              :   14px;
+            }
+        /* Type One Menu */
+
+        /* Type Two Menu */
+            .leftMenuType2 .selectedCls .x-grid-cell
+            {
+                color				:	#D0731F;
+                text-transform		:	capitalize;
+                background-color	:	#FFFFFF!important;
+            }
+            .leftMenuType1 .selectedCls .leafNode
+            {
+                font-weight			:	normal;
+            }
+            .leftMenuType1 .selectedCls .leafLastNode
+            {
+                font-weight			:	normal;
+            }
+            .leftMenuType2 .selectedCls .x-tree-elbow, .leftMenuType2 .selectedCls  .x-tree-elbow-end
+            {
+                border-left			:	2px solid #DE7300;
+                *width               :   14px;
+            }
+        /* Type Two Menu */
+	/* Selected Tree Node Style */

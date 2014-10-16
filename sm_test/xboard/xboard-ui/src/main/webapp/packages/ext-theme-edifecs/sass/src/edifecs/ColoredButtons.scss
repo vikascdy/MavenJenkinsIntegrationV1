@@ -1,0 +1,328 @@
+	/* Button Green UI mixin */
+	@include extjs-button-ui(
+		$ui: 'greenbutton-small',   
+		
+		$border-radius: 2px,
+		$border-width: 1px,
+				
+		$border-color: #9cb257 #87a135 #778f2d #87a135,
+		$border-color-over: #92a750 #7b942d #6c8326 #7b942d,
+		$border-color-focus: #92a750 #7b942d #6c8326 #7b942d,
+		$border-color-pressed: #4b5f13 #4b5f13 #6f803f #4b5f13,
+		$border-color-disabled: #9cb257 #87a135 #778f2d #87a135,
+		
+		$padding: $button-small-padding,
+		$text-padding: $button-small-text-padding,
+		
+		$background-color: #9fbc46,
+		$background-color-over: #9fbc46,
+		$background-color-focus: #9fbc46,
+		$background-color-pressed: #77961f,
+		$background-color-disabled: #9fbc46,
+		
+		$background-gradient: color_stops(#9fbc46, #8fad2b),
+		$background-gradient-over: color_stops(#9fbc46, #9fbc46),
+		$background-gradient-focus: color_stops(#9fbc46, #9fbc46),
+		$background-gradient-pressed: color_stops(#77961f, #77961f),
+		$background-gradient-disabled: color_stops(#9fbc46, #8fad2b),
+		
+		$color: #FFFFFF,
+		$color-over: #FFFFFF,
+		$color-focus: #FFFFFF,
+		$color-pressed: #FFFFFF,
+		$color-disabled: #FFFFFF,
+		
+		$font-size: $button-small-font-size,
+		$font-size-over: $button-small-font-size,
+		$font-size-focus: $button-small-font-size,
+		$font-size-pressed: $button-small-font-size,
+		$font-size-disabled: $button-small-font-size,
+		
+		$font-weight: $button-small-font-weight,
+        $font-weight-over: $button-small-font-weight-over,
+        $font-weight-focus: $button-small-font-weight-focus,
+        $font-weight-pressed: $button-small-font-weight-pressed,
+        $font-weight-disabled: $button-small-font-weight-disabled,
+		
+		$font-family: $button-small-font-family,
+		$font-family-over: $button-small-font-family-over,
+		$font-family-focus: $button-small-font-family-focus,
+		$font-family-pressed: $button-small-font-family-pressed,
+		$font-family-disabled: $button-small-font-family-disabled,
+		
+		$icon-size: 16px,
+        $glyph-color: $button-toolbar-glyph-color,
+        $arrow-width: $button-small-arrow-width,
+        $arrow-height: $button-small-arrow-height,
+        $split-width: $button-small-split-width,
+        $split-height: $button-small-split-height,
+	
+		$include-ui-menu-arrows: true,
+		$include-ui-split-arrows: true,
+		
+		$opacity-disabled : 0.25		
+	);		
+	
+	/* Button Blue UI mixin */
+	@include extjs-button-ui
+	(
+		$ui: 'bluebutton-small',   
+		
+		$border-radius: 2px,
+		$border-width: 1px,
+				
+		$border-color: #799ab5 #5c84a4 #4f7493 #5c84a4,
+		$border-color-over: #6b8da7 #4d7494 #426685 #4d7494,
+		$border-color-focus: #6b8da7 #4d7494 #426685 #4d7494,
+		$border-color-pressed: #2c4964 #385a78 #55758f #385a78,
+		$border-color-disabled: #799ab5 #5c84a4 #4f7493 #5c84a4,
+		
+		$padding: $button-small-padding,
+		$text-padding: $button-small-text-padding,
+		
+		$background-color: #71a0c6,
+		$background-color-over: #71a0c6,
+		$background-color-focus: #71a0c6,
+		$background-color-pressed: #51799c,
+		$background-color-disabled: #71a0c6,
+		
+		$background-gradient: color_stops(#71a0c6, #6793b6),
+		$background-gradient-over: color_stops(#71a0c6, #71a0c6),
+		$background-gradient-focus: color_stops(#71a0c6, #71a0c6),
+		$background-gradient-pressed: color_stops(#51799c, #51799c),
+		$background-gradient-disabled: color_stops(#71a0c6, #71a0c6),
+		
+		$color: #FFFFFF,
+		$color-over: #FFFFFF,
+		$color-focus: #FFFFFF,
+		$color-pressed: #FFFFFF,
+		$color-disabled: #FFFFFF,
+		
+		$font-size: $button-small-font-size,
+		$font-size-over: $button-small-font-size,
+		$font-size-focus: $button-small-font-size,
+		$font-size-pressed: $button-small-font-size,
+		$font-size-disabled: $button-small-font-size,
+		
+		$font-weight: $button-small-font-weight,
+        $font-weight-over: $button-small-font-weight-over,
+        $font-weight-focus: $button-small-font-weight-focus,
+        $font-weight-pressed: $button-small-font-weight-pressed,
+        $font-weight-disabled: $button-small-font-weight-disabled,
+		
+		$font-family: $button-small-font-family,
+		$font-family-over: $button-small-font-family-over,
+		$font-family-focus: $button-small-font-family-focus,
+		$font-family-pressed: $button-small-font-family-pressed,
+		$font-family-disabled: $button-small-font-family-disabled,
+		
+		$icon-size: 16px,
+        $glyph-color: $button-toolbar-glyph-color,
+        $arrow-width: $button-small-arrow-width,
+        $arrow-height: $button-small-arrow-height,
+        $split-width: $button-small-split-width,
+        $split-height: $button-small-split-height,
+	
+		$include-ui-menu-arrows: true,
+		$include-ui-split-arrows: true,
+		
+		$opacity-disabled : 0.25
+	);
+	
+	/* Orange Button UI mixin */
+	@include extjs-button-ui
+	(
+		$ui: 'orangebutton-small',   
+		
+		$border-radius: 2px,
+		$border-width: 1px,
+				
+		$border-color: #b5834d #a46829 #915923 #a46829,
+		$border-color-over: #a07342 #8b551c #7b4918 #8b551c,
+		$border-color-focus: #a07342 #8b551c #7b4918 #8b551c,
+		$border-color-pressed: #5f3610 #385a78 #845b34 #385a78,
+		$border-color-disabled: #799ab5 #6d3f14 #4f7493 #6d3f14,
+		
+		$padding: $button-small-padding,
+		$text-padding: $button-small-text-padding,
+		
+		$background-color: #bd8752,
+		$background-color-over: #b5834d,
+		$background-color-focus: #b5834d,
+		$background-color-pressed: #986737,
+		$background-color-disabled: #bd8752,
+		
+		$background-gradient: color_stops(#bd8752, #b37838),
+		$background-gradient-over: color_stops(#b5834d, #b5834d),
+		$background-gradient-focus: color_stops(#b5834d, #b5834d),
+		$background-gradient-pressed: color_stops(#986737, #986737),
+		$background-gradient-disabled: color_stops(#bd8752, #b37838),
+		
+		$color: #FFFFFF,
+		$color-over: #FFFFFF,
+		$color-focus: #FFFFFF,
+		$color-pressed: #FFFFFF,
+		$color-disabled: #FFFFFF,
+		
+		$font-size: $button-small-font-size,
+		$font-size-over: $button-small-font-size,
+		$font-size-focus: $button-small-font-size,
+		$font-size-pressed: $button-small-font-size,
+		$font-size-disabled: $button-small-font-size,
+		
+		$font-weight: $button-small-font-weight,
+        $font-weight-over: $button-small-font-weight-over,
+        $font-weight-focus: $button-small-font-weight-focus,
+        $font-weight-pressed: $button-small-font-weight-pressed,
+        $font-weight-disabled: $button-small-font-weight-disabled,
+		
+		$font-family: $button-small-font-family,
+		$font-family-over: $button-small-font-family-over,
+		$font-family-focus: $button-small-font-family-focus,
+		$font-family-pressed: $button-small-font-family-pressed,
+		$font-family-disabled: $button-small-font-family-disabled,
+		
+		$icon-size: 16px,
+        $glyph-color: $button-toolbar-glyph-color,
+        $arrow-width: $button-small-arrow-width,
+        $arrow-height: $button-small-arrow-height,
+        $split-width: $button-small-split-width,
+        $split-height: $button-small-split-height,
+	
+		$include-ui-menu-arrows: true,
+		$include-ui-split-arrows: true,
+		
+		$opacity-disabled : 0.25
+	);
+	
+	/* Gray Button UI mixin */
+	@include extjs-button-ui
+	(
+		$ui: 'graybutton-small',   
+		
+		$border-radius: 2px,
+		$border-width: 1px,
+				
+		$border-color: #69777e #4b5b64 #425059 #4b5b64,
+		$border-color-over: #57636a #35434c #2f3b44 #35434c,
+		$border-color-focus: #57636a #35434c #2f3b44 #35434c,
+		$border-color-pressed: #1f272c #242c31 #555d61 #242c31,
+		$border-color-disabled: #69777e #4b5b64 #425059 #4b5b64,
+		
+		$padding: $button-small-padding,
+		$text-padding: $button-small-text-padding,
+		
+		$background-color: #717e86,
+		$background-color-over: #717e86,
+		$background-color-focus: #717e86,
+		$background-color-pressed: #536068,
+		$background-color-disabled: #717e86,
+		
+		$background-gradient: color_stops(#717e86, #5d6d76),
+		$background-gradient-over: color_stops(#717e86, #717e86),
+		$background-gradient-focus: color_stops(#717e86, #717e86),
+		$background-gradient-pressed: color_stops(#536068, #536068),
+		$background-gradient-disabled: color_stops(#717e86, #5d6d76),
+		
+		$color: #FFFFFF,
+		$color-over: #FFFFFF,
+		$color-focus: #FFFFFF,
+		$color-pressed: #FFFFFF,
+		$color-disabled: #FFFFFF,
+		
+		$font-size: $button-small-font-size,
+		$font-size-over: $button-small-font-size,
+		$font-size-focus: $button-small-font-size,
+		$font-size-pressed: $button-small-font-size,
+		$font-size-disabled: $button-small-font-size,
+		
+		$font-weight: $button-small-font-weight,
+        $font-weight-over: $button-small-font-weight-over,
+        $font-weight-focus: $button-small-font-weight-focus,
+        $font-weight-pressed: $button-small-font-weight-pressed,
+        $font-weight-disabled: $button-small-font-weight-disabled,
+		
+		$font-family: $button-small-font-family,
+		$font-family-over: $button-small-font-family-over,
+		$font-family-focus: $button-small-font-family-focus,
+		$font-family-pressed: $button-small-font-family-pressed,
+		$font-family-disabled: $button-small-font-family-disabled,
+		
+		$icon-size: 16px,
+        $glyph-color: $button-toolbar-glyph-color,
+        $arrow-width: $button-small-arrow-width,
+        $arrow-height: $button-small-arrow-height,
+        $split-width: $button-small-split-width,
+        $split-height: $button-small-split-height,
+	
+		$include-ui-menu-arrows: true,
+		$include-ui-split-arrows: true,
+		
+		$opacity-disabled : 0.25
+	);
+	
+	/* Red Button UI mixin */
+	@include extjs-button-ui
+	(
+		$ui: 'redbutton-small',   
+		
+		$border-radius: 2px,
+		$border-width: 1px,
+				
+		$border-color: #a75252 #942f2f #832828 #942f2f,
+		$border-color-over: #954747 #7e2222 #701d1d #7e2222,
+		$border-color-focus: #954747 #7e2222 #701d1d #7e2222,
+		$border-color-pressed: #461a1a #532020 #896060 #532020,
+		$border-color-disabled: #a75252 #942f2f #832828 #942f2f,
+		
+		$padding: $button-small-padding,
+		$text-padding: $button-small-text-padding,
+		
+		$background-color: #bd5252,
+		$background-color-over: #bd5252,
+		$background-color-focus: #bd5252,
+		$background-color-pressed: #9d3c3c,
+		$background-color-disabled: #bd5252,
+		
+		$background-gradient: color_stops(#bd5252, #b33838),
+		$background-gradient-over: color_stops(#bd5252, #bd5252),
+		$background-gradient-focus: color_stops(#bd5252, #bd5252),
+		$background-gradient-pressed: color_stops(#9d3c3c, #9d3c3c),
+		$background-gradient-disabled: color_stops(#bd5252, #b33838),
+		
+		$color: #FFFFFF,
+		$color-over: #FFFFFF,
+		$color-focus: #FFFFFF,
+		$color-pressed: #FFFFFF,
+		$color-disabled: #FFFFFF,
+		
+		$font-size: $button-small-font-size,
+		$font-size-over: $button-small-font-size,
+		$font-size-focus: $button-small-font-size,
+		$font-size-pressed: $button-small-font-size,
+		$font-size-disabled: $button-small-font-size,
+		
+		$font-weight: $button-small-font-weight,
+        $font-weight-over: $button-small-font-weight-over,
+        $font-weight-focus: $button-small-font-weight-focus,
+        $font-weight-pressed: $button-small-font-weight-pressed,
+        $font-weight-disabled: $button-small-font-weight-disabled,
+		
+		$font-family: $button-small-font-family,
+		$font-family-over: $button-small-font-family-over,
+		$font-family-focus: $button-small-font-family-focus,
+		$font-family-pressed: $button-small-font-family-pressed,
+		$font-family-disabled: $button-small-font-family-disabled,
+		
+		$icon-size: 16px,
+        $glyph-color: $button-toolbar-glyph-color,
+        $arrow-width: $button-small-arrow-width,
+        $arrow-height: $button-small-arrow-height,
+        $split-width: $button-small-split-width,
+        $split-height: $button-small-split-height,
+	
+		$include-ui-menu-arrows: true,
+		$include-ui-split-arrows: true,
+		
+		$opacity-disabled : 0.25
+	);

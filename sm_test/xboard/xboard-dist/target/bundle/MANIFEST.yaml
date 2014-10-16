@@ -1,0 +1,20 @@
+---
+manifestVersion: 1.0.0
+
+name: xboard
+version: 1.0.0.0
+displayName: XBoard
+displayVersion: 1.0.0.0
+description: This is the Doormat Service used by the Doormat component for rendering the header bar.
+
+physicalComponents:
+  - name: xboard-service
+    version: 1.0.0.0
+    displayName: XBoard Service
+    description: This is the xboard service
+    type: docker
+    scheduling:
+      imageUri: SERVICE
+      classname: this.is.a.temp.class.until.proper.lifecycle.events.are.finished
+      scheduler: service
+...

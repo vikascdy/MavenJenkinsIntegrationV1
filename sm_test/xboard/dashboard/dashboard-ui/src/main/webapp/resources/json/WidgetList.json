@@ -1,0 +1,28 @@
+[
+    {
+        "name"    :"Charts",
+        "type":"chart",
+        "imageUrl":"resources/images/widgets/charts.png"
+    },
+    {
+        "name"    :"Data Grid",
+        "type":"grid",
+        "imageUrl":"resources/images/widgets/grid.png"
+    },
+    {
+        "name"    :"Image",
+        "type":"image",
+        "imageUrl":"resources/images/widgets/image.png"
+
+    },
+    {
+        "name"    :"Text",
+        "type":"text",
+        "imageUrl":"resources/images/widgets/text.png"
+    },
+        {
+        "name"    :"Shape",
+        "type":"shape",
+        "imageUrl":"resources/images/widgets/shapes.png"
+    }
+]

@@ -1,0 +1,21 @@
+// Background colour for sorted state
+.#{$prefix}column-header-sort-ASC,
+.#{$prefix}column-header-sort-DESC {
+    background-color: $sorted-grid-column-header-color;
+	background-image: none;
+}
+
+
+.#{$prefix}column-header-trigger {
+    background: no-repeat left center;
+    background-color: $grid-header-background-color;
+    background-image: theme-background-image('grid/grid3-hd-btn');
+}
+
+// Classic theme uses different left.right menu trigger images.
+@if $include-rtl {
+    .#{$prefix}rtl.#{$prefix}column-header-trigger {
+        background-image: theme-background-image('grid/grid3-hd-btn-left');
+        background-position: right center;
+    }
+}

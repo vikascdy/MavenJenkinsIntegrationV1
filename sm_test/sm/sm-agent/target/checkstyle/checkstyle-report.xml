@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.5">
+<file name="D:\SM1\sm\sm\sm-agent\src\main\java\com\edifecs\servicemanager\agent\AgentCommandHandler.java">
+<error line="29" severity="warning" message="Wrong order for &apos;com.edifecs.agent.exception.CommandException&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="38" severity="warning" message="Wrong order for &apos;com.edifecs.epp.isc.MessageResponse&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="45" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="88" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="137" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="154" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\SM1\sm\sm\sm-agent\src\main\java\com\edifecs\servicemanager\agent\AgentLauncher.java">
+<error line="8" severity="warning" message="Wrong order for &apos;javax.management.InstanceAlreadyExistsException&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="18" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="23" severity="error" message="All TODOs should be named.  e.g. &quot;TODO(johndoe): Refactor when v2 is released.&quot;" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="23" column="5" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="35" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\SM1\sm\sm\sm-agent\src\main\java\com\edifecs\servicemanager\agent\AgentService.java">
+<error line="33" severity="warning" message="Wrong order for &apos;java.io.File&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="53" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="62" column="5" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="92" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="108" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="122" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="124" severity="error" message="TODO is preferred to FIXME.  e.g. &quot;TODO(johndoe): Refactor when v2 is released.&quot;" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="127" severity="error" message="All TODOs should be named.  e.g. &quot;TODO(johndoe): Refactor when v2 is released.&quot;" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="127" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="128" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="156" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="158" column="14" severity="error" message="&apos;while&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="170" column="15" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="182" column="19" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="211" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="213" column="15" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="226" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="264" severity="error" message="All TODOs should be named.  e.g. &quot;TODO(johndoe): Refactor when v2 is released.&quot;" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="264" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="287" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="289" column="15" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="305" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="309" severity="error" message="All TODOs should be named.  e.g. &quot;TODO(johndoe): Refactor when v2 is released.&quot;" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="322" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\SM1\sm\sm\sm-agent\src\main\java\com\edifecs\servicemanager\agent\exception\AgentStartupException.java">
+</file>
+<file name="D:\SM1\sm\sm\sm-agent\src\main\java\com\edifecs\servicemanager\agent\exception\InvalidCoreConfigurationException.java">
+</file>
+<file name="D:\SM1\sm\sm\sm-agent\src\main\java\com\edifecs\servicemanager\agent\IAgentCommandHandler.java">
+<error line="20" severity="warning" message="Wrong order for &apos;com.edifecs.agent.exception.CommandException&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="25" severity="warning" message="Wrong order for &apos;com.edifecs.epp.isc.annotations.Akka&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="31" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="D:\SM1\sm\sm\sm-agent\src\main\java\com\edifecs\servicemanager\agent\NodeLauncherThread.java">
+<error line="27" severity="warning" message="Wrong order for &apos;com.edifecs.core.configuration.configuration.Node&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="53" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="91" column="9" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="115" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="122" severity="warning" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="128" severity="warning" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="129" severity="warning" message="&apos;for&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="177" severity="error" message="All TODOs should be named.  e.g. &quot;TODO(johndoe): Refactor when v2 is released.&quot;" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="D:\SM1\sm\sm\sm-agent\src\main\java\com\edifecs\servicemanager\agent\package-info.java">
+<error line="18" severity="error" message="Line is longer than 100 characters." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\SM1\sm\sm\sm-agent\src\main\java\com\edifecs\servicemanager\agent\StreamGobbler.java">
+</file>
+</checkstyle>

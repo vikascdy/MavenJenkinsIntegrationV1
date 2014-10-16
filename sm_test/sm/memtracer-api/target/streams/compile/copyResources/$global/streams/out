@@ -1,0 +1,25 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\sm\memtracer-api\src\main\resources\native,D:\SM1\sm\sm\memtracer-api\target\classes\native)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\sm\memtracer-api\src\main\resources\native\.sigar_shellrc,D:\SM1\sm\sm\memtracer-api\target\classes\native\.sigar_shellrc)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\sm\memtracer-api\src\main\resources\native\libsigar-amd64-freebsd-6.so,D:\SM1\sm\sm\memtracer-api\target\classes\native\libsigar-amd64-freebsd-6.so)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\sm\memtracer-api\src\main\resources\native\libsigar-amd64-linux.so,D:\SM1\sm\sm\memtracer-api\target\classes\native\libsigar-amd64-linux.so)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\sm\memtracer-api\src\main\resources\native\libsigar-amd64-solaris.so,D:\SM1\sm\sm\memtracer-api\target\classes\native\libsigar-amd64-solaris.so)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\sm\memtracer-api\src\main\resources\native\libsigar-ia64-hpux-11.sl,D:\SM1\sm\sm\memtracer-api\target\classes\native\libsigar-ia64-hpux-11.sl)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\sm\memtracer-api\src\main\resources\native\libsigar-ia64-linux.so,D:\SM1\sm\sm\memtracer-api\target\classes\native\libsigar-ia64-linux.so)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\sm\memtracer-api\src\main\resources\native\libsigar-pa-hpux-11.sl,D:\SM1\sm\sm\memtracer-api\target\classes\native\libsigar-pa-hpux-11.sl)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\sm\memtracer-api\src\main\resources\native\libsigar-ppc-aix-5.so,D:\SM1\sm\sm\memtracer-api\target\classes\native\libsigar-ppc-aix-5.so)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\sm\memtracer-api\src\main\resources\native\libsigar-ppc-linux.so,D:\SM1\sm\sm\memtracer-api\target\classes\native\libsigar-ppc-linux.so)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\sm\memtracer-api\src\main\resources\native\libsigar-ppc64-aix-5.so,D:\SM1\sm\sm\memtracer-api\target\classes\native\libsigar-ppc64-aix-5.so)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\sm\memtracer-api\src\main\resources\native\libsigar-ppc64-linux.so,D:\SM1\sm\sm\memtracer-api\target\classes\native\libsigar-ppc64-linux.so)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\sm\memtracer-api\src\main\resources\native\libsigar-s390x-linux.so,D:\SM1\sm\sm\memtracer-api\target\classes\native\libsigar-s390x-linux.so)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\sm\memtracer-api\src\main\resources\native\libsigar-sparc-solaris.so,D:\SM1\sm\sm\memtracer-api\target\classes\native\libsigar-sparc-solaris.so)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\sm\memtracer-api\src\main\resources\native\libsigar-sparc64-solaris.so,D:\SM1\sm\sm\memtracer-api\target\classes\native\libsigar-sparc64-solaris.so)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\sm\memtracer-api\src\main\resources\native\libsigar-universal-macosx.dylib,D:\SM1\sm\sm\memtracer-api\target\classes\native\libsigar-universal-macosx.dylib)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\sm\memtracer-api\src\main\resources\native\libsigar-universal64-macosx.dylib,D:\SM1\sm\sm\memtracer-api\target\classes\native\libsigar-universal64-macosx.dylib)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\sm\memtracer-api\src\main\resources\native\libsigar-x86-freebsd-5.so,D:\SM1\sm\sm\memtracer-api\target\classes\native\libsigar-x86-freebsd-5.so)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\sm\memtracer-api\src\main\resources\native\libsigar-x86-freebsd-6.so,D:\SM1\sm\sm\memtracer-api\target\classes\native\libsigar-x86-freebsd-6.so)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\sm\memtracer-api\src\main\resources\native\libsigar-x86-linux.so,D:\SM1\sm\sm\memtracer-api\target\classes\native\libsigar-x86-linux.so)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\sm\memtracer-api\src\main\resources\native\libsigar-x86-solaris.so,D:\SM1\sm\sm\memtracer-api\target\classes\native\libsigar-x86-solaris.so)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\sm\memtracer-api\src\main\resources\native\sigar-amd64-winnt.dll,D:\SM1\sm\sm\memtracer-api\target\classes\native\sigar-amd64-winnt.dll)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\sm\memtracer-api\src\main\resources\native\sigar-x86-winnt.dll,D:\SM1\sm\sm\memtracer-api\target\classes\native\sigar-x86-winnt.dll)[0m
+[0m[[0mdebug[0m] [0m	(D:\SM1\sm\sm\memtracer-api\src\main\resources\native\sigar-x86-winnt.lib,D:\SM1\sm\sm\memtracer-api\target\classes\native\sigar-x86-winnt.lib)[0m
