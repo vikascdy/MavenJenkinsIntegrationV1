@@ -1,0 +1,62 @@
+' UML Class model for Multi-tenancy in Service Manager
+' This UML file requires PlantUML for rendering
+
+@startuml
+
+
+'title <b>Multi-tenancy Class Model</b>
+
+package " App " #EFEFEF {
+	App *-- "0..*" TemplateRole
+
+	App *-- "0..*" Permission
+
+	TemplateRole o-- "0..*" Permission
+}
+
+package " User Management " #EFEFEF {
+
+	Site *-- "0..*" Tenant
+	Site --* "0..*" App
+	Site -- "1" Tenant: System
+
+	Entity <|-- Organization
+	Entity <|-- UserGroup
+	Entity *-- "0..*" Entity : SubEntity
+	Tenant *-- "0..*" Entity : role:Owner|Partner
+	
+'	Tenant *-- "0..*" Organization : role:Owner|Partner
+	Organization *-- "0..*" Organization : Department
+	Organization *-- "0..*" User: role
+'	Tenant *-- "0..*" UserGroup
+	UserGroup *-- "0..*" UserGroup : SubUserGroup
+	UserGroup o-- "0..*" Organization
+	UserGroup "0..*" o--o "0..*" User : role
+	Tenant *-- "0..*" TenantApp
+	Tenant *-- "0..*" Role
+	User o-- "0..*" Role
+	UserGroup o-- "0..*" Role
+
+
+	
+	Role o-- "0..*" Permission : AccessType: Allow|Deny
+	
+	Role "1" -- "1" TemplateRole
+	
+	TenantApp "0..*" --* "1" App
+}
+package " PartnerManagement " #FFFFEF {
+	note as N1
+		Out of Scope (This is a future)
+	end note
+	Partner --|> Organization
+	Partner *-- "0..*" Capability
+	Partner "0..*" *-- "0..*" Relationship : role
+	Relationship "0..*" --* Agreement
+	Agreement "0..*" --* AgreementTemplate
+	TradeRelationship --|> Relationship
+}
+
+@enduml
+
+

@@ -1,0 +1,26 @@
+[
+    {
+        "text": "SITE CONFIGURATION",
+        "expandable": false,
+        "expanded": true,
+		
+        "children": [
+            {
+                "text": "Site Overview",
+                "id":"overview",
+                "leaf": true
+            },
+            {
+                "text": "Manage Tenants",
+                "id":"manageTenants",
+                "leaf": true
+            },
+			{
+                "text": "Apps Catalog",
+                "id":"site-apps",
+                "leaf": true
+            }
+
+        ]
+    }
+]

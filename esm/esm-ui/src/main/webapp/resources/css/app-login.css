@@ -1,0 +1,271 @@
+.footer {
+	float: right;
+}
+
+/*
+Login Page Style
+*/
+.login-page {
+	position: absolute;
+	left: 50%;
+	width: 700px;
+    height: 600px;
+    margin: 0 auto;
+	z-index: 2;
+	margin-left: -350px;
+	background-image: url(../images/line-bg.png);
+	background-repeat: repeat-y;
+	background-position: 50% 0;
+	text-align: left;
+	padding-top: 200px;
+	padding-bottom: 30px;
+}
+
+
+/*
+Login Message CSS
+*/
+
+.login-message {
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    height: 100px;
+    background-image: url(../images/error-icon.png);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    padding-top: 7px;
+    color: #b33528;
+    display: block;
+    text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+/*
+Login Logo
+*/
+
+.login-logo {
+	background-repeat: no-repeat;
+	background-position: right;
+	float: left;
+	width: 190px;
+	height: 70px;
+	margin-left:150px;
+	margin-top:5px;
+}
+
+.login-form {
+	float: right;
+	left: 50%;
+	margin-right: 30px;
+	margin-top: 0px;
+	margin-left: 10px;
+	max-width: 315px;
+}
+
+.login-field {
+	width: 292px !important;
+}
+
+.login-label {
+	margin-bottom: 7px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	/*height: 35px !important;*/
+	font-weight: normal !important;
+	color: #535a5f !important;
+	font-size: 12px !important;
+	float: left;
+	margin-right: 30px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.rememberMe-label{
+	font-family: Arial, Helvetica, sans-serif !important;
+	height: 38px !important;
+	font-weight: normal !important;
+	color: #535a5f !important;
+	font-size: 12px !important;
+	margin-left: 10px;
+}
+
+.login-text {
+	font-size: 16px;
+	height: 38px ;
+	width: 275px;
+    margin-left: 10px;
+	padding: 5px;
+	padding-left: 5px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	background-color: #ffffff;
+	/*background: -moz-linear-gradient(top, #f1f1f1 0%, #ffffff 30%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1f1f1), color-stop(30%,#ffffff)); 
+	background: -webkit-linear-gradient(top, #f1f1f1 0%,#ffffff 30%); 
+	background: -o-linear-gradient(top, #f1f1f1 0%,#ffffff 30%); 
+	background: -ms-linear-gradient(top, #f1f1f1 0%,#ffffff 30%); 
+	background: linear-gradient(top, #f1f1f1 0%,#ffffff 30%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#ffffff',GradientType=0 );  */
+	border: 1px solid #cfd7dd;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	/*-webkit-box-shadow: 0px 0px 0px 5px #f2f5f8;
+	box-shadow: 0px 0px 0px 5px #f2f5f8;*/
+}
+
+.login-text:focus {
+	font-size: 16px;
+	height: 35px;
+	padding: 5px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	background-color: #ffffff;
+	background: -moz-linear-gradient(top, #f1f1f1 0%, #ffffff 30%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1f1f1), color-stop(30%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #f1f1f1 0%,#ffffff 30%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f1f1f1 0%,#ffffff 30%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f1f1f1 0%,#ffffff 30%); /* IE10+ */
+	background: linear-gradient(top, #f1f1f1 0%,#ffffff 30%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	border: 1px solid #6ab9eb;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: 0px 0px 7px 1px #ff0000;
+	box-shadow: 0px 0px 7px 1px #bae1ff;
+	outline: none;
+	-moz-transition: border linear .2s, box-shadow linear .2s;
+	-webkit-transition: border linear .2s, box-shadow linear .2s;
+	-o-transition: border linear .2s, box-shadow linear .2s;
+	-ms-transition: border linear .2s, box-shadow linear .2s;
+	vertical-align: middle;
+}
+
+.login-button {
+	background-image: url(../images/btn-login.png);
+	height: 38px;
+	width: 96px;
+	border: 0px;
+	border-radius: 0;
+	float: right;
+	margin-top: 13px;
+	/*margin-left: 190px;*/
+}
+
+.login-button:hover {
+	cursor:pointer;
+	background-image: url(../images/btn-login-hover.png);
+	-moz-transition: background-image linear .2s;
+	-webkit-transition: background-image linear .2s;
+	-o-transition: background-image linear .2s;
+	-ms-transition: background-image linear .2s;
+}
+
+.login-page-header {
+	color: #586471;
+	font-weight: normal;
+	font-size: 17pt;
+}
+
+#login-panel-1 .x-panel-ml,#login-panel-1 .x-panel-mc,#login-panel-1 .x-panel-body
+	{
+	background-color: transparent !important;
+	border: none !important;
+}
+
+#login-panel-2 .x-panel-ml,#login-panel-2 .x-panel-mc,#login-panel-2 .x-panel-body
+	{
+	background-color: transparent !important;
+	border: none !important;
+}
+
+.x-panel-body-default {
+	background-color: #FFFFFF !important;
+}
+
+.login-link {
+	float: right;
+	text-align:right;
+	margin-top: 15px;
+	cursor:pointer;
+    text-decoration: none;
+    color: #309ee3;
+    font-size:12px;
+    width:280px;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
+
+.progress-window {
+	font-family: 'Segoe UI', 'Trebuchet MS', Arial, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	background-color: #e5e9eb;
+	color: #375780;
+	text-align: center;
+	padding-top: 1em;
+}
+
+.progress-window img {
+	display: block;
+	width: 32px;
+	height: 32px;
+	margin: 12px auto 24px auto;
+}
+
+.x-box-item .strengthMeter {
+	border: 1px solid #B5B8C8;
+	margin: 3px 0 3px 0;
+	background-image: url(../images/meter_background.gif);
+}
+.x-box-item .strengthMeter-focus {
+	border: 1px solid #000;
+}
+.x-box-item .scoreBar {
+	background-image: url(../images/meter.gif);
+	height: 10px;
+	width: 0;
+	line-height: 1px;
+	font-size: 1px;
+}
+
+.transparency {
+background-color: transparent;
+border-color: transparent;
+border:0;
+}
+
+.transparency .x-window-default{
+ border-radius: 0px; 
+ padding: 0px;
+ border-width: 0px; 
+ border-style: none; 
+ background-color: transparent !important;
+}
+
+.transparency  .x-window-default-tl , .transparency .x-window-default-tr ,.transparency   .x-window-default-tc , .transparency   .x-window-default-ml,.transparency   .x-window-default-mr, .transparency   .x-window-default-mc, .transparency   .x-window-default-bl, .transparency   .x-window-default-br, .transparency   .x-window-default-bc{
+background-image: none;
+background-color: transparent;
+border-color: transparent;
+border:0;
+}
+
+
+.invalid-page{
+	background: url('../images/invalid.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 32px;
+	height: 40px;
+	padding-left: 45px;
+	padding-top: 10px;
+	font-size: 16px;
+	color: red;
+	font-style: italic;
+}

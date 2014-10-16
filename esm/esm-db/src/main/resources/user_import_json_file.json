@@ -1,0 +1,53 @@
+ [
+        {
+            "name": "MyORG",
+            "description": "MyORG",
+            "users": [
+			      {
+			         "username":"Yoda1",
+			         "password":"Welcome",
+			         "first_name":"User 1",
+			         "middle_name":"",
+			         "last_name":"Singh",
+			         "title":"Mr.",
+			         "email":"yoda1@edifecs.com",
+			         "assigned_roles":[
+			            "role1"
+			         ],
+			         "assigned_groups":[
+			            "group1"
+			         ]
+			      },
+			      {
+			         "username":"Yoda2",
+			         "password":"Welcome",
+			         "first_name":"User 2",
+			         "middle_name":"",
+			         "last_name":"Singh",
+			         "title":"Mr.",
+			         "email":"yoda2@edifecs.com",
+			         "assigned_roles":[
+			            "role1","role2"
+			         ],
+			         "assigned_groups":[
+			            "group1","grp2"
+			         ]
+			      },
+			      {
+			         "username":"Yoda3",
+			         "password":"Welcome",
+			         "first_name":"User 3",
+			         "middle_name":"",
+			         "last_name":"Singh",
+			         "title":"Mr.",
+			         "email":"yoda3@edifecs.com",
+			         "assigned_roles":[
+			            "role1"
+			         ],
+			         "assigned_groups":[
+			            "group1"
+			         ]
+			      }
+   			]
+        }
+    ]

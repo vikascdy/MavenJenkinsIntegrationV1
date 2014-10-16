@@ -1,0 +1,136 @@
+{
+	"title": "Tenant Validation",
+	"type": "array",
+	"items": {
+		"type": "object",
+		"properties": {
+			"name": {
+				"type": "string"
+			},
+			"description": {
+				"type": "string"
+			},
+			"roles": {
+			"title": "Roles",
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"name": {
+						"type": "string"
+					},
+					"description": {
+						"type": "string"
+					},
+					"permissions": {
+						"type": "array",
+			            "items": {
+			                "type": "string"
+			            },
+			            "minItems": 1
+					}
+			},
+			"required": ["name", "permissions"]
+			}	
+		},
+		"organization": {
+		"title": "Validate Users",
+		"type": "array",
+		"items": {
+			"type": "object",
+			"properties": {
+				"name": {
+					"type": "string"
+				},
+				"description": {
+					"type": "string"
+				},
+				"users": {
+					"type": "array",
+		            "items": {
+		                "type": "object",
+		                "properties": {
+						"username": {
+							"type": "string"
+						},
+						"password": {
+							"type": "string"
+						},
+						"first_name": {
+							"type": "string"
+						},
+						"middle_name": {
+							"type": "string"
+						},
+						"last_name": {
+							"type": "string"
+						},
+						"title": {
+							"type": "string"
+						},
+						"email": {
+							"type": "string"
+						},
+						"assigned_roles": {
+							"type": "array",
+				            "items": {
+				                "type": "string"
+				            }
+						},
+						"assigned_groups": {
+							"type": "array",
+				            "items": {
+				                "type": "string"
+				            }
+						}
+			  		},
+			  		"required": ["username", "password", "email", "assigned_roles", "assigned_groups"]
+		   		 },
+		            "minItems": 1
+		  	}
+		},
+		"required": ["name", "users"]
+		}
+},  
+			"groups": {
+		"title": "Validate Groups",
+		"type": "array",
+		"items": {
+			"type": "object",
+			"properties": {
+				"name": {
+					"type": "string"
+				},
+				"description": {
+					"type": "string"
+				},
+				"roles": {
+					"type": "array",
+		            "items": {
+		                "type": "string"
+		            },
+		            "minItems": 1
+				},
+				"users": {
+					"type": "array",
+		            "items": {
+		                "type": "string"
+		            },
+		            "minItems": 1
+				},
+				"organizations": {
+					"type": "array",
+		            "items": {
+		                "type": "string"
+		            },
+		            "minItems": 1
+				}
+		},
+		"required": ["name", "roles", "users"]
+		}
+}
+	  	
+	},
+	"required": ["name", "roles", "organization", "groups"]
+	} 
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+<data> 
+	<tenant>
+		<name>BVT Tenant</name>
+		<description>BVT Tenant</description>
+		<domain>BVT Tenant</domain>
+	 
+	<organization>
+		<name>Bvt Organization</name>
+		<description>Bvt Organization</description>
+	</organization> 
+	<role>
+		<name>BVT Role</name>
+		<description>BVT Role</description>
+	</role> 
+	<group>
+		<name>BVT Group</name>
+		<description>BVT Group</description>
+	</group> 
+	<user type="user">
+		<name>BVT User</name>
+		<description>BVT User</description>
+		<username>test</username>
+		<password>testtest</password>
+		<confirmpassword>testtest</confirmpassword>
+		<firstname>test</firstname>
+		<middlename>test</middlename>
+		<lastname>test</lastname>
+		<salutation>Mr<salutation>
+		<email>test@test.com</email>
+	</user>
+	</tenant>
+</data>

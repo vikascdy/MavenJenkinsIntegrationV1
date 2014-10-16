@@ -1,0 +1,197 @@
+{
+    "permissions": [{
+        "permission":"platform:eflow:process:definition:deploy",
+        "name":"processDefinitionDeployPermission"
+    },
+    {
+        "permission":"platform:eflow:process:definition:view",
+        "name":"processDefinitionViewPermission"
+    },
+    {
+        "permission":"platform:eflow:process:definition:update",
+        "name":"processDefinitionUpdatePermission"
+    },
+    {
+        "permission":"platform:eflow:process:definition:delete",
+        "name":"processDefinitionDeletePermission"
+    },
+    {
+        "permission":"platform:eflow:process:runtime:start",
+        "name":"processRuntimeStartPermission"
+    },
+    {
+        "permission":"platform:eflow:process:runtime:view",
+        "name":"processRuntimeViewPermission"
+    },
+    {
+        "permission":"platform:eflow:process:runtime:manage",
+        "name":"processRuntimeManagePermission"
+    },
+    {
+        "permission":"platform:eflow:process:runtime:delete",
+        "name":"processRuntimeDeletePermission"
+    },
+    {
+        "permission":"platform:eflow:process:runtime:comment",
+        "name":"processRuntimeCommentPermission"
+    },
+    {
+        "permission":"platform:eflow:process:task:view",
+        "name":"processTaskViewPermission"
+    },
+    {
+        "permission":"platform:eflow:process:task:edit",
+        "name":"processTaskEditPermission"
+    },
+    {
+        "permission":"platform:eflow:process:task.manage",
+        "name":"processTaskManagePermission"
+    },
+    {
+        "permission":"platform:eflow:process:task:comment",
+        "name":"processTaskCommentPermission"
+    },
+    {
+        "permission":"platform:eflow:process:history:query",
+        "name":"processHistoryQueryPermission"
+    },
+    {
+        "permission":"platform:eflow:workqueue:definition:create",
+        "name":"workqueueDefinitionCreatePermission"
+    },
+    {
+        "permission":"platform:eflow:workqueue:definition:view",
+        "name":"workqueueDefinitionViewPermission"
+    },
+    {
+        "permission":"platform:eflow:workqueue:definition:manage",
+        "name":"workqueueDefinitionManagePermission"
+    },
+    {
+        "permission":"platform:eflow:workqueue:definition:delete",
+        "name":"workqueueDefinitionDeletePermission"
+    },
+    {
+        "permission":"platform:eflow:workitem:definition:create",
+        "name":"workitemDefinitionCreatePermission"
+    },
+    {
+        "permission":"platform:eflow:workitem:definition:view",
+        "name":"workitemDefinitionViewPermission"
+    },
+    {
+        "permission":"platform:eflow:workitem:definition:manage",
+        "name":"workitemDefinitionManagePermission"
+    },
+    {
+        "permission":"platform:eflow:workitem:definition:delete",
+        "name":"workitemDefinitionDeletePermission"
+    },
+    {
+        "permission":"platform:eflow:workitem:runtime:create",
+        "name":"workitemRuntimeCreatePermission"
+    },
+    {
+        "permission":"platform:eflow:workitem:runtime:view",
+        "name":"workitemRuntimeViewPermission"
+    },
+    {
+        "permission":"platform:eflow:workitem:runtime:update",
+        "name":"workitemRuntimeUpdatePermission"
+    },
+    {
+        "permission":"platform:eflow:workitem:runtime:delete",
+        "name":"workitemRuntimeDeletePermission"
+    }],
+    "roles": [{
+        "name": "EFlow Administrator",
+        "description" : "The EFlow super user",
+        "permissions": [
+            "processDefinitionDeployPermission",
+            "processDefinitionViewPermission",
+            "processDefinitionUpdatePermission",
+            "processDefinitionDeletePermission",
+            "processRuntimeStartPermission",
+            "processRuntimeViewPermission",
+            "processRuntimeManagePermission",
+            "processRuntimeDeletePermission",
+            "processRuntimeCommentPermission",
+            "processTaskViewPermission",
+            "processTaskEditPermission",
+            "processTaskManagePermission",
+            "processTaskCommentPermission",
+            "processHistoryQueryPermission",
+            "workqueueDefinitionCreatePermission",
+            "workqueueDefinitionViewPermission",
+            "workqueueDefinitionManagePermission",
+            "workqueueDefinitionDeletePermission",
+            "workitemDefinitionCreatePermission",
+            "workitemDefinitionViewPermission",
+            "workitemDefinitionManagePermission",
+            "workitemDefinitionDeletePermission",
+            "workitemRuntimeCreatePermission",
+            "workitemRuntimeViewPermission",
+            "workitemRuntimeUpdatePermission",
+            "workitemRuntimeDeletePermission"
+        ]
+    },{
+        "name": "EFlow Configurator",
+        "description" : "The EFlow super user",
+        "permissions": [
+            "processDefinitionViewPermission",
+            "workqueueDefinitionCreatePermission",
+            "workqueueDefinitionViewPermission",
+            "workqueueDefinitionManagePermission",
+            "workqueueDefinitionDeletePermission",
+            "workitemDefinitionCreatePermission",
+            "workitemDefinitionViewPermission",
+            "workitemDefinitionManagePermission",
+            "workitemDefinitionDeletePermission"
+        ]
+    },{
+        "name": "EFlow Process Deployer",
+        "description" : "The EFlow process deployer",
+        "permissions": [
+            "processDefinitionDeployPermission",
+            "processDefinitionViewPermission",
+            "processDefinitionUpdatePermission"
+        ]
+    },{
+        "name": "EFlow Manager",
+        "description" : "The EFlow super user",
+        "permissions": [
+            "processRuntimeStartPermission",
+            "processRuntimeViewPermission",
+            "processRuntimeManagePermission",
+            "processRuntimeDeletePermission",
+            "processRuntimeCommentPermission",
+            "processTaskViewPermission",
+            "processTaskEditPermission",
+            "processTaskManagePermission",
+            "processTaskCommentPermission",
+            "processHistoryQueryPermission",
+            "workqueueDefinitionViewPermission",
+            "workqueueDefinitionManagePermission",
+            "workitemRuntimeCreatePermission",
+            "workitemRuntimeViewPermission",
+            "workitemRuntimeUpdatePermission",
+            "workitemRuntimeDeletePermission"
+        ]
+    },{
+        "name": "EFlow User",
+        "description" : "The EFlow super user",
+        "permissions": [
+            "processRuntimeStartPermission",
+            "processRuntimeViewPermission",
+            "processRuntimeCommentPermission",
+            "processTaskViewPermission",
+            "processTaskEditPermission",
+            "processTaskCommentPermission",
+            "workqueueDefinitionViewPermission",
+            "workitemRuntimeCreatePermission",
+            "workitemRuntimeViewPermission",
+            "workitemRuntimeUpdatePermission"
+        ]
+    }]
+}
+

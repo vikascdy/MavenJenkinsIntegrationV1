@@ -1,0 +1,41 @@
+[
+    {
+        "text": "TENANT CONFIGURATION",
+        "expandable": false,
+        "expanded": true,
+		
+        "children": [
+            {
+                "text": "Overview",
+                "id":"overview",
+                "leaf": true
+            },
+            {
+                "text": "Manage Organizations",
+                "id":"manageOrganizations",
+                "leaf": true
+            },
+            {
+                "text": "Manage Roles",
+                "id":"manageRoles",
+                "leaf": true
+            },
+            {
+                "text": "Manage Groups",
+                "id":"manageGroups",
+                "leaf": true
+            },
+             {
+                "text": "Apps",
+                "id":"apps",
+                "leaf": true
+            },
+            {
+                "text": "Settings",
+                "id":"settingsConfig",
+                "leaf": true
+            }
+
+        ]
+    }
+]

@@ -1,0 +1,67 @@
+---
+manifestVersion: 1.0.0
+
+name: esm
+version: 1.0.0.0
+displayName: Edifecs Security Manager
+displayVersion: 1.5.0.0
+description: This is the Identity Management component for use in all Edifecs applications.
+
+physicalComponents:
+  - name: esm-service
+    displayName: ESM Service
+    description: This is the main Security Service for all of ESM
+    type: docker
+    scheduling:
+      imageUri: SERVICE
+      classname: com.edifecs.epp.security.service.SecurityService
+      scheduler: service
+
+    properties:
+      - name: account.lockout.threshold
+        description: >
+          Specifies how many unsuccessful logon attempts should happen before an account is locked.
+          The value 0 means that the account is never going to be locked, i.e. locking out
+          mechanism is disabled.
+        scope: Service
+        constraint:
+          dataType: int
+          defaultValue: 10
+          validationMessage: Account lockout threshold must be a number between 1 and 100
+
+      - name: account.lockout.counter.reset.interval
+        description: >
+          Specifies the interval in minutes that needs to pass since the last logon attempt
+          (successful or unsuccessful) to automatically reset the number of unsuccessful logon
+          attempts to 0.
+        scope: Service
+        constraint:
+          dataType: int
+          defaultValue: 10
+          validationMessage: Account lockout threshold must be a number between 1 and 100
+
+      - name: account.lockout.duration
+        description: >
+          Specifies how long the account is going to be locked out after a certain amount of
+          unsuccessful logon attempts. The entered value specifies the interval in minutes. A
+          special value of 0 means that the account is locked out until the Site /
+          CommunityGateway Admin explicitly unlocks the account.
+        scope: Service
+        constraint:
+          dataType: int
+          defaultValue: 10
+          validationMessage: Account lockout threshold must be a number between 1 and 100
+
+    profileAttributes:
+      - name: account.lockout.counter.reset.interval
+        description: >
+          Specifies the interval in minutes that needs to pass since the last logon attempt
+          (successful or unsuccessful) to automatically reset the number of unsuccessful logon
+          attempts to 0.
+        scope: Service
+        constraint:
+          dataType: int
+          defaultValue: 10
+          validationMessage: Account lockout threshold must be a number between 1 and 100
+
+...

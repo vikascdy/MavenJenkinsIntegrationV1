@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Grid Verification Test" thread-count="10" parallel="tests">
+    <parameter name = "GRIDHOST" value = "10.30.50.22"/>
+    <!--
+        <parameter name = "GRIDHOST" value = "standalone"/>
+    -->
+    <parameter name = "VERSION"  value = "ANY"/>
+    <parameter name = "PLATFORM" value = "WINDOWS"/>
+
+  <test name="Firefox 1">
+    <parameter name = "BROWSER"  value = "firefox"/>
+    <classes>
+      <class name="com.edifecs.esm.test.BVT.VerifyAutomationGrid"/>
+    </classes>
+  </test>
+    <test name="Firefox 2">
+        <parameter name = "BROWSER"  value = "firefox"/>
+        <classes>
+            <class name="com.edifecs.esm.test.BVT.VerifyAutomationGrid"/>
+        </classes>
+    </test>
+    <test name="Firefox 3">
+        <parameter name = "BROWSER"  value = "firefox"/>
+        <classes>
+            <class name="com.edifecs.esm.test.BVT.VerifyAutomationGrid"/>
+        </classes>
+    </test>
+    <test name="Chrome 1">
+        <parameter name = "BROWSER"  value = "chrome"/>
+        <classes>
+            <class name="com.edifecs.esm.test.BVT.VerifyAutomationGrid"/>
+        </classes>
+    </test>
+    <test name="Chrome 2">
+        <parameter name = "BROWSER"  value = "chrome"/>
+        <classes>
+            <class name="com.edifecs.esm.test.BVT.VerifyAutomationGrid"/>
+        </classes>
+    </test>
+    <test name="Chrome 3">
+        <parameter name = "BROWSER"  value = "chrome"/>
+        <classes>
+            <class name="com.edifecs.esm.test.BVT.VerifyAutomationGrid"/>
+        </classes>
+    </test>
+    <test name="Internet Explorer 1">
+        <parameter name = "BROWSER"  value = "iexplorer"/>
+        <classes>
+            <class name="com.edifecs.esm.test.BVT.VerifyAutomationGrid"/>
+        </classes>
+    </test>
+    <test name="Internet Explorer 2">
+        <parameter name = "BROWSER"  value = "iexplorer"/>
+        <classes>
+            <class name="com.edifecs.esm.test.BVT.VerifyAutomationGrid"/>
+        </classes>
+    </test>
+    <test name="Internet Explorer 3">
+        <parameter name = "BROWSER"  value = "iexplorer"/>
+        <classes>
+            <class name="com.edifecs.esm.test.BVT.VerifyAutomationGrid"/>
+        </classes>
+    </test>
+
+
+</suite>

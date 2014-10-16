@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regressions Suite" thread-count="10" parallel="tests">
+<!--
+  These Listeners are registered in the pom file - so we don't need them here
+  Having ScreenCaptureListener registered twice was causing the report to have
+  two screen shots in the report.
+
+ <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="com.edifecs.test.common.ScreenCaptureListener"/>
+    </listeners>
+-->
+
+  <parameter name = "GRIDHOST" value = "10.30.50.22"/>
+  <parameter name="SYSTEMUNDERTEST" value="http://smbox2:8080"/>
+    
+  <test name="Permissions Tests">
+    <parameter name = "BROWSER"  value = "firefox"/>
+    <parameter name = "VERSION"  value = "ANY"/>
+    <parameter name = "PLATFORM" value = "WINDOWS"/>
+    <classes>
+          <class name="com.edifecs.esm.test.Permissions.TestPermissionSet1"/>
+          <class name="com.edifecs.esm.test.Permissions.TestPermissionSet2"/>         
+<!--
+          <class name="com.edifecs.esm.test.Permissions.TestPermissionSet3"/>
+-->
+          <class name="com.edifecs.esm.test.Permissions.TestPermissionSet4"/>
+          <class name="com.edifecs.esm.test.Permissions.TestPermissionSet5"/>
+          <class name="com.edifecs.esm.test.Permissions.TestPermissionSet6"/>
+<!--
+          <class name="com.edifecs.esm.test.Permissions.TestPermissionSet7"/>
+-->
+          <class name="com.edifecs.esm.test.Permissions.TestPermissionSet8"/>
+               
+    </classes>
+  </test>
+
+    <test name="Organization Tests">
+        <parameter name = "BROWSER"  value = "firefox"/>
+        <parameter name = "VERSION"  value = "ANY"/>
+        <parameter name = "PLATFORM" value = "WINDOWS"/>
+        <classes>
+            <class name="com.edifecs.esm.test.organization.TestOrganization"/>
+            <class name="com.edifecs.esm.test.organization.TestOrganizationDelete"/>
+        </classes>
+    </test>
+
+    <test name="Populate Large Volumes of Data">
+        <parameter name = "BROWSER"  value = "htmlunit"/>
+        <parameter name = "VERSION"  value = "ANY"/>
+        <parameter name = "PLATFORM" value = "WINDOWS"/>
+        <classes>
+            <class name="com.edifecs.esm.test.populatedata.PopulateSMWithRestAssured"/>
+        </classes>
+    </test>
+    
+</suite>

@@ -1,0 +1,13 @@
+{
+	"customFieldDefs": [
+		{
+			"eventConfigs": ["addRoleToUser.create", "deleteRoleFromUser.delete"],
+			"matcher": "%{targetingUser.hasPermission('a:b:c:d:e')}",
+			"namespace": "direct",
+			"ownerEntity": "user",
+			"name": "directMail",
+			"label": "Direct Mail",
+			"expression": "%{targetingUser.userId}@mycompany.com"
+		}
+	]
+}

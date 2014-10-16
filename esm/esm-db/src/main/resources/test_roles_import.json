@@ -1,0 +1,23 @@
+	[
+        {
+            "name": "role1",
+            "description": "App1 Contributor",
+            "permissions": [
+                "addReplyPermission"
+            ]
+        }, 
+         {
+            "name": "role2",
+            "description": "App1 Contributor",
+            "permissions": [
+                "addReplyPermission"
+            ]
+        },
+         {
+            "name": "role3",
+            "description": "App1 Contributor",
+            "permissions": [
+                "addReplyPermission"
+            ]
+        }
+    ]

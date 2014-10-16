@@ -1,0 +1,23 @@
+{
+		"title": "Roles",
+		"type": "array",
+		"items": {
+			"type": "object",
+			"properties": {
+				"name": {
+					"type": "string"
+				},
+				"description": {
+					"type": "string"
+				},
+				"permissions": {
+					"type": "array",
+		            "items": {
+		                "type": "string"
+		            },
+		            "minItems": 1
+				}
+		},
+		"required": ["name", "permissions"]
+		}	
+}

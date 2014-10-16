@@ -1,0 +1,34 @@
+{
+    "heading": "Tenant Organizations",
+    "ref":"tenantOrganization",
+    "alias":"Organization",
+    "usingREST":false,
+    "params":{},
+    "model": "Security.model.TenantOrganizations",
+    "grouping":{
+        "enabled":false,
+        "groupField":"owner"
+    },
+    "searching":{
+        "enabled":false,
+        "searchField":"name"
+    },
+    "columns": [
+        {
+            "header":"Name",
+            "field":"canonicalName",
+            "linkable":true
+        }
+    ],
+    "operations": {
+        "create": true,
+        "edit": false,
+        "delete": true,
+		"import": true
+    },
+    "useButtonToolbar": false,
+    "pagination": {
+			"enabled" : true,
+			"toolbar" : true
+	}
+}
