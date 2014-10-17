@@ -1,0 +1,11 @@
+<h3>Using Edifecs UX Demo Portal, developer can know how to integrate the custom component library and the Sencha&reg; example in their products.<br/><br/>It provides user with friendly navigation and description related to the components by displaying the preview, JS code and CSS for the component.</h3>
+
+<br/><br/>It contains two type of layout :
+</h1>
+<br/>
+<ul>
+<li><b>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;Horizontal layout</b>, with horizontal splitter</li>
+<li><b>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;Vertical layout</b>, with vertical splitter</li>
+</ul>
+<br/>
+<hr/>

@@ -1,0 +1,33 @@
+{
+    "navigation": [
+        {
+            "id": "uxDemoPortal",
+            "active": true,
+            "text": "UX Demo Portal"
+        },
+        {
+            "id": "spacerId",
+            "text": "tbspacer"
+        },
+        {
+            "id": "userMenu",
+            "icon": "../packages/ext-theme-edifecs/build/resources/images/edifecs-components/appbar/user.png",
+            "text": "User",
+            "type": "subMenu",
+            "subMenu": [
+                {
+                    "text": "About us",
+                    "id": "aboutId"
+                },
+                {
+                    "text": "Close",
+                    "id": "closeId"
+                }
+            ]
+        },
+        {
+            "id": "helpId",
+            "icon": "../packages/ext-theme-edifecs/build/resources/images/edifecs-components/appbar/help.png"
+        }
+    ]
+}

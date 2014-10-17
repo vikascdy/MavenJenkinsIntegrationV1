@@ -1,0 +1,841 @@
+/* Add Icon */
+.add {
+	background-image:url('../images/action-icons.png');
+	background-position:0px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .add {
+	background-position:0px -16px !important;	
+}
+
+.x-pressed .add {
+	background-position:0px -32px !important;	
+}
+
+.x-item-disabled .add {
+	background-position:0px -48px !important;	
+}
+
+/* Upload Icon */
+.upload {
+	background-image:url('../images/action-icons.png');
+	background-position:-16px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .upload{
+	background-position:-16px -16px !important;	
+}
+
+.x-pressed .upload {
+	background-position:-16px -32px !important;	
+}
+
+.x-item-disabled .upload {
+	background-position:-16px -48px !important;	
+}
+
+/* Delete Icon */
+.delete {
+	background-image:url('../images/action-icons.png');
+	background-position:-32px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .delete {
+	background-position:-32px -16px !important;	
+}
+
+.x-pressed .delete {
+	background-position:-32px -32px !important;	
+}
+
+.x-item-disabled .delete {
+	background-position:-32px -48px !important;	
+}
+
+/* Edit Icon */
+
+.edit {
+	background-image:url('../images/action-icons.png');
+	background-position:-48px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .edit{
+	background-position:-48px -16px !important;	
+}
+
+.x-pressed .edit {
+	background-position:-48px -32px !important;	
+}
+
+.x-item-disabled .edit {
+	background-position:-48px -48px !important;	
+}
+
+/* Publish */
+.publish {
+	background-image:url('../images/action-icons.png');
+	background-position:-64px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .publish{
+	background-position:-64px -16px !important;	
+}
+
+.x-pressed .publish {
+	background-position:-64px -32px !important;	
+}
+
+.x-item-disabled .publish {
+	background-position:-64px -48px !important;	
+}
+
+/* Run */
+.run {
+	background-image:url('../images/action-icons.png');
+	background-position:-80px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .run{
+	background-position:-80px -16px !important;	
+}
+
+.x-pressed .run {
+	background-position:-80px -32px !important;	
+}
+
+.x-item-disabled .run {
+	background-position:-80px -48px !important;	
+}
+
+/* Partner */
+.partner {
+	background-image:url('../images/action-icons.png');
+	background-position:-96px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .partner{
+	background-position:-96px -16px !important;	
+}
+
+.x-pressed .partner {
+	background-position:-96px -32px !important;	
+}
+
+.x-item-disabled .partner {
+	background-position:-96px -48px !important;	
+}
+
+/* Close */
+.close {
+	background-image:url('../images/action-icons.png');
+	background-position:-112px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .close{
+	background-position:-112px -16px !important;	
+}
+
+.x-pressed .close {
+	background-position:-112px -32px !important;	
+}
+
+.x-item-disabled .close {
+	background-position:-112px -48px !important;	
+}
+
+/* Cancel */
+.cancel {
+	background-image:url('../images/action-icons.png');
+	background-position:-128px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .cancel{
+	background-position:-128px -16px !important;	
+}
+
+.x-pressed .cancel {
+	background-position:-128px -32px !important;	
+}
+
+.x-item-disabled .cancel {
+	background-position:-128px -48px !important;	
+}
+
+/* Save */
+.save {
+	background-image:url('../images/action-icons.png');
+	background-position:-144px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .save{
+	background-position:-144px -16px !important;	
+}
+
+.x-pressed .save {
+	background-position:-144px -32px !important;	
+}
+
+.x-item-disabled .save {
+	background-position:-144px -48px !important;	
+}
+
+/* Reload */
+.reload {
+	background-image:url('../images/action-icons.png');
+	background-position:-160px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .reload{
+	background-position:-160px -16px !important;	
+}
+
+.x-pressed .reload {
+	background-position:-160px -32px !important;	
+}
+
+.x-item-disabled .reload {
+	background-position:-160px -48px !important;	
+}
+
+/* Report */
+.report {
+	background-image:url('../images/action-icons.png');
+	background-position:-176px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .report{
+	background-position:-176px -16px !important;	
+}
+
+.x-pressed .report {
+	background-position:-176px -32px !important;	
+}
+
+.x-item-disabled .report {
+	background-position:-176px -48px !important;	
+}
+
+/* Download */
+.download {
+	background-image:url('../images/action-icons.png');
+	background-position:-192px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .download{
+	background-position:-192px -16px !important;	
+}
+
+.x-pressed .download {
+	background-position:-192px -32px !important;	
+}
+
+.x-item-disabled .download {
+	background-position:-192px -48px !important;	
+}
+
+/* New */
+.new {
+	background-image:url('../images/action-icons.png');
+	background-position:-208px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .new{
+	background-position:-208px -16px !important;	
+}
+
+.x-pressed .new {
+	background-position:-208px -32px !important;	
+}
+
+.x-item-disabled .new {
+	background-position:-208px -48px !important;	
+}
+
+/* Open */
+.open {
+	background-image:url('../images/action-icons.png');
+	background-position:-224px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .open{
+	background-position:-224px -16px !important;	
+}
+
+.x-pressed .open {
+	background-position:-224px -32px !important;	
+}
+
+.x-item-disabled .open {
+	background-position:-224px -48px !important;	
+}
+
+/* Apply */
+.apply {
+	background-image:url('../images/action-icons.png');
+	background-position:-240px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .apply{
+	background-position:-240px -16px !important;	
+}
+
+.x-pressed .apply {
+	background-position:-240px -32px !important;	
+}
+
+.x-item-disabled .apply {
+	background-position:-240px -48px !important;	
+}
+
+/* Email */
+.email {
+	background-image:url('../images/action-icons.png');
+	background-position:-256px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .email{
+	background-position:-256px -16px !important;	
+}
+
+.x-pressed .email {
+	background-position:-256px -32px !important;	
+}
+
+.x-item-disabled .email {
+	background-position:-256px -48px !important;	
+}
+/* Search */
+.apply {
+	background-image:url('../images/action-icons.png');
+	background-position:-272px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .apply{
+	background-position:-272px -16px !important;	
+}
+
+.x-pressed .apply {
+	background-position:-272px -32px !important;	
+}
+
+.x-item-disabled .apply {
+	background-position:-272px -48px !important;	
+}
+/* Submit */
+.submit {
+	background-image:url('../images/action-icons.png');
+	background-position:-288px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .submit{
+	background-position:-288px -16px !important;	
+}
+
+.x-pressed .submit{
+	background-position:-288px -32px !important;	
+}
+
+.x-item-disabled .submit{
+	background-position:-288px -48px !important;	
+}
+/* Copy */
+.copy {
+	background-image:url('../images/action-icons.png');
+	background-position:-304px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .copy{
+	background-position:-304px -16px !important;	
+}
+
+.x-pressed .copy{
+	background-position:-304px -32px !important;	
+}
+
+.x-item-disabled .copy{
+	background-position:-304px -48px !important;	
+}
+/* Rename */
+.rename {
+	background-image:url('../images/action-icons.png');
+	background-position:-320px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .rename{
+	background-position:-320px -16px !important;	
+}
+
+.x-pressed .rename{
+	background-position:-320px -32px !important;	
+}
+
+.x-item-disabled .rename{
+	background-position:-320px -48px !important;	
+}
+/* Import */
+.import {
+	background-image:url('../images/action-icons.png');
+	background-position:-336px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .import{
+	background-position:-336px -16px !important;	
+}
+
+.x-pressed .import{
+	background-position:-336px -32px !important;	
+}
+
+.x-item-disabled .import{
+	background-position:-336px -48px !important;	
+}
+/* Export */
+.export {
+	background-image:url('../images/action-icons.png');
+	background-position:-352px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .export{
+	background-position:-352px -16px !important;	
+}
+
+.x-pressed .export{
+	background-position:-352px -32px !important;	
+}
+
+.x-item-disabled .export{
+	background-position:-352px -48px !important;	
+}
+
+
+
+
+
+
+/* Validate */
+.validate {
+	background-image:url('../images/action-icons.png');
+	background-position:-368px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .validate{
+	background-position:-368px -16px !important;	
+}
+
+.x-pressed .validate{
+	background-position:-368px -32px !important;	
+}
+
+.x-item-disabled .validate{
+	background-position:-368px -48px !important;	
+}
+/* Print */
+.print {
+	background-image:url('../images/action-icons.png');
+	background-position:-384px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .print{
+	background-position:-384px -16px !important;	
+}
+
+.x-pressed .print{
+	background-position:-384px -32px !important;	
+}
+
+.x-item-disabled .print{
+	background-position:-384px -48px !important;	
+}
+/* File */
+.file {
+	background-image:url('../images/action-icons.png');
+	background-position:-400px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .file{
+	background-position:-400px -16px !important;	
+}
+
+.x-pressed .file{
+	background-position:-400px -32px !important;	
+}
+
+.x-item-disabled .file{
+	background-position:-400px -48px !important;	
+}
+/* Favorite */
+.favorite {
+	background-image:url('../images/action-icons.png');
+	background-position:-416px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .favorite{
+	background-position:-416px -16px !important;	
+}
+
+.x-pressed .favorite{
+	background-position:-416px -32px !important;	
+}
+
+.x-item-disabled .favorite{
+	background-position:-416px -48px !important;	
+}
+
+/* Link */
+.link {
+	background-image:url('../images/action-icons.png');
+	background-position:-432px 0px !important;	
+	background-repeat:no-repeat;
+	background-color:transparent;	
+}
+
+.x-over .link {
+	background-position:-432px -16px !important;	
+}
+
+.x-pressed .link {
+	background-position:-432px -32px !important;	
+}
+
+.x-item-disabled .link {
+	background-position:-432px -48px !important;	
+}
+
+/* ----------------------------24px icon size css classes-----------------------------------------------*/
+
+/* paste 24 */
+.paste24 {
+    background-image:url('../images/action-icons-24.png');
+    background-position:0px 0px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .paste24 {
+    background-position:0px -24px !important;
+}
+
+.x-pressed .paste24 {
+    background-position:0px -48px !important;
+}
+
+.x-item-disabled .paste24 {
+    background-position:0px -62px !important;
+}
+
+/* save 24 */
+.save24 {
+    background-image:url('../images/action-icons-24.png');
+    background-position:-24px 0px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .save24 {
+    background-position:-24px -24px !important;
+}
+
+.x-pressed .save24 {
+    background-position:-24px -48px !important;
+}
+
+.x-item-disabled .save24 {
+    background-position:-24px -62px !important;
+}
+
+/* report 24 */
+.report24 {
+    background-image:url('../images/action-icons-24.png');
+    background-position:-48px 0px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .report24 {
+    background-position:-48px -24px !important;
+}
+
+.x-pressed .report24 {
+    background-position:-48px -48px !important;
+}
+
+.x-item-disabled .report24 {
+    background-position:-48px -62px !important;
+}
+
+/* email 24 */
+.email24 {
+    background-image:url('../images/action-icons-24.png');
+    background-position:-72px 0px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .email24 {
+    background-position:-72px -24px !important;
+}
+
+.x-pressed .email24 {
+    background-position:-72px -48px !important;
+}
+
+.x-item-disabled .email24 {
+    background-position:-72px -62px !important;
+}
+
+/* print 24 */
+.print24 {
+    background-image:url('../images/action-icons-24.png');
+    background-position:-96px 0px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .print24 {
+    background-position:-96px -24px !important;
+}
+
+.x-pressed .print24 {
+    background-position:-96px -48px !important;
+}
+
+.x-item-disabled .print24 {
+    background-position:-96px -62px !important;
+}
+
+/* copy 24 */
+.copy24 {
+    background-image:url('../images/action-icons-24.png');
+    background-position:-120px 0px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .copy24 {
+    background-position:-120px -24px !important;
+}
+
+.x-pressed .copy24 {
+    background-position:-120px -48px !important;
+}
+
+.x-item-disabled .copy24 {
+    background-position:-120px -62px !important;
+}
+
+/* favorite 24 */
+.favorite24 {
+    background-image:url('../images/action-icons-24.png');
+    background-position:-144px 0px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .favorite24 {
+    background-position:-144px -24px !important;
+}
+
+.x-pressed .favorite24 {
+    background-position:-144px -48px !important;
+}
+
+.x-item-disabled .favorite24 {
+    background-position:-144px -62px !important;
+}
+
+
+/* ----------------------------32px icon size css classes-----------------------------------------------*/
+
+/* paste 32 */
+.paste32 {
+    background-image:url('../images/action-icons-32.png');
+    background-position:0px 0px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .paste32 {
+    background-position:0px -32px !important;
+}
+
+.x-pressed .paste32 {
+    background-position:0px -64px !important;
+}
+
+.x-item-disabled .paste32 {
+    background-position:0px -96px !important;
+}
+
+/* save 32 */
+.save32 {
+    background-image:url('../images/action-icons-32.png');
+    background-position:-32px 0px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .save32 {
+    background-position:-32px -32px !important;
+}
+
+.x-pressed .save32 {
+    background-position:-32px -64px !important;
+}
+
+.x-item-disabled .save32 {
+    background-position:-32px -96px !important;
+}
+
+/* report 32 */
+.report32 {
+    background-image:url('../images/action-icons-32.png');
+    background-position:-64px 0px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .report32 {
+    background-position:-64px -32px !important;
+}
+
+.x-pressed .report32 {
+    background-position:-64px -64px !important;
+}
+
+.x-item-disabled .report32 {
+    background-position:-64px -96px !important;
+}
+
+/* email 32 */
+.email32 {
+    background-image:url('../images/action-icons-32.png');
+    background-position:-96px 0px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .email32 {
+    background-position:-96px -32px !important;
+}
+
+.x-pressed .email32 {
+    background-position:-96px -64px !important;
+}
+
+.x-item-disabled .email32 {
+    background-position:-96px -96px !important;
+}
+
+/* print 32 */
+.print32 {
+    background-image:url('../images/action-icons-32.png');
+    background-position:-128px 0px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .print32 {
+    background-position:-128px -32px !important;
+}
+
+.x-pressed .print32 {
+    background-position:-128px -64px !important;
+}
+
+.x-item-disabled .print32 {
+    background-position:-128px -96px !important;
+}
+
+/* copy 32 */
+.copy32 {
+    background-image:url('../images/action-icons-32.png');
+    background-position:-160px 0px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .copy32 {
+    background-position:-160px -32px !important;
+}
+
+.x-pressed .copy32 {
+    background-position:-160px -64px !important;
+}
+
+.x-item-disabled .copy32 {
+    background-position:-160px -96px !important;
+}
+
+/* favorite 32 */
+.favorite32 {
+    background-image:url('../images/action-icons-32.png');
+    background-position:-192px 0px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .favorite32 {
+    background-position:-192px -32px !important;
+}
+
+.x-pressed .favorite32 {
+    background-position:-192px -64px !important;
+}
+
+.x-item-disabled .favorite32 {
+    background-position:-192px -96px !important;
+}
