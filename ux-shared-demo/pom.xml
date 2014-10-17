@@ -31,6 +31,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>ux-shared-demo</finalName>
 		 <plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -66,7 +67,7 @@
 				<resource>
 				<!-- this is relative to the pom.xml directory -->
 				<!--	<directory>src\main\demo-apps</directory>-->
-					<directory>src\mainsrc\main\demo-apps</directory>
+					<directory>src/main/demo-apps</directory>
 						
 					<targetPath>WEB-INF</targetPath>
 				</resource>	
@@ -76,7 +77,7 @@
 				</resource>
 			-->
 				</webResources>
-				<webXml>src\main\WEB-INF\web.xml</webXml>        
+				<webXml>src\main\webapp\WEB-INF\web.xml</webXml>        
 			  </configuration>
 			</plugin>
 
@@ -91,7 +92,16 @@
 				</deployables> </deployer> </configuration> <executions> <execution> <id>remote-deploy</id> 
 				<phase>deploy</phase> <goals> <goal>deployer-redeploy</goal> </goals> </execution> 
 				</executions> </plugin> -->
-
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>2.2</version>
+				<configuration>
+					<url>http://localhost:8080/manager/text</url>
+					<server>tomcat7</server>
+					<path>/${project.build.finalName}</path>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 	<developers>
@@ -106,4 +116,3 @@
 		</developer>
 	</developers>
 </project>
->
