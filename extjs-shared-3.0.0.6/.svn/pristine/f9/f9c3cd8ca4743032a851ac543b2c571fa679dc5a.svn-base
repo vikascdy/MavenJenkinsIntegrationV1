@@ -1,0 +1,21 @@
+/** @class Ext.menu.Menu */
+$menu-border-color: #B5BFCE !default;
+$menu-background-color: #FFFFFF !default;
+$menu-item-active-border-radius: 0px !default;
+$menu-item-font-size: $font-size !default;
+$menu-separator-background-color: transparent !default;
+$menu-separator-border-color: #cad4dd !default;
+
+//border
+$menu-item-active-border-color: transparent !default;
+
+$menu-separator-size: 1px !default;
+$menu-item-active-background-color: #F0F2F3 !default;
+$menu-border-width: 1px !default;
+$menu-item-border-width: 0 !default;
+$menu-padding: 0px !default;
+$menu-item-text-vertical-offset: 1px !default;
+//$menu-item-text-horizontal-spacing: 0px 4px !default;
+
+//text
+$menu-text-color: #000000 !default;

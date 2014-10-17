@@ -1,0 +1,360 @@
+@include extjs-panel-ui
+(
+	'edifecs-doormatnavigation-columnpanel',
+
+    $ui-border-color: transparent,
+    $ui-border-radius: 0px,
+    $ui-border-width: 0px,
+    $ui-padding: 0 10px 20px 10px,
+
+    $ui-header-color: #3F4A53,
+    $ui-header-font-family: $panel-header-font-family,
+    $ui-header-font-size: 14px,
+    $ui-header-font-weight: bold,
+    $ui-header-line-height: $panel-header-line-height,
+
+    $ui-header-border-color: transparent,
+    $ui-header-border-width: $panel-header-border-width,
+    $ui-header-border-style: $panel-header-border-style,
+
+    $ui-header-background-color: #FFFFFF,
+    $ui-header-background-gradient: color_stops(#FFFFFF, #FFFFFF),
+
+    $ui-header-inner-border-color: transparent,
+    $ui-header-inner-border-width: $panel-header-inner-border-width,
+    $ui-header-text-padding: $panel-header-text-padding,
+    $ui-header-text-transform: $panel-header-text-transform,
+    $ui-header-padding: 15px 0 10px 18px,
+    $ui-header-icon-width: $panel-header-icon-width,
+    $ui-header-icon-height: $panel-header-icon-height,
+    $ui-header-icon-spacing: $panel-header-icon-spacing,
+    $ui-header-icon-background-position: $panel-header-icon-background-position,
+    $ui-header-glyph-color: $panel-header-glyph-color,
+    $ui-header-glyph-opacity: $panel-header-glyph-opacity,
+
+    $ui-tool-spacing: $panel-tool-spacing,
+    $ui-tool-background-image: $panel-tool-background-image,
+
+    $ui-body-color: #96A4AE,
+    $ui-body-border-color: transparent,
+    $ui-body-border-width: 0px,
+    $ui-body-border-style: solid,
+    $ui-body-background-color: #FFFFFF,
+    $ui-body-font-size: $panel-body-font-size,
+    $ui-body-font-weight: normal,
+
+    $ui-background-stretch-top: $panel-background-stretch-top,
+    $ui-background-stretch-bottom: $panel-background-stretch-bottom,
+    $ui-background-stretch-right: $panel-background-stretch-right,
+    $ui-background-stretch-left: $panel-background-stretch-left,
+
+    // See the docs above
+    $ui-include-border-management-rules: $panel-include-border-management-rules,
+    $ui-wrap-border-color: $panel-wrap-border-color,
+    $ui-wrap-border-width: $panel-wrap-border-width
+);
+
+@include extjs-panel-ui
+(
+  'edifecs-doormatnavigation-tasks',
+
+  $ui-border-color: #ff0000,
+  $ui-border-radius: 0px,
+  $ui-border-width: 1px,
+  $ui-padding: 0px,
+
+  $ui-header-color: #60A9DC,
+  $ui-header-font-family: $panel-header-font-family,
+  $ui-header-font-size: 12px,
+  $ui-header-font-weight: bold,
+  $ui-header-line-height: $panel-header-line-height,
+
+  $ui-header-border-color: transparent,
+  $ui-header-border-width: $panel-header-border-width,
+  $ui-header-border-style: $panel-header-border-style,
+
+  $ui-header-background-color: #FAFBFC,
+  $ui-header-background-gradient: color_stops(#FAFBFC, #FAFBFC),
+
+  $ui-header-inner-border-color: transparent,
+  $ui-header-inner-border-width: $panel-header-inner-border-width,
+  $ui-header-text-padding: $panel-header-text-padding,
+  $ui-header-text-transform: $panel-header-text-transform,
+  $ui-header-padding: 16px 0 0 29px,
+  $ui-header-icon-width: $panel-header-icon-width,
+  $ui-header-icon-height: $panel-header-icon-height,
+  $ui-header-icon-spacing: $panel-header-icon-spacing,
+  $ui-header-icon-background-position: $panel-header-icon-background-position,
+  $ui-header-glyph-color: $panel-header-glyph-color,
+  $ui-header-glyph-opacity: $panel-header-glyph-opacity,
+
+  $ui-tool-spacing: $panel-tool-spacing,
+  $ui-tool-background-image: $panel-tool-background-image,
+
+  $ui-body-color: #FAFBFC,
+  $ui-body-border-color: transparent,
+  $ui-body-border-width: 0px,
+  $ui-body-border-style: solid,
+  $ui-body-background-color: #FAFBFC,
+  $ui-body-font-size: $panel-body-font-size,
+  $ui-body-font-weight: normal,
+
+  $ui-background-stretch-top: $panel-background-stretch-top,
+  $ui-background-stretch-bottom: $panel-background-stretch-bottom,
+  $ui-background-stretch-right: $panel-background-stretch-right,
+  $ui-background-stretch-left: $panel-background-stretch-left,
+
+  // See the docs above
+  $ui-include-border-management-rules: $panel-include-border-management-rules,
+  $ui-wrap-border-color: $panel-wrap-border-color,
+  $ui-wrap-border-width: $panel-wrap-border-width
+);
+
+/* Medium Button CSS */
+@include extjs-button-ui
+(
+	'edifecs-doormatnavigation-lbar-toolbar-medium',
+	$border-radius: 0px,
+	$border-width: 0px,
+			
+	$border-color: transparent,
+	$border-color-over: transparent,
+	$border-color-focus: transparent,
+	$border-color-pressed: transparent,
+	$border-color-disabled: transparent,
+	
+	$padding: 15px 17px,
+	$text-padding: 0px,
+	
+	$background-color: transparent,
+	$background-color-over: transparent,
+	$background-color-focus: transparent,
+	$background-color-pressed: transparent,
+	$background-color-disabled: transparent,
+	
+	$background-gradient: color_stops(#75848E, #75848E),
+	$background-gradient-over: color_stops(#75848E, #75848E),
+	$background-gradient-focus: color_stops(#75848E, #75848E),
+	$background-gradient-pressed: color_stops(#75848E, #75848E),
+	$background-gradient-disabled: color_stops(#75848E, #75848E),
+	
+	$color: transparent,
+	$color-over: transparent,
+	$color-focus: transparent,
+	$color-pressed: transparent,
+	$color-disabled: transparent,
+	
+	$font-size: 11px,
+	$font-size-over: 11px,
+	$font-size-focus: 11px,
+	$font-size-pressed: 11px,
+	$font-size-disabled: 11px,
+	
+	$font-weight: bold,
+	$font-weight-over: bold,
+	$font-weight-focus: bold,
+	$font-weight-pressed: bold,
+	$font-weight-disabled: bold,
+	
+	$font-family: $button-small-font-family,
+	$font-family-over: $button-small-font-family-over,
+	$font-family-focus: $button-small-font-family-focus,
+	$font-family-pressed: $button-small-font-family-pressed,
+	$font-family-disabled: $button-small-font-family-disabled,
+	
+	$icon-size: 24px,
+	
+	$glyph-color: $button-toolbar-glyph-color,
+	$glyph-opacity: $button-toolbar-glyph-opacity,
+	$arrow-width: $button-large-arrow-width,
+	$arrow-height: $button-large-arrow-height,
+	$split-width: $button-large-split-width,
+	$split-height: $button-large-split-height,
+
+	$opacity-disabled: $button-toolbar-opacity-disabled,
+	$inner-opacity-disabled: $button-toolbar-inner-opacity-disabled
+);
+
+/* docked toolbar css */
+@include extjs-toolbar-ui
+(
+	'edifecs-doormatnavigation-toolbar',
+	$background-color	: #75848E,
+	$background-gradient: color_stops(#75848E, #75848E),
+	$border-color		: transparent
+);
+
+.rightArrow
+{
+  background-image: url("./images/edifecs-components/doormat-tip.png")!important;
+  background-repeat: no-repeat!important;
+  background-position: right center!important;
+}
+
+.thumb-wrap, .thumb-wrap-blank
+{
+	display:inline-block;
+    width:100%;
+	float:left;
+	color:#FFF;
+	padding:6px 8px 7px 8px;
+}
+
+.thumb-wrap:hover
+{
+  background-color: #f5f7f8;
+  border-radius: 1px;
+}
+
+.thumb-wrap-blank:hover
+{
+  background-color: #FFFFFF;
+  border-radius: 1px;
+}
+
+.thumb-wrap a
+{
+	padding:0px;
+	text-decoration:none;
+	color:#75848E;
+	display:block;
+	font-weight:normal;
+	font-size:11px;
+}
+
+.thumb-wrap span
+{
+  padding:0px;
+  text-decoration:none;
+  color:#75848E;
+  display:block;
+  font-weight:normal;
+  font-size:11px;
+}
+
+
+.thumb-wrap a:hover
+{
+	color:#247CDF;
+}
+.thumb-wrap .subItems
+{
+	padding-top:5px;
+	display:inline;
+	float:left;
+}
+.thumb-wrap .subItems a
+{
+	color: #96A4AE;
+	font-size: 9px;
+	float:left;
+	text-transform: uppercase;
+	padding-top:1px;
+}
+
+.thumb-wrap .subItems a:hover
+{
+	color:#247CDF;
+}
+
+.thumb-wrap .subItems span
+{
+	padding: 0 4px;
+	color:#96A4AE;
+	font-size:9px;
+	float: left;
+}
+
+.thumb-wrap .subItems span.menuItem
+{
+  color: #96a4ae;
+  font-size: 9px;
+  float: left;
+  text-transform: uppercase;
+  padding-top: 1px;
+  padding-left: 0px;
+}
+
+/* tasks section */
+.tasks
+{
+  padding: 0px 20px;
+}
+.tasks ul
+{
+  display: inline-block;
+  margin: 3px 0 0  !important;
+  padding: 0 !important;
+}
+
+.tasks ul li
+{
+  color: #0092EF;
+  font-size: 14px;
+  list-style-type: none;
+  background: url("./images/edifecs-components/doormat-bullet-tasks.png") no-repeat 0px 8px;
+  padding-bottom: 8px !important;
+  padding-left: 12px !important;
+}
+
+.tasks ul li a
+{
+  text-decoration   :   none;
+  color             :   #93A5B2;
+  font-size         :   11px;
+}
+
+.tasks ul li a:hover
+{
+  color            :   #247CDF;
+}
+
+.tasks ul li span
+{
+  text-decoration   :   none;
+  color             :   #93A5B2;
+  font-size         :   11px;
+}
+
+.aboutProduct
+{
+color: '#75848E';
+font-family: 'Arial';
+font-size: '11px';
+line-height: '16px';
+}
+
+.productLogo
+{
+  padding: 10px 20px 25px;
+}
+
+.productLogo a{
+  text-decoration: none;
+  color: #247CDF;
+  font-size: 11px;
+}
+
+.aboutProduct a:hover{
+  text-decoration: underline;
+}
+
+.context a
+{
+  background-image: url("./images/edifecs-components/help.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  color: #A6B5C0;
+  display: block;
+  font-size: 9px;
+  height: 15px;
+  padding-left: 25px !important;
+  padding-top: 1px;
+  text-decoration: none;
+}
+
+.context a:hover
+{
+   background-image    :   url("./images/edifecs-components/help-hover.png");
+   color                :   #247CDF;
+}

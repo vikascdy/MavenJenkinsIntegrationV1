@@ -1,0 +1,55 @@
+<assembly xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2 http://maven.apache.org/xsd/assembly-1.1.2.xsd">
+	<id>minimized</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <baseDirectory>/</baseDirectory>
+    <fileSets>
+        <fileSet>
+            <directory>ext</directory>
+            <outputDirectory>ext</outputDirectory>
+			<includes>
+				<!-- This file contains the entire Ext JS library. It is minified, no JSDoc, no console warnings. It is used in production environment. -->
+				<include>ext-all.js</include>
+				<!-- This file contains the entire Ext JS library. It is non-minified, with JSDoc, with console warnings & comments. It is used in development environment. -->
+				<include>ext-all-debug-w-comments.js</include>
+				<!-- Ext JS commercial license -->
+				<include>license.txt</include>
+				<!-- It contains extjs plugins, features & exclude all other extjs source files which are not required in production environment.-->
+				<include>src/ux/**</include>
+			</includes>
+        </fileSet>
+        <fileSet>
+            <directory>packages/ext-theme-edifecs/build</directory>
+            <outputDirectory>packages/ext-theme-edifecs/build</outputDirectory>
+            <excludes>
+				<!-- Temp files those are used durning build the package but not required in production environment -->
+            	<exclude>temp/**</exclude>
+				<!-- Scss files those are used debugging the edifecs theme but not required in production environment  -->
+				<exclude>resources/*-debug*</exclude>
+				<!-- RTL files are used to support languages which starts from right to left like urdu, arabic etc. Edifecs theme does not support for it. -->
+				<exclude>resources/*-rtl*</exclude>
+				<!-- These are scss files for edifecs-theme which are used to generate the css durning build. These are not required in production environment. -->
+            	<exclude>**/*.scss</exclude>
+				<!-- This is sass configuration ruby file. -->
+            	<exclude>**/*.rb</exclude>
+				<!-- This file is used for image slicing using sencha cmd for legacy browsers. It is not required in production environment. -->
+            	<exclude>theme-capture.json</exclude>
+				<!-- This file is used for image slicing using sencha cmd for legacy browsers. It is not required in production environment. -->
+				<exclude>theme-capture.png</exclude>
+            </excludes>
+        </fileSet>
+		<fileSet>
+			<!-- It contains edifecs custom components -->
+            <directory>edifecs-plugins</directory>
+            <outputDirectory>edifecs-plugins</outputDirectory>
+        </fileSet>
+		<fileSet>
+			<!-- It contains jquery minimized core file & custom scrollbar plugin-->
+            <directory>jquery</directory>
+            <outputDirectory>jquery</outputDirectory>
+        </fileSet>
+    </fileSets>
+</assembly>

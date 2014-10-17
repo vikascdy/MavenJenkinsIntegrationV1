@@ -1,0 +1,369 @@
+
+.help-status{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:0px 0px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.success-status{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-16px 0px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.warning2-status{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-32px 0px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.warning-status{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-48px 0px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.fail-status{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-64px 0px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.error-status{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-80px 0px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.info-status{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-96px 0px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.search-status{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-112px 0px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.unknown-status{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-128px 0px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.time-status{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-144px 0px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.validation-status{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-160px 0px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+<!-- -->
+
+.fail-generic{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:0px -16px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+.warning-generic{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-16px -16px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+.success-generic{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-32px -16px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+.confirmation-generic{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-48px -16px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+.error-generic{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-64px -16px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+<!-- -->
+
+.fail-small-generic{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:0px -32px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+.warning-small-generic{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-16px -32px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+.success-small-generic{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-32px -32px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+.confirmation-small-generic{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-48px -32px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+.error-small-generic{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-64px -32px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+<!-- -->
+
+.inbound-object{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:0px -48px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .inbound-object{
+	background-position:0px -64px !important;
+}
+
+.batch-object{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-16px -48px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .batch-object{
+	background-position:-16px -64px !important;
+}
+
+.organization-object{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-32px -48px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .organization-object{
+	background-position:-32px -64px !important;
+}
+
+.messageIncoming-object{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-48px -48px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .messageIncoming-object{
+	background-position:-48px -64px !important;
+}
+
+.messageOutgoing-object{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-48px -48px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .messageOutgoing-object{
+	background-position:-48px -64px !important;
+}
+
+.message-object{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-80px -48px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .message-object{
+	background-position:-80px -64px !important;
+}
+
+.note-object{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-96px -48px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .note-object{
+	background-position:-96px -64px !important;
+}
+
+
+.address-object{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-112px -48px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .address-object{
+	background-position:-112px -64px !important;
+}
+
+.fax-object{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-128px -48px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .fax-object{
+	background-position:-128px -64px !important;
+}
+
+
+.phone-object{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-144px -48px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .phone-object{
+	background-position:-144px -64px !important;
+}
+
+
+.web-object{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-160px -48px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .web-object{
+	background-position:-160px -64px !important;
+}
+
+
+.partner-object{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-176px -48px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .partner-object{
+	background-position:-176px -64px !important;
+}
+
+
+.transmission-object{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-192px -48px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .transmission-object{
+	background-position:-192px -64px !important;
+}
+
+
+.user-object{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-208px -48px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .user-object{
+	background-position:-208px -64px !important;
+}
+
+
+.transactionFile-object{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-224px -48px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .transactionFile-object{
+	background-position:-224px -64px !important;
+}
+
+
+.pin-object{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-240px -48px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .pin-object{
+	background-position:-240px -64px !important;
+}
+
+
+.favorite-object{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-256px -48px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .favorite-object{
+	background-position:-256px -64px !important;
+}
+
+
+.flag-object{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-272px -48px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.x-over .flag-object{
+	background-position:-272px -64px !important;
+}
+
+<!-- -->
+
+.favorite-fill{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:0px -80px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+.favorite-empty{
+    background-image:url('./images/edifecs-components/status-icons.png');
+    background-position:-16px -80px !important;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+

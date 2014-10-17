@@ -1,0 +1,148 @@
+.#{$prefix}tip-anchor {
+	border-width: 8px;
+}
+
+.#{$prefix}tip-body-form-invalid {
+    background-position: 1px 10px;
+}
+
+.#{$prefix}tip-body-form-invalid {
+	background-image: theme-background-image(null);
+	li {
+		margin-bottom: 0;
+	}
+}
+
+ /* customized preview box tooltip */
+
+ @include extjs-tip-ui(
+    'preview-box',
+    $ui-border-color: #cad4dd,
+    $ui-border-width: 1px,
+    $ui-border-radius: 2px,
+    $ui-background-color: #FFFFFF,
+    $ui-background-gradient: color_stops(#FFFFFF, #FFFFFF),
+
+    $ui-tool-spacing: $tip-tool-spacing,
+    $ui-header-body-padding: 20px 20px 0px 20px,
+    $ui-header-color: #000000,
+    $ui-header-font-size: 14px,
+    $ui-header-font-weight: 'normal',
+    $ui-body-padding: 0px 20px 20px 20px,
+    $ui-body-color: #000000,
+    $ui-body-font-size: $tip-body-font-size,
+    $ui-body-font-weight: $tip-body-font-weight,
+    $ui-body-link-color: $tip-body-link-color,
+
+    $ui-inner-border-width: 0,
+    $ui-inner-border-color: #cad4dd
+ );
+ 
+ .#{$prefix}tip-preview-box {
+ 
+	.#{$prefix}tip-anchor-top{
+		border-bottom-color: #cad4dd;
+	}
+	
+	.#{$prefix}tip-anchor-bottom{
+		border-top-color: #cad4dd;
+	}
+	
+	.#{$prefix}tip-anchor-left{
+		border-right-color: #cad4dd;
+	}
+	
+	.#{$prefix}tip-anchor-right{
+		border-left-color: #cad4dd;
+	}
+ }
+ 
+ /* customized red tooltip */
+ 
+ @include extjs-tip-ui(
+    'red-tooltip',
+    $ui-border-color: #BD5353,
+    $ui-border-width: 1px,
+    $ui-border-radius: 2px,
+    $ui-background-color: #BD5353,
+    $ui-background-gradient: color_stops(#BD5353,#BD5353),
+
+    $ui-tool-spacing: $tip-tool-spacing,
+    $ui-header-body-padding: 10px 10px 0px 10px,
+    $ui-header-color: #FFFFFF,
+    $ui-header-font-size: 14px,
+    $ui-header-font-weight: 'normal',
+    $ui-body-padding: 5px 10px,
+    $ui-body-color: #FFFFFF,
+    $ui-body-font-size: $tip-body-font-size,
+    $ui-body-font-weight: $tip-body-font-weight,
+    $ui-body-link-color: $tip-body-link-color,
+
+    $ui-inner-border-width: 0,
+    $ui-inner-border-color: #BD5353
+ );
+ 
+ .#{$prefix}tip-red-tooltip {
+	.#{$prefix}tip-anchor-top{
+		border-bottom-color: #BD5353;
+	}
+	.#{$prefix}tip-anchor-bottom
+	{
+		border-top-color: #BD5353;
+	}	
+	.#{$prefix}tip-anchor-left
+	{
+		border-right-color: #BD5353;
+	}
+	.#{$prefix}tip-anchor-right {
+		border-left-color: #BD5353;
+	}
+ }
+ 
+ /* customized white tooltip */
+ 
+ @include extjs-tip-ui(
+    'white-tooltip',
+    $ui-border-color: #cad4dd,
+    $ui-border-width: 1px,
+    $ui-border-radius: 2px,
+    $ui-background-color: #FFFFFF,
+    $ui-background-gradient: color_stops(#FFFFFF,#FFFFFF),
+
+    $ui-tool-spacing: $tip-tool-spacing,
+    $ui-header-body-padding: 10px 10px 0px 10px,
+    $ui-header-color: #000000,
+    $ui-header-font-size: 14px,
+    $ui-header-font-weight: 'normal',
+    $ui-body-padding: 5px 10px,
+    $ui-body-color: #000000,
+    $ui-body-font-size: $tip-body-font-size,
+    $ui-body-font-weight: $tip-body-font-weight,
+    $ui-body-link-color: $tip-body-link-color,
+
+    $ui-inner-border-width: 0,
+    $ui-inner-border-color: #cad4dd
+ );
+	
+ .#{$prefix}tip-white-tooltip {
+	
+	.#{$prefix}tip-anchor-top{
+		border-bottom-color: #cad4dd;
+	}
+	
+	.#{$prefix}tip-anchor-bottom{
+		border-top-color: #cad4dd;
+	}
+	
+	.#{$prefix}tip-anchor-left{
+		border-right-color: #cad4dd;
+	}
+	
+	.#{$prefix}tip-anchor-right{
+		border-left-color: #cad4dd;
+	}
+
+    .#{$prefix}tool-img {
+      background-image: url(images/tools/tool-sprites.png);
+    }
+ }

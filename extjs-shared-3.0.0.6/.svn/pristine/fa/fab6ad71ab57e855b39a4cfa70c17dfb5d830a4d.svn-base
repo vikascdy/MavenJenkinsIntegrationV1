@@ -1,0 +1,35 @@
+<assembly>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <baseDirectory>/</baseDirectory>
+
+    <fileSets>
+		<!-- It contains workspace level configuration files -->
+        <fileSet>
+            <directory>.sencha</directory>
+            <outputDirectory>.sencha</outputDirectory>
+        </fileSet>
+		<!-- A copy of the Ext JS SDK  -->
+        <fileSet>
+            <directory>ext</directory>
+            <outputDirectory>ext</outputDirectory>
+        </fileSet>
+		<!-- It contains edifecs theme package -->
+        <fileSet>
+            <directory>packages</directory>
+            <outputDirectory>packages</outputDirectory>
+        </fileSet>
+		<!-- It contains edifecs custom components -->
+		<fileSet>
+            <directory>edifecs-plugins</directory>
+            <outputDirectory>edifecs-plugins</outputDirectory>
+        </fileSet>
+		<!-- It contains jquery minimized core file & custom scrollbar plugin-->
+		<fileSet>
+            <directory>jquery</directory>
+            <outputDirectory>jquery</outputDirectory>
+        </fileSet>
+    </fileSets>
+
+</assembly>

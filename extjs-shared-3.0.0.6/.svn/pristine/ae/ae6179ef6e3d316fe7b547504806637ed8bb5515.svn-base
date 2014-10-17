@@ -1,0 +1,80 @@
+.jspHorizontalBar,
+.jspVerticalBar,
+.jspTrack
+{
+	background: transparent;
+}
+
+.jspDrag
+{
+	background: #d8dfe3;
+    left: 4px;
+    *left:3px;
+    border:1px solid #FFFFFF;
+    width: 7px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.jspTrack .jspActive,
+.jspTrack .jspHover,
+.jspDrag:hover
+{
+	background: #d8dfe3;
+}
+
+.jspArrow
+{
+	background: url('../images/scroll-sprite.png') no-repeat;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.jspVerticalBar>.jspActive,
+.jspArrow:hover
+{
+	background-image: url('../images/scroll-sprite.png');
+}
+
+.jspVerticalBar>.jspDisabled,
+.jspVerticalBar>.jspDisabled:hover,
+.jspHorizontalBar>.jspDisabled,
+.jspHorizontalBar>.jspDisabled:hover
+{
+	background-color: transparent;
+	background-image: url('../images/scroll-sprite.png');
+	background-position: 3px 3px;
+	background-repeat: no-repeat;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 19px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 19px;
+}
+
+.jspArrowUp
+{
+	background-position: 3px 3px;
+}
+
+.jspArrowDown
+{
+	background-position: 3px -13px !important;
+}
+
+.jspArrowLeft
+{
+	background-position: 3px -27px !important;
+}
+
+.jspArrowRight
+{
+	background-position: -12px -27px !important;
+}

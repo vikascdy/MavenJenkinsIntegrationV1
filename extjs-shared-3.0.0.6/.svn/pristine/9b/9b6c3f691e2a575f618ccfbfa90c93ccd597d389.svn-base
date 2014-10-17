@@ -1,0 +1,23 @@
+$tip-background-color: #495861 !default;
+$tip-body-color: #FFFFFF !default;
+$tip-body-padding:  5px 10px !default;
+$tip-header-body-padding: 5px 10px 0 10px !default;
+$tip-header-font-size: $font-size !default;//new
+
+$tip-body-font-size: $font-size !default;//new
+
+$tip-tool-spacing: 6px !default;
+$tip-tool-background-image: 'tools/tool-sprites-for-dark-backgrounds' !default;
+
+// borders
+$tip-border-color: #495861 !default;
+$tip-border-width: 1px !default;
+$tip-border-radius: 2px !default;
+
+// error
+$tip-error-body-padding: 5px !default;
+$tip-error-inner-border-color: #d87166 !default;
+$tip-error-border-color: #a6b4bd !default;
+$tip-error-border-radius: 2px !default;
+$tip-error-border-width: 0px !default;
+$tip-error-background-color: #bd5353 !default;

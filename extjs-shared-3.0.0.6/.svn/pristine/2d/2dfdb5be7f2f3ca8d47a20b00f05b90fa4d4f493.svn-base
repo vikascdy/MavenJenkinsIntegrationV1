@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.edifecs.ui</groupId>
+    <artifactId>shared-ui</artifactId>
+    <packaging>pom</packaging>
+    <version>3.0.0.5</version>
+    <description>ExtJS Edifecs shared UI bundle for use with EXTJS - 4.2.1.883</description>
+
+	<!-- Commented for testing purpose -->
+    <!--<parent>
+        <groupId>com.edifecs</groupId>
+        <artifactId>ea</artifactId>
+        <version>4.5</version>
+    </parent>-->
+
+    <scm>
+        <connection>scm:svn:https://ecsvn01.edifecs.local/engineering/components/ui/ux/tags/shared-ui-3.0.0.5</connection>
+        <developerConnection>scm:svn:https://ecsvn01.edifecs.local/engineering/components/ui/ux/tags/shared-ui-3.0.0.5</developerConnection>
+    </scm>
+
+    <dependencies>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>create-distro</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                        <configuration>
+                            <descriptors>
+                                <descriptor>src/main/assembly/assembly.xml</descriptor>
+                            </descriptors>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>create-distro-minimized</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                        <configuration>
+                            <descriptors>
+                                <descriptor>src/main/assembly/assembly-minimized.xml</descriptor>
+                            </descriptors>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

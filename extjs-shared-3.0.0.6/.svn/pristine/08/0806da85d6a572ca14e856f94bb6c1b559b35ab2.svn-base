@@ -1,0 +1,7 @@
+.#{$prefix}grid-with-row-lines {
+  // since the top border of each row is the bottom border of the row above, the top
+  // border of the first row goes on the table element.
+  .#{$prefix}grid-table {
+    border-top: 0px solid $grid-row-cell-background-color;
+  }
+}

@@ -1,0 +1,27 @@
+$window-base-color: $base-color !default;
+$window-padding : 1px !default; 
+
+$window-border-radius: 2px !default;
+$window-border-color: #eff2f5;
+$window-inner-border-color: $window-border-color !default;
+$window-inner-border-width: 0px !default;
+$window-background-color: #f5f7f9 !default;
+
+$window-body-border-width: 1px !default;
+$window-body-border-style: solid !default;
+$window-body-border-color: #e7ebf0 !default;
+$window-body-background-color: #FFFFFF !default;
+
+$window-header-font-size: 16px !default; 
+$window-header-line-height: 38px !default;
+$window-header-color: #2c3941 !default;
+$window-header-background-color: $window-background-color !default;
+$window-header-font-weight: bold !default;
+$window-header-padding: 0px 15px 0px !default;
+
+$window-header-border-width: 0px !default;
+$window-header-inner-border-color: $window-inner-border-color !default;
+$window-header-inner-border-width: 0px !default;
+$window-force-header-border: true !default;
+
+//$window-include-border-management-rules: false !default;

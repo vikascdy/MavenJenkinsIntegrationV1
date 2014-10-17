@@ -1,0 +1,79 @@
+@function linear-gradient-tabbar($direction, $bg-color) {
+    @return linear-gradient($direction, color_stops(#FFFFFF,#FFFFFF));
+}
+
+@function linear-gradient-tab($direction, $bg-color) {
+    @return linear-gradient($direction, color_stops(#ffffff,#ffffff));
+}
+
+@function linear-gradient-tab-active($direction, $bg-color) {
+    @return linear-gradient($direction, color_stops(#8daec8,#8daec8));
+}
+
+@function linear-gradient-tab-over($direction, $bg-color) {
+    @return linear-gradient($direction, color_stops(#f3f6f8,#f3f6f8));
+}
+
+@function linear-gradient-tab-disabled($direction, $bg-color) {
+    @return linear-gradient($direction, color_stops(#FFFFFF,#FFFFFF));
+}
+
+@function linear-gradient-panel-header($direction, $bg-color) {
+    @return linear-gradient($direction, color_stops(#FFFFFF, #FFFFFF));
+}
+
+@function linear-gradient-grid-header($direction, $bg-color) {
+    @return linear-gradient($direction, color_stops(#f3f5f7,#f3f5f7));
+}
+
+@function linear-gradient-grid-header-over($direction, $bg-color) {
+    @return linear-gradient($direction, color_stops(#ffffff,#ffffff));
+}
+
+@function linear-gradient-grid-row-over($direction, $bg-color) {
+    @return linear-gradient($direction, color_stops(#f0f2f3,#f0f2f3));
+}
+
+@function linear-gradient-grid-cell-special($direction, $bg-color) {
+    @return linear-gradient($direction, color_stops(
+        $bg-color,
+        $bg-color
+    ));
+}
+
+@function linear-gradient-bevel($direction, $bg-color) {
+    @return linear-gradient($direction, color_stops(
+        lighten($bg-color, 15%),
+        lighten($bg-color, 8%) 30%,
+        $bg-color 65%,
+        darken($bg-color, 6%)
+    ));
+}
+
+@function linear-gradient-glossy($direction, $bg-color) {
+    @return linear-gradient($direction, color_stops(#81b3df, #6491bc 98%, #4f7295 98%,#4f7295));
+}
+
+@function linear-gradient-recessed($direction, $bg-color) {
+    @return linear-gradient($direction, color_stops(#EFF4F7, #D9E0E4));
+}
+
+@function linear-gradient-matte($direction, $bg-color) {
+    @return linear-gradient($direction, color_stops(#DDEBF8, #DDEBF8));
+}
+
+@function linear-gradient-matte-reverse($direction, $bg-color) {
+    @return linear-gradient($direction, color_stops(#EFF4F7, #D9E0E4));
+}
+
+@function linear-gradient-glossy-button($direction, $bg-color) {
+    @return linear-gradient($direction, color_stops(#ffffff ,#f8fafc));
+}
+
+@function linear-gradient-glossy-button-over($direction, $bg-color) {
+    @return linear-gradient($direction, color_stops(#ffffff,#ffffff));
+}
+
+@function linear-gradient-glossy-button-pressed($direction, $bg-color) {
+    @return linear-gradient($direction, color_stops(#ffffff,#ffffff));
+}

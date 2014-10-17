@@ -1,0 +1,2 @@
+$splitter-size: 5px !default;
+$collapse-tool-size: 48px !default;
