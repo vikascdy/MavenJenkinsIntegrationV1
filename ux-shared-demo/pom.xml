@@ -67,17 +67,19 @@
 				<resource>
 				<!-- this is relative to the pom.xml directory -->
 				<!--	<directory>src\main\demo-apps</directory>-->
-					<directory>src/main/demo-apps</directory>
-						
-					<targetPath>WEB-INF</targetPath>
+					<directory>src\main\demo-apps\edifecs-demo</directory>
+						<targetPath>edifecs-demo</targetPath>
+			<!-- 		<targetPath>WEB-INF</targetPath>
+			-->
 				</resource>	
-			<!--	<resource>
+				<resource>
 					<directory>src\main\demo-apps\extjs-examples\</directory>
 					<targetPath>extjs-examples\</targetPath>
 				</resource>
-			-->
+		
 				</webResources>
-				<webXml>src\main\webapp\WEB-INF\web.xml</webXml>        
+			<!-- 	<warSourceDirectory>src\main\demo-apps</warSourceDirectory> -->
+				<webXml>src\main\demo-apps\edifecs-demo\WEB-INF\web.xml</webXml>        
 			  </configuration>
 			</plugin>
 
@@ -93,14 +95,14 @@
 				<phase>deploy</phase> <goals> <goal>deployer-redeploy</goal> </goals> </execution> 
 				</executions> </plugin> -->
 			<plugin>
-				<groupId>org.apache.tomcat.maven</groupId>
-				<artifactId>tomcat7-maven-plugin</artifactId>
-				<version>2.2</version>
-				<configuration>
-					<url>http://localhost:8080/manager/text</url>
-					<server>tomcat7</server>
-					<path>/${project.build.finalName}</path>
-				</configuration>
+    			<groupId>org.apache.tomcat.maven</groupId>
+    			<artifactId>tomcat7-maven-plugin</artifactId>
+    			<version>2.2</version>
+    			<configuration>
+        			<url>http://localhost:8080/manager/text</url>
+        			<server>tomcat7</server>
+        			<path>/${project.build.finalName}</path>
+    			</configuration>
 			</plugin>
 		</plugins>
 	</build>
