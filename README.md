@@ -5,9 +5,9 @@ Document describing how to setup the quality profiles in SonarQube server and th
 
 
 ## Configuring Jenkins for Sonar ##
-1. Install sonar plugin and database-mysql plugin from Manage Jenkins -> Manage Plugins -> Available .
+1. Install sonar plugin and database-mysql plugin from `Manage Jenkins` -> `Manage Plugins` -> `Available` .
 
-2. Now configure the jenkins system from Manage Jenkins -> Configure System .
+2. Now configure the jenkins system from `Manage Jenkins` -> `Configure System` .
 
 3. In Sonar Runner installations, install sonar runner with latest version 2.4 from maven central installer . 
 
@@ -17,7 +17,7 @@ Document describing how to setup the quality profiles in SonarQube server and th
    * Sonar account login and password, if needed.
    * Database URL is the url for using MySQL database (in this case MySQL is used, other options are embedded, postgresql, oracle database).
    * Database login and password for accessing the MySQL database.
-   * Database driver is com.mysql.jdbc.driver .
+   * Database driver is "com.mysql.jdbc.driver" .
    * Version of sonar-maven plugin is optional (this is used in case of maven projects with sonar as post-build step).
 
 5. In Global Database section, configure the system:
