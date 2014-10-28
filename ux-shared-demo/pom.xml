@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>com.edifecs.ui</groupId>
+	<artifactId>ux-shared-demo</artifactId>
+	<packaging>war</packaging>
+	<version>4.0.0.0</version>
+	<name>UXPortal WEB Portal</name>
+	<description>UXPortal WEB Portal based on Edifecs Shared UI Bundle 4.0.0.0</description>
+
+<!-- 	<parent>
+		<groupId>com.edifecs</groupId>
+		<artifactId>ea</artifactId>
+		<version>4.5</version>
+	</parent>
+-->	
+	<scm>
+	<connection>scm:svn:https://ecsvn01.edifecs.local/engineering/components/ui/ux-sites/ux-demo/trunk</connection>
+	<developerConnection>scm:svn:https://ecsvn01.edifecs.local/engineering/components/ui/ux-sites/ux-demo/trunk</developerConnection>
+	</scm>
+
+	<dependencies>
+	 <dependency>
+		<groupId>com.edifecs.ui</groupId>
+		<artifactId>shared-ui</artifactId>
+		<version>3.0.0.6</version>
+		<type>zip</type>
+	  </dependency>
+	</dependencies>
+
+	<build>
+		<finalName>ux-shared-demo</finalName>
+		 <plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>unpack-owner</id>
+						<phase>process-resources</phase>
+						<goals>
+							<goal>unpack</goal>
+						</goals>
+						<configuration>
+							<artifactItems>
+								<artifactItem>
+									<groupId>com.edifecs.ui</groupId>
+									<artifactId>shared-ui</artifactId>
+									<version>3.0.0.6</version>
+									<type>zip</type>
+								</artifactItem>
+							</artifactItems>
+							<outputDirectory>${project.build.directory}/${project.build.finalName}/ </outputDirectory> 
+							<overWriteReleases>false</overWriteReleases>
+							<overWriteSnapshots>true</overWriteSnapshots>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>            
+			  <groupId>org.apache.maven.plugins</groupId>
+			  <artifactId>maven-war-plugin</artifactId>
+			  <configuration>
+			  <webResources>
+				<resource>
+				<!-- this is relative to the pom.xml directory -->
+				<!--	<directory>src\main\demo-apps</directory>-->
+					<directory>src\main\demo-apps\edifecs-demo</directory>
+						<targetPath>edifecs-demo</targetPath>
+			<!-- 		<targetPath>WEB-INF</targetPath>
+			-->
+				</resource>	
+				<resource>
+					<directory>src\main\demo-apps\extjs-examples\</directory>
+					<targetPath>extjs-examples\</targetPath>
+				</resource>
+		
+				</webResources>
+			<!-- 	<warSourceDirectory>src\main\demo-apps</warSourceDirectory> -->
+				<webXml>src\main\demo-apps\edifecs-demo\WEB-INF\web.xml</webXml>        
+			  </configuration>
+			</plugin>
+
+			<!-- <plugin> <groupId>org.codehaus.cargo</groupId> <artifactId>cargo-maven2-plugin</artifactId> 
+				<version>1.0.6</version> <configuration> <wait>true</wait> <container> <containerId>tomcat7x</containerId> 
+				<type>remote</type> <timeout>300000</timeout> </container> <configuration> 
+				<type>runtime</type> <properties> <cargo.tomcat.manager.url>http://enuxcddev00:8080/manager/text</cargo.tomcat.manager.url> 
+				<cargo.remote.username>Tomcat</cargo.remote.username> <cargo.remote.password>(U2 
+				3o2^7:3:O1</cargo.remote.password> </properties> </configuration> <deployer> 
+				<deployables> <deployable> <groupId>com.edifecs.ui</groupId> <artifactId>ux-shared-demo</artifactId> 
+				<type>war</type> <properties> <context>ux-demo</context> </properties> </deployable> 
+				</deployables> </deployer> </configuration> <executions> <execution> <id>remote-deploy</id> 
+				<phase>deploy</phase> <goals> <goal>deployer-redeploy</goal> </goals> </execution> 
+				</executions> </plugin> -->
+			<plugin>
+    			<groupId>org.apache.tomcat.maven</groupId>
+    			<artifactId>tomcat7-maven-plugin</artifactId>
+    			<version>2.2</version>
+    			<configuration>
+        			<url>http://localhost:8080/manager/text</url>
+        			<server>tomcat7</server>
+        			<path>/${project.build.finalName}</path>
+    			</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<developers>
+		<developer>
+			<id>Kailash.Dattkaya</id>
+			<name>Kailash Narayan Dattkaya</name>
+			<email>kailash.dattkaya@edifecs.com</email>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+		</developer>
+	</developers>
+</project>

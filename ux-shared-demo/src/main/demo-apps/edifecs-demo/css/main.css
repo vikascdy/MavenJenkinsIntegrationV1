@@ -1,0 +1,75 @@
+.no-file-found{
+font-size:14px;
+color:red;
+font-weight:bold;
+}
+
+.componentList .x-grid-cell-inner {
+    padding: 10px 10px 10px 20px;
+    font-size: 12px;
+	cursor:pointer;
+
+}
+
+.app-header {
+    color: #222b36;
+    font-family: arial, helvetica, verdana, sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+	font-style:normal;
+}
+
+.page-footer {
+    color: #817f7f;
+    text-align: right;
+}
+
+#site-loading {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: 'Segoe UI', 'Trebuchet MS', Arial, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    z-index: 9100;
+    background-color: #e5e9eb;
+    color: #375780;
+    text-align: center;
+}
+
+#site-loading img {
+    display: block;
+    width: 32px;
+    height: 32px;
+    /*padding: 16px;*/
+    margin: 25% auto 2em auto;
+}
+
+.progress-window {
+    font-family: 'Segoe UI', 'Trebuchet MS', Arial, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    background-color: #e5e9eb;
+    color: #375780;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.progress-window img {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 12px auto 24px auto;
+}
+
+.searchEmptyField{font-style:italic;color:#8593a0;}
+
+/* Detail Header Component*/
+
+.review{background-image: url('../images/running.png')}
+.user{background-image: url('../images/running.png')}
+
+
+/* Detail Header Component */
