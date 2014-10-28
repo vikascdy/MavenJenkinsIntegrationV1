@@ -10,10 +10,10 @@ Default profile is "Sonar way" which comes with language plugins so that sonar r
 ### CheckStyle and PMD profile ###
 1. First login sonar using the authentication. Then in `Settings` section go to `Update Center` and install `Checkstyle` , `Java` , `JavaScript` and `PMD` plugins from `Availabele Plugins` .
 2. After Installing the plugins, restart the Sonar.
-3. Go to `Quality Profiles` tab. This displays default profiles named 'Sonar way' based on language plugins.
-4. Under Java Profiles, create a new profile by clicking `+Create` in the right corner.
+3. Go to `Quality Profiles` tab. This displays default profiles named 'Sonar way' based on the language plugins.
+4. Under Java Profiles, create a new profile by clicking `+Create` in the right side.
 5. Use a suitable name 'Checkstyle and PMD' and upload the configuration files (.xml files) for both Checkstyle and PMD configuration.
-6. Each profile conatains the rules which have severity levels of either info, minor, major,critical or blocker.
+6. Each profile contains the rules which have severity levels of either info, minor, major,critical or blocker.
 
 
 
