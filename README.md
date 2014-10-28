@@ -22,6 +22,9 @@ Document describing how to setup the quality profiles in SonarQube server and th
    * Database login and password for accessing the MySQL database.
    * Database driver is com.mysql.jdbc.driver .
    * Version of sonar-maven plugin is optional (this is used in case of maven projects with sonar as post-build step).
+
+
+
 5. In Global Database section, configure the system:
    * Select the databse from drop-down list.
    * Set Host Name same as the bind address in the /etc/mysql/my.cnf file (here IP of machine and default port for database is 3306).
