@@ -28,7 +28,7 @@ Document describing how to setup the quality profiles in SonarQube server and th
 
 ## Configuring Jenkins Job for Sonar Analysis ##
 
-1. In Build section of job configuration, add a new build step 'Invoke Standalone Sonar Analysis' using Add build Step.
+1. In Build section of job configuration, add a new build step 'Invoke Standalone Sonar Analysis' using `Add build Step`.
 2. Now Configure this build step:
    * Specify the JDK used by Jenkins job.
    * Now for sonar runner configuration there are two ways to tell Jenkins:
