@@ -2,6 +2,19 @@
 
 Document describing how to setup the quality profiles in SonarQube server and the changes in the configuration of jenkins jobs ESM, SM, x-Board to enable Sonar.
 
+## Quality profiles setup in Sonar ##
+We setup CheckStyle and PMD as Java quality profiles and a default JavaScript quality profile by installing JavaScript plugin. 
+One can install a plugin via update center using authentication. 
+Default profile is "Sonar way" which comes with language plugins so that sonar runner can analyze the project.
+
+### CheckStyle and PMD profile ###
+1. First login sonar using the authentication. Then in `Settings` section go to `Update Center` and install `Checkstyle` , `Java` , `JavaScript` and `PMD` plugins from `Availabele Plugins` .
+2. After Installing the plugins, restart the Sonar.
+3. Go to `Quality Profiles` tab. This displays default profiles named 'Sonar way' based on language plugins.
+4. Under Java Profiles, create a new profile by clicking `+Create` in the right corner.
+5. Use a suitable name 'Checkstyle and PMD' and upload the configuration files (.xml files) for both Checkstyle and PMD configuration.
+6. Each profile conatains the rules which have severity levels of either info, minor, major,critical or blocker.
+
 
 
 ## Configuring Jenkins for Sonar ##
@@ -33,5 +46,5 @@ Document describing how to setup the quality profiles in SonarQube server and th
    * Specify the JDK used by Jenkins job.
    * Now for sonar runner configuration there are two ways to tell Jenkins:
      * Specify the path to project properties file that contains the configuration of sonar runner for sonar analysis.
-     * We can specify the project properties either mandatory or optional for sonar runner analyzer.
+     * We can explicitly specify the project properties (can be mandatory or optional) for sonar runner analyzer.
 
