@@ -81,7 +81,7 @@
 		
 				</webResources>
 			<!-- 	<warSourceDirectory>src\main\demo-apps</warSourceDirectory> -->
-				<webXml>src\main\demo-apps\edifecs-demo\WEB-INF\web.xml</webXml>        
+				<webXml>src\main\WEB-INF\web.xml</webXml>        
 			  </configuration>
 			</plugin>
 
