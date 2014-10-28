@@ -27,7 +27,7 @@ Document describing how to setup the quality profiles in SonarQube server and th
    * Test the connection to see everything working good.
 
 ## Configuring Jenkins Job for Sonar Analysis ##
-We have to configure ESM, SM, x-Board jenkins jobs for enabling sonar.
+
 1. In Build section of job configuration, add a new build step 'Invoke Standalone Sonar Analysis' using Add build Step.
 2. Now Configure this build step:
    * Specify the JDK used by Jenkins job.
