@@ -1,1 +1,0 @@
-java -cp Install.jar com.edifecs.content.repository.upload.CRProductUpload %*

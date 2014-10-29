@@ -1,4 +1,0 @@
-[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(D:\SM1\sm\flexfields\flexfields-db\src\main\resources\META-INF,D:\SM1\sm\flexfields\flexfields-db\target\classes\META-INF)[0m
-[0m[[0mdebug[0m] [0m	(D:\SM1\sm\flexfields\flexfields-db\src\main\resources\META-INF\orm.xml,D:\SM1\sm\flexfields\flexfields-db\target\classes\META-INF\orm.xml)[0m
-[0m[[0mdebug[0m] [0m	(D:\SM1\sm\flexfields\flexfields-db\src\main\resources\META-INF\persistence.xml,D:\SM1\sm\flexfields\flexfields-db\target\classes\META-INF\persistence.xml)[0m

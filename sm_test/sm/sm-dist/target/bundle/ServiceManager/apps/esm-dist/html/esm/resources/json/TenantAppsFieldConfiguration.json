@@ -1,9 +1,0 @@
-{
-	"flexGroupUrl":"/rest/service/esm-service/AppStore.getTenantAppConfigurations",
-	"saveValueUrl":"/rest/service/flexfields-service/FlexField.setFlexFieldValue",
-	"enableRootHeader":false,
-	"tenantName":"*",
-	"appName":"*",
-	"componentName":"*",
-	"entityName":"TenantEntity"
-}
