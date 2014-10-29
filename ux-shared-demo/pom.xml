@@ -76,8 +76,9 @@
 				<resource>
 					<directory>src\main\demo-apps\extjs-examples</directory>
 					<targetPath>extjs-examples</targetPath>
-				</resource>
+				
 		-->
+				</resource>
 				</webResources>
 			<!-- 	<warSourceDirectory>src\main\demo-apps</warSourceDirectory> -->
 				<webXml>src\main\webapp\WEB-INF\web.xml</webXml>        
