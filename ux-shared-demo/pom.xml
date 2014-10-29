@@ -25,7 +25,7 @@
 	 <dependency>
 		<groupId>com.edifecs.ui</groupId>
 		<artifactId>shared-ui</artifactId>
-		<version>3.0.0.6</version>
+		<version>3.0.0.5</version>
 		<type>zip</type>
 	  </dependency>
 	</dependencies>
@@ -49,7 +49,7 @@
 								<artifactItem>
 									<groupId>com.edifecs.ui</groupId>
 									<artifactId>shared-ui</artifactId>
-									<version>3.0.0.6</version>
+									<version>3.0.0.5</version>
 									<type>zip</type>
 								</artifactItem>
 							</artifactItems>
