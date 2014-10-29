@@ -76,7 +76,7 @@
 				</resource>	
 				<resource>
 					<directory>src\main\demo-apps\extjs-examples</directory>
-					<targetPath>extjs-examples\</targetPath>
+					<targetPath>extjs-examples</targetPath>
 				</resource>
 		
 				</webResources>
