@@ -68,17 +68,16 @@
 			  <webResources>
 				<resource>
 				<!-- this is relative to the pom.xml directory -->
-				<!--	<directory>src\main\demo-apps</directory>-->
-					<directory>src\main\demo-apps\edifecs-demo</directory>
+					<directory>src\main\demo-apps</directory>
+			<!--		<directory>src\main\demo-apps\edifecs-demo</directory>
 						<targetPath>edifecs-demo</targetPath>
-			<!-- 		<targetPath>WEB-INF</targetPath>
-			-->
+			
 				</resource>	
 				<resource>
 					<directory>src\main\demo-apps\extjs-examples</directory>
 					<targetPath>extjs-examples</targetPath>
 				</resource>
-		
+		-->
 				</webResources>
 			<!-- 	<warSourceDirectory>src\main\demo-apps</warSourceDirectory> -->
 				<webXml>src\main\webapp\WEB-INF\web.xml</webXml>        
