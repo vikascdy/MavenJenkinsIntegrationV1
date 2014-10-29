@@ -102,7 +102,7 @@
     			<version>2.2</version>
     			<configuration>
         			<url>http://10.66.4.197:8080/manager/text</url>
-        			<server>tomcat7</server>
+        			<!--<server>tomcat7</server>-->
         			<path>/${project.build.finalName}</path>
     			</configuration>
 			</plugin>
