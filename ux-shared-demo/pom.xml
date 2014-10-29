@@ -16,11 +16,11 @@
 		<version>4.5</version>
 	</parent>
 -->	
-	<scm>
+	<!--<scm>
 	<connection>scm:svn:https://ecsvn01.edifecs.local/engineering/components/ui/ux-sites/ux-demo/trunk</connection>
 	<developerConnection>scm:svn:https://ecsvn01.edifecs.local/engineering/components/ui/ux-sites/ux-demo/trunk</developerConnection>
 	</scm>
-
+-->
 	<dependencies>
 	 <dependency>
 		<groupId>com.edifecs.ui</groupId>
